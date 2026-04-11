@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import SEO, { serviceSchema, faqSchema } from '../../components/SEO';
 import TopBar from '../../components/TopBar';
 import PromoBanner from '../../components/PromoBanner';
 import Navbar from '../../components/Navbar';
@@ -70,15 +71,25 @@ export default function FinestreLegnoAlluminio() {
 
   return (
     <div className="min-h-screen bg-white">
+      <SEO
+        title="Finestre Legno-Alluminio | Infissi Premium Legno Alluminio | Renova Solution"
+        description="Finestre e infissi in legno-alluminio in Friuli Venezia Giulia e Veneto. Il calore del legno all'interno, la resistenza dell'alluminio all'esterno. Detrazione 50%. Preventivo gratuito."
+        keywords="finestre legno alluminio, infissi legno alluminio, serramenti legno alluminio, finestre legno alluminio prezzi, infissi legno alluminio friuli veneto"
+        canonical="https://renovasolution.it/infissi/finestre-legno-alluminio"
+        schema={[
+          serviceSchema('Finestre Legno-Alluminio', 'Vendita e installazione finestre in legno-alluminio premium', 'https://renovasolution.it/infissi/finestre-legno-alluminio'),
+          faqSchema(faqItems)
+        ]}
+      />
       <TopBar />
       <PromoBanner />
       <Navbar />
-      
+
       {/* Hero Section */}
       <section className="relative h-[500px] flex items-center">
         <div className="absolute inset-0">
-          <img 
-            src="/images/confronto-finestre.jpg" 
+          <img
+            src="/images/confronto-finestre.jpg"
             alt="Finestre in Legno-Alluminio" 
             className="w-full h-full object-cover"
           />

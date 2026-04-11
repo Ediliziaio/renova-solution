@@ -205,6 +205,7 @@ export default function ChiSiamo() {
         description="Renova Solution: 10+ anni di esperienza in fotovoltaico, infissi e ristrutturazioni. 500+ impianti installati in Veneto e Friuli."
         keywords="Renova Solution chi siamo, azienda fotovoltaico Pordenone, riqualificazione energetica"
         schema={organizationSchema}
+        canonical="https://renovasolution.it/chi-siamo"
       />
       
       <div className="min-h-screen bg-white">

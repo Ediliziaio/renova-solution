@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import SEO, { serviceSchema, faqSchema } from '../../components/SEO';
 import TopBar from '../../components/TopBar';
 import PromoBanner from '../../components/PromoBanner';
 import Navbar from '../../components/Navbar';
@@ -63,15 +64,25 @@ export default function FinestreAlluminio() {
 
   return (
     <div className="min-h-screen bg-white">
+      <SEO
+        title="Finestre in Alluminio | Infissi Alluminio a Taglio Termico | Renova Solution"
+        description="Finestre e infissi in alluminio a taglio termico in Friuli Venezia Giulia e Veneto. Design moderno, resistenza e durabilità. Detrazione fiscale 50%. Misurazione gratuita."
+        keywords="finestre alluminio, infissi alluminio, finestre alluminio taglio termico, serramenti alluminio, infissi alluminio friuli, finestre alluminio veneto"
+        canonical="https://renovasolution.it/infissi/finestre-alluminio"
+        schema={[
+          serviceSchema('Finestre in Alluminio', 'Vendita e installazione finestre in alluminio a taglio termico', 'https://renovasolution.it/infissi/finestre-alluminio'),
+          faqSchema(faqItems)
+        ]}
+      />
       <TopBar />
       <PromoBanner />
       <Navbar />
-      
+
       {/* Hero Section */}
       <section className="relative h-[500px] flex items-center">
         <div className="absolute inset-0">
-          <img 
-            src="/images/confronto-finestre.jpg" 
+          <img
+            src="/images/confronto-finestre.jpg"
             alt="Finestre in Alluminio" 
             className="w-full h-full object-cover"
           />

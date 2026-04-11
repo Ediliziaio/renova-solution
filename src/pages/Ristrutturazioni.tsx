@@ -90,6 +90,7 @@ export default function Ristrutturazioni() {
         description="Ristrutturazioni complete, cappotto termico, impianti idraulici ed elettrici. Dalla progettazione alla consegna chiavi in mano. Detrazione 50%."
         keywords="ristrutturazione casa, ristrutturazione appartamento, cappotto termico, impianti idraulici, ristrutturazione Treviso, ristrutturazione Udine"
         schema={[schema, faqStructuredData]}
+        canonical="https://renovasolution.it/ristrutturazioni"
       />
     <div className="min-h-screen bg-white">
       <Navbar />

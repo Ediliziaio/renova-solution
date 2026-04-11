@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import SEO, { serviceSchema, faqSchema } from '../../components/SEO';
 import TopBar from '../../components/TopBar';
 import PromoBanner from '../../components/PromoBanner';
 import Navbar from '../../components/Navbar';
@@ -65,15 +66,25 @@ export default function CappottoTermico() {
 
   return (
     <div className="min-h-screen bg-white">
+      <SEO
+        title="Cappotto Termico | Isolamento Termico Esterno a Cappotto | Renova Solution"
+        description="Installazione cappotto termico esterno in Friuli Venezia Giulia e Veneto. Risparmio energetico fino al 40%, eliminazione ponti termici e muffe. Detrazione fiscale 50-65%. Preventivo gratuito."
+        keywords="cappotto termico, isolamento termico esterno, cappotto termico friuli, cappotto termico veneto, cappotto termico prezzi, isolamento facciata, EPS, riqualificazione energetica"
+        canonical="https://renovasolution.it/ristrutturazioni/cappotto-termico"
+        schema={[
+          serviceSchema('Cappotto Termico', 'Installazione cappotto termico esterno per isolamento e risparmio energetico', 'https://renovasolution.it/ristrutturazioni/cappotto-termico'),
+          faqSchema(faqItems),
+        ]}
+      />
       <TopBar />
       <PromoBanner />
       <Navbar />
-      
+
       {/* Hero Section */}
       <section className="relative h-[500px] flex items-center">
         <div className="absolute inset-0">
-          <img 
-            src="/images/cappotto.jpg" 
+          <img
+            src="/images/cappotto.jpg"
             alt="Cappotto termico" 
             className="w-full h-full object-cover"
           />

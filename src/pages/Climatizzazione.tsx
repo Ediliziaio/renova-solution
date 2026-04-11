@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import SEO, { serviceSchema, faqSchema } from '../components/SEO';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import Recensioni from '../components/Recensioni';
@@ -47,6 +48,16 @@ export default function Climatizzazione() {
 
   return (
     <div className="min-h-screen bg-white">
+      <SEO
+        title="Climatizzazione | Impianti di Condizionamento e Riscaldamento | Renova Solution"
+        description="Impianti di climatizzazione, condizionamento e riscaldamento a pompa di calore in Friuli Venezia Giulia e Veneto. Installazione, manutenzione e assistenza. Preventivo gratuito."
+        keywords="climatizzazione friuli, condizionamento veneto, impianto climatizzazione, pompa di calore, aria condizionata, riscaldamento efficiente"
+        canonical="https://renovasolution.it/climatizzazione"
+        schema={[
+          serviceSchema('Climatizzazione', 'Impianti di climatizzazione e condizionamento per casa e azienda', 'https://renovasolution.it/climatizzazione'),
+          faqSchema(faqItems)
+        ]}
+      />
       <Navbar />
       
       {/* Hero Section */}

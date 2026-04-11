@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import SEO, { serviceSchema, faqSchema } from '../../components/SEO';
 import TopBar from '../../components/TopBar';
 import PromoBanner from '../../components/PromoBanner';
 import Navbar from '../../components/Navbar';
@@ -63,15 +64,25 @@ export default function FinestrePVC() {
 
   return (
     <div className="min-h-screen bg-white">
+      <SEO
+        title="Finestre in PVC | Infissi PVC Alta Efficienza Termica | Renova Solution"
+        description="Finestre e infissi in PVC ad alta efficienza termica in Friuli Venezia Giulia e Veneto. Isolamento termico e acustico superiore, zero manutenzione, detrazione 50%. Preventivo gratuito."
+        keywords="finestre pvc, infissi pvc, finestre pvc friuli, infissi pvc veneto, finestre pvc prezzi, serramenti pvc, finestre isolamento termico"
+        canonical="https://renovasolution.it/infissi/finestre-pvc"
+        schema={[
+          serviceSchema('Finestre in PVC', 'Vendita e installazione finestre in PVC ad alta efficienza termica', 'https://renovasolution.it/infissi/finestre-pvc'),
+          faqSchema(faqItems)
+        ]}
+      />
       <TopBar />
       <PromoBanner />
       <Navbar />
-      
+
       {/* Hero Section */}
       <section className="relative h-[500px] flex items-center">
         <div className="absolute inset-0">
-          <img 
-            src="/images/infissi.jpg" 
+          <img
+            src="/images/infissi.jpg"
             alt="Finestre in PVC moderne" 
             className="w-full h-full object-cover"
           />

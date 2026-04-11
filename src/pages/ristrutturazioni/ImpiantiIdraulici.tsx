@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import SEO, { serviceSchema, faqSchema } from '../../components/SEO';
 import TopBar from '../../components/TopBar';
 import PromoBanner from '../../components/PromoBanner';
 import Navbar from '../../components/Navbar';
@@ -59,15 +60,25 @@ export default function ImpiantiIdraulici() {
 
   return (
     <div className="min-h-screen bg-white">
+      <SEO
+        title="Impianti Idraulici | Rifacimento Impianto Idrico e Sanitario | Renova Solution"
+        description="Rifacimento impianti idraulici e sanitari in Friuli Venezia Giulia e Veneto. Sostituzione tubazioni, impianti bagno e cucina, riscaldamento a pavimento. Preventivo gratuito."
+        keywords="impianti idraulici friuli, rifacimento impianto idraulico, idraulico veneto, impianto bagno, impianto cucina, riscaldamento a pavimento, tubazioni"
+        canonical="https://renovasolution.it/ristrutturazioni/impianti-idraulici"
+        schema={[
+          serviceSchema('Impianti Idraulici', 'Rifacimento impianti idraulici e sanitari per abitazioni', 'https://renovasolution.it/ristrutturazioni/impianti-idraulici'),
+          faqSchema(faqItems),
+        ]}
+      />
       <TopBar />
       <PromoBanner />
       <Navbar />
-      
+
       {/* Hero Section */}
       <section className="relative h-[500px] flex items-center">
         <div className="absolute inset-0">
-          <img 
-            src="/images/ristrutturazioni.jpg" 
+          <img
+            src="/images/ristrutturazioni.jpg"
             alt="Impianto idraulico" 
             className="w-full h-full object-cover"
           />

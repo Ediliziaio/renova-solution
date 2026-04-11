@@ -54,6 +54,7 @@ export default function FotovoltaicoPrivati() {
         description="Impianti fotovoltaici con batterie di accumulo per casa. Risparmia fino al 70% in bolletta. Sopralluogo gratuito, installazione in 2-3 giorni. Detrazione 50%."
         keywords="fotovoltaico casa, impianto solare privati, pannelli fotovoltaici, batterie accumulo, fotovoltaico Treviso, fotovoltaico Udine"
         schema={[schema, faqStructuredData]}
+        canonical="https://renovasolution.it/fotovoltaico-privati"
       />
     <div className="min-h-screen bg-white">
       <Navbar />

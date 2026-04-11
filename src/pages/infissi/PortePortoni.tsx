@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import SEO, { serviceSchema, faqSchema } from '../../components/SEO';
 import TopBar from '../../components/TopBar';
 import PromoBanner from '../../components/PromoBanner';
 import Navbar from '../../components/Navbar';
@@ -64,15 +65,25 @@ export default function PortePortoni() {
 
   return (
     <div className="min-h-screen bg-white">
+      <SEO
+        title="Porte Blindate e Portoni | Sicurezza e Isolamento | Renova Solution"
+        description="Porte blindate, portoni sezionali e porte d'ingresso in Friuli Venezia Giulia e Veneto. Massima sicurezza, isolamento termico e acustico. Installazione professionale e detrazione 50%."
+        keywords="porte blindate friuli, portoni sezionali veneto, porte ingresso sicurezza, porte blindate prezzi, portoni garage, porte antieffrazione"
+        canonical="https://renovasolution.it/infissi/porte-portoni"
+        schema={[
+          serviceSchema('Porte Blindate e Portoni', 'Vendita e installazione porte blindate e portoni di sicurezza', 'https://renovasolution.it/infissi/porte-portoni'),
+          faqSchema(faqItems)
+        ]}
+      />
       <TopBar />
       <PromoBanner />
       <Navbar />
-      
+
       {/* Hero Section */}
       <section className="relative h-[500px] flex items-center">
         <div className="absolute inset-0">
-          <img 
-            src="/images/infissi.jpg" 
+          <img
+            src="/images/infissi.jpg"
             alt="Porte e Portoni" 
             className="w-full h-full object-cover"
           />

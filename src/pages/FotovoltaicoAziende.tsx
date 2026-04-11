@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import SEO, { serviceSchema, faqSchema } from '../components/SEO';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import PartnerLogos from '../components/PartnerLogos';
@@ -42,6 +43,16 @@ export default function FotovoltaicoAziende() {
 
   return (
     <div className="min-h-screen bg-white">
+      <SEO
+        title="Fotovoltaico per Aziende | Impianti Fotovoltaici Industriali e Commerciali | Renova Solution"
+        description="Impianti fotovoltaici per aziende e capannoni in Friuli Venezia Giulia e Veneto. Risparmio energetico fino all'80%, ammortamento in 4-5 anni, detrazione 50%. Sopralluogo gratuito."
+        keywords="fotovoltaico aziende, fotovoltaico industriale, pannelli solari capannone, fotovoltaico commerciale, impianto fotovoltaico azienda friuli, fotovoltaico azienda veneto"
+        canonical="https://renovasolution.it/fotovoltaico-aziende"
+        schema={[
+          serviceSchema('Fotovoltaico per Aziende', 'Impianti fotovoltaici per aziende e capannoni industriali', 'https://renovasolution.it/fotovoltaico-aziende'),
+          faqSchema(faqItems)
+        ]}
+      />
       <Navbar />
       
       {/* Hero Section */}

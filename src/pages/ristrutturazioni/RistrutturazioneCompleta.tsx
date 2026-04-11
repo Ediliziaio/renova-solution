@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import SEO, { serviceSchema, faqSchema } from '../../components/SEO';
 import TopBar from '../../components/TopBar';
 import PromoBanner from '../../components/PromoBanner';
 import Navbar from '../../components/Navbar';
@@ -81,15 +82,25 @@ export default function RistrutturazioneCompleta() {
 
   return (
     <div className="min-h-screen bg-white">
+      <SEO
+        title="Ristrutturazione Completa | Ristrutturazione Casa Chiavi in Mano | Renova Solution"
+        description="Ristrutturazione completa chiavi in mano in Friuli Venezia Giulia e Veneto. Bagno, cucina, pavimenti, impianti, cappotto termico. Un unico referente, preventivo fisso, tempi certi."
+        keywords="ristrutturazione completa, ristrutturazione casa chiavi in mano, ristrutturazione appartamento, ristrutturazione integrale friuli, ristrutturazione completa veneto, bonus ristrutturazione 50%"
+        canonical="https://renovasolution.it/ristrutturazioni/ristrutturazione-completa"
+        schema={[
+          serviceSchema('Ristrutturazione Completa', 'Ristrutturazione integrale chiavi in mano per abitazioni e appartamenti', 'https://renovasolution.it/ristrutturazioni/ristrutturazione-completa'),
+          faqSchema(faqItems),
+        ]}
+      />
       <TopBar />
       <PromoBanner />
       <Navbar />
-      
+
       {/* Hero Section */}
       <section className="relative h-[500px] flex items-center">
         <div className="absolute inset-0">
-          <img 
-            src="/images/ristrutturazioni.jpg" 
+          <img
+            src="/images/ristrutturazioni.jpg"
             alt="Ristrutturazione completa" 
             className="w-full h-full object-cover"
           />

@@ -103,6 +103,7 @@ export default function Infissi() {
         description="Finestre in PVC, alluminio e legno-alluminio con doppio o triplo vetro. Risparmia fino al 40% in bolletta. Detrazione 50%, installazione rapida."
         keywords="infissi PVC, finestre alluminio, serramenti legno, infissi Treviso, finestre Udine, doppio vetro, detrazione infissi"
         schema={[schema, faqStructuredData]}
+        canonical="https://renovasolution.it/infissi"
       />
     <div className="min-h-screen bg-white">
       <Navbar />
