@@ -48,9 +48,14 @@ export default function SEO({
       <meta name="twitter:image" content={ogImage} />
       
       {/* Geo Tags */}
-      <meta name="geo.region" content="IT-FR,IT-TV,IT-VE,IT-PD,IT-VI" />
+      <meta name="geo.region" content="IT-36" />
       <meta name="geo.placename" content="Friuli Venezia Giulia, Veneto" />
       <meta name="geo.position" content="45.9;12.3" />
+      <meta name="ICBM" content="45.9, 12.3" />
+
+      {/* Language */}
+      <meta httpEquiv="content-language" content="it-IT" />
+      <link rel="alternate" hrefLang="it" href={canonical || 'https://renovasolution.it'} />
       
       {/* Schema.org JSON-LD */}
       {schema && (
@@ -136,7 +141,10 @@ export const localBusinessSchema = {
     { '@type': 'City', name: 'Treviso' },
     { '@type': 'City', name: 'Venezia' },
     { '@type': 'City', name: 'Padova' },
-    { '@type': 'City', name: 'Vicenza' }
+    { '@type': 'City', name: 'Vicenza' },
+    { '@type': 'City', name: 'Verona' },
+    { '@type': 'City', name: 'Belluno' },
+    { '@type': 'City', name: 'Rovigo' }
   ]
 };
 

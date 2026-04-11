@@ -177,9 +177,10 @@ export default function Home() {
   return (
     <>
       <SEO 
-        title="Renova Solution | Fotovoltaico, Infissi e Ristrutturazioni in Veneto e Friuli"
-        description="Impianti fotovoltaici, infissi ad alta efficienza e ristrutturazioni chiavi in mano in Friuli Venezia Giulia e Veneto. Sopralluogo gratuito, preventivi chiari."
-        keywords="fotovoltaico Veneto, fotovoltaico Friuli, infissi Treviso, ristrutturazioni Udine, pannelli solari, finestre PVC, ristrutturazione casa"
+        title="Renova Solution | Fotovoltaico, Infissi e Ristrutturazioni in Friuli Venezia Giulia e Veneto"
+        description="Impianti fotovoltaici, infissi ad alta efficienza e ristrutturazioni chiavi in mano in Friuli Venezia Giulia e Veneto. Sopralluogo gratuito a Trieste, Udine, Pordenone, Gorizia, Treviso, Venezia, Padova, Vicenza, Verona, Belluno, Rovigo."
+        keywords="fotovoltaico friuli venezia giulia, fotovoltaico veneto, infissi friuli, infissi veneto, ristrutturazioni friuli venezia giulia, ristrutturazioni veneto, pannelli solari trieste, infissi udine, ristrutturazioni padova, fotovoltaico treviso, infissi pordenone, fotovoltaico vicenza, infissi verona, ristrutturazioni venezia, cappotto termico, finestre PVC, detrazione fiscale 50%"
+        canonical="https://renovasolution.it/"
         schema={[organizationSchema, localBusinessSchema]}
       />
       <div className="min-h-screen bg-white overflow-x-hidden">
@@ -537,7 +538,7 @@ Bagni, cucine, rifacimenti facciate, adeguamenti energetici.`}
                 Renova Solution lavora in Friuli Venezia Giulia e in Veneto.
               </p>
               <p className="text-gray-600 text-base md:text-lg leading-relaxed mb-8">
-                Udine, Trieste, Gorizia, Pordenone, Treviso, Venezia, Vicenza, Padova.
+                Trieste, Udine, Pordenone, Gorizia, Treviso, Venezia, Padova, Vicenza, Verona, Belluno, Rovigo.
                 Non mandiamo squadre a 300 km di distanza con i tempi che ne conseguono.
               </p>
               <p className="text-gray-600 text-base md:text-lg leading-relaxed">
@@ -556,7 +557,7 @@ Bagni, cucine, rifacimenti facciate, adeguamenti energetici.`}
                 <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent rounded-2xl"></div>
                 <div className="absolute bottom-6 left-6 right-6">
                   <div className="flex flex-wrap gap-2">
-                    {['Udine', 'Trieste', 'Treviso', 'Venezia', 'Padova', 'Vicenza', 'Pordenone'].map((city) => (
+                    {['Trieste', 'Udine', 'Pordenone', 'Gorizia', 'Treviso', 'Venezia', 'Padova', 'Vicenza', 'Verona', 'Belluno', 'Rovigo'].map((city) => (
                       <span key={city} className="bg-white/90 text-black text-xs font-bold px-3 py-1.5 rounded-full">
                         {city}
                       </span>
