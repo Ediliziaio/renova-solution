@@ -159,6 +159,19 @@ function App() {
           <Route path="/ristrutturazioni-belluno" element={<RistrutturazioniBelluno />} />
           <Route path="/ristrutturazioni-rovigo" element={<RistrutturazioniRovigo />} />
         </Routes>
+
+        {/* WhatsApp Button */}
+        <a
+          href="https://wa.me/393939596194?text=Ciao%2C%20vorrei%20informazioni%20sui%20vostri%20servizi"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Chatta su WhatsApp"
+          className="fixed bottom-6 right-6 z-50 w-14 h-14 bg-[#25D366] rounded-full flex items-center justify-center shadow-lg hover:bg-[#20bd5a] transition-colors hover:scale-110 transform duration-200"
+        >
+          <svg viewBox="0 0 32 32" className="w-7 h-7 fill-white">
+            <path d="M16.004 0h-.008C7.174 0 0 7.176 0 16.004c0 3.5 1.129 6.742 3.047 9.379L1.054 31.27l6.1-1.957a15.906 15.906 0 008.85 2.691C24.826 32 32 24.826 32 16.004 32 7.176 24.826 0 16.004 0zm9.31 22.61c-.39 1.098-1.932 2.01-3.172 2.276-.848.18-1.957.324-5.688-1.222-4.773-1.977-7.84-6.816-8.078-7.133-.23-.316-1.932-2.574-1.932-4.91 0-2.335 1.222-3.48 1.656-3.957.39-.434 1.04-.629 1.664-.629.2 0 .379.01.54.018.476.02.715.048 1.03.796.39.933 1.34 3.27 1.457 3.508.12.238.238.554.078.87-.15.324-.282.468-.52.738-.238.27-.464.476-.702.766-.22.254-.468.524-.192.988.276.457 1.226 2.02 2.633 3.27 1.81 1.609 3.336 2.108 3.81 2.344.476.238.754.2 1.03-.12.282-.324 1.21-1.41 1.533-1.894.316-.484.64-.402 1.078-.238.442.16 2.776 1.308 3.252 1.547.476.238.793.355.91.554.12.2.12 1.14-.27 2.238z"/>
+          </svg>
+        </a>
       </Router>
     </HelmetProvider>
   );
