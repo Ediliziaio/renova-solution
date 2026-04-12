@@ -199,7 +199,7 @@ Ci occupiamo della presentazione di tutte le pratiche edilizie richieste dai Com
     },
     {
       question: `Quali bonus fiscali sono disponibili per chi ristruttura a ${provincia}?`,
-      answer: `Per le ristrutturazioni nella provincia di ${provincia} e possibile accedere al Bonus Ristrutturazione con detrazione IRPEF del 50% su una spesa massima di 96.000 euro per unita immobiliare, recuperabile in 10 rate annuali. Per interventi di efficientamento energetico (cappotto, caldaia, infissi) si puo accedere all'Ecobonus al 50% o 65%. Il nostro ufficio tecnico gestisce tutta la documentazione, inclusa la comunicazione obbligatoria all'ENEA.`,
+      answer: `Per le ristrutturazioni nella provincia di ${provincia} e possibile accedere al Bonus Ristrutturazione con detrazione IRPEF del 50% su una spesa massima di 96.000 euro per unita immobiliare, recuperabile in 10 rate annuali. Per interventi di efficientamento energetico (cappotto, caldaia, infissi) si puo accedere all'Ecobonus al 50% per abitazione principale (36% per altri immobili). Il nostro ufficio tecnico gestisce tutta la documentazione, inclusa la comunicazione obbligatoria all'ENEA.`,
     },
     {
       question: `Quanto tempo serve per ristrutturare casa a ${provincia}?`,

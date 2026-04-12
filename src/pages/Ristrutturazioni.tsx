@@ -62,7 +62,7 @@ export default function Ristrutturazioni() {
     {
       icon: TrendingDown,
       title: 'Riqualificazione energetica',
-      desc: 'Detrazione fino al 65%',
+      desc: 'Detrazione fino al 50%',
       link: '/contatti',
     },
   ];
@@ -91,6 +91,7 @@ export default function Ristrutturazioni() {
         keywords="ristrutturazione casa, ristrutturazione appartamento, cappotto termico, impianti idraulici, ristrutturazione Treviso, ristrutturazione Udine"
         schema={[schema, faqStructuredData]}
         canonical="https://renovasolution.it/ristrutturazioni"
+        ogImage="/images/ristrutturazione.jpg"
       />
     <div className="min-h-screen bg-white">
       <Navbar />
@@ -222,10 +223,10 @@ export default function Ristrutturazioni() {
               
               <ul className="space-y-2 md:space-y-3 mb-6 md:mb-8">
                 {[
-                  'Detrazione del 50% in 10 anni',
-                  'Sconto immediato in fattura',
-                  'Cessione del credito possibile',
-                  'Nessun limite per interventi antisismici',
+                  'Detrazione del 50% in 10 rate annuali (abitazione principale)',
+                  'Detrazione del 36% per seconde case e altri immobili',
+                  'Limite massimo di 96.000€ per unità immobiliare',
+                  'Gestione completa pratica ENEA inclusa',
                 ].map((item) => (
                   <li key={item} className="flex items-center gap-2 text-sm md:text-base text-white/80">
                     <CheckCircle className="w-4 h-4 md:w-5 md:h-5 text-[#C8E600] flex-shrink-0" />

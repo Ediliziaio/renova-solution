@@ -87,6 +87,7 @@ export default function RistrutturazioneCompleta() {
         description="Ristrutturazione completa chiavi in mano in Friuli Venezia Giulia e Veneto. Bagno, cucina, pavimenti, impianti, cappotto termico. Un unico referente, preventivo fisso, tempi certi."
         keywords="ristrutturazione completa, ristrutturazione casa chiavi in mano, ristrutturazione appartamento, ristrutturazione integrale friuli, ristrutturazione completa veneto, bonus ristrutturazione 50%"
         canonical="https://renovasolution.it/ristrutturazioni/ristrutturazione-completa"
+        ogImage="/images/ristrutturazione.jpg"
         schema={[
           serviceSchema('Ristrutturazione Completa', 'Ristrutturazione integrale chiavi in mano per abitazioni e appartamenti', 'https://renovasolution.it/ristrutturazioni/ristrutturazione-completa'),
           faqSchema(faqItems),
@@ -146,7 +147,7 @@ export default function RistrutturazioneCompleta() {
                 La tua casa nuova, senza stress
               </h2>
               <p className="text-gray-600 leading-relaxed mb-6">
-                Ristrutturare casa è un investimento importante, ma può diventare un'esperienza stressante se non affidata ai professionisti giusti. Con Technogelox, hai un unico interlocutore che coordina tutte le maestranze, rispetta i tempi concordati e ti tiene sempre informato sull'avanzamento dei lavori.
+                Ristrutturare casa è un investimento importante, ma può diventare un'esperienza stressante se non affidata ai professionisti giusti. Con Renova Solution, hai un unico interlocutore che coordina tutte le maestranze, rispetta i tempi concordati e ti tiene sempre informato sull'avanzamento dei lavori.
               </p>
               <p className="text-gray-600 leading-relaxed mb-6">
                 Dalla demolizione alla consegna finale, gestiamo ogni aspetto della ristrutturazione: impianti, muratura, pavimenti, infissi, finiture. Tu devi solo scegliere i materiali e le finiture, noi ci occupiamo di tutto il resto.
@@ -231,7 +232,7 @@ export default function RistrutturazioneCompleta() {
                 Ristruttura con il 50% di detrazione fiscale
               </h2>
               <p className="text-white/80 leading-relaxed mb-6">
-                La ristrutturazione edilizia rientra nelle detrazioni fiscali del 50%, con un limite massimo di 96.000€ per unità immobiliare. Puoi scegliere di detrarre in 10 anni, usufruire dello sconto in fattura o cedere il credito.
+                La ristrutturazione edilizia rientra nelle detrazioni fiscali del 50% per abitazione principale (36% per altri immobili), con un limite massimo di 96.000€ per unità immobiliare. La detrazione viene recuperata in 10 rate annuali nella dichiarazione dei redditi.
               </p>
               <div className="grid grid-cols-2 gap-4 mb-6">
                 <div className="bg-white/10 p-4 rounded-lg text-center">

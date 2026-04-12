@@ -188,7 +188,15 @@ export default function Navbar() {
               </div>
 
               {/* Altre voci */}
-              <Link 
+              <Link
+                to="/progetti"
+                className={`text-sm font-medium transition-colors ${
+                  isActive('/progetti') ? 'text-[#C8E600]' : 'text-gray-900 hover:text-[#C8E600]'
+                }`}
+              >
+                Progetti
+              </Link>
+              <Link
                 to="/chi-siamo"
                 className={`text-sm font-medium transition-colors ${
                   isActive('/chi-siamo') ? 'text-[#C8E600]' : 'text-gray-900 hover:text-[#C8E600]'
@@ -431,8 +439,18 @@ export default function Navbar() {
               Assistenza
             </Link>
             
-            <Link 
-              to="/blog" 
+            <Link
+              to="/progetti"
+              className={`block py-3 px-2 rounded-lg font-medium transition-colors ${
+                isActive('/progetti') ? 'text-[#C8E600] bg-[#C8E600]/10' : 'text-gray-900 hover:bg-gray-50'
+              }`}
+              onClick={() => setMobileMenuOpen(false)}
+            >
+              Progetti
+            </Link>
+
+            <Link
+              to="/blog"
               className={`block py-3 px-2 rounded-lg font-medium transition-colors ${
                 isActive('/blog') ? 'text-[#C8E600] bg-[#C8E600]/10' : 'text-gray-900 hover:bg-gray-50'
               }`}

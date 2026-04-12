@@ -20,6 +20,7 @@ import Blog from './pages/Blog';
 import ChiSiamo from './pages/ChiSiamo';
 import Assistenza from './pages/Assistenza';
 import Contatti from './pages/Contatti';
+import Progetti from './pages/Progetti';
 import Privacy from './pages/Privacy';
 import CookiePolicy from './pages/CookiePolicy';
 import DetrazioniFiscali2026 from './pages/blog/DetrazioniFiscali2026';
@@ -28,6 +29,12 @@ import PompaCalore2026 from './pages/blog/PompaCalore2026';
 import FinestreMateriali2026 from './pages/blog/FinestreMateriali2026';
 import CappottoTermico2026 from './pages/blog/CappottoTermico2026';
 import ManutenzioneFotovoltaico2026 from './pages/blog/ManutenzioneFotovoltaico2026';
+import InfissiRisparmioEnergetico2026 from './pages/blog/InfissiRisparmioEnergetico2026';
+import FotovoltaicoContoTermico2026 from './pages/blog/FotovoltaicoContoTermico2026';
+import RistrutturazioneCompleta2026 from './pages/blog/RistrutturazioneCompleta2026';
+import FotovoltaicoAziende2026 from './pages/blog/FotovoltaicoAziende2026';
+import ClasseEnergeticaCasa2026 from './pages/blog/ClasseEnergeticaCasa2026';
+import UmiditaCondensaMuffa2026 from './pages/blog/UmiditaCondensaMuffa2026';
 
 // GEO Landing Pages — Fotovoltaico
 import FotovoltaicoTrieste from './pages/geo/FotovoltaicoTrieste';
@@ -93,6 +100,7 @@ function App() {
           <Route path="/chi-siamo" element={<ChiSiamo />} />
           <Route path="/assistenza" element={<Assistenza />} />
           <Route path="/contatti" element={<Contatti />} />
+          <Route path="/progetti" element={<Progetti />} />
           <Route path="/privacy" element={<Privacy />} />
           <Route path="/cookie-policy" element={<CookiePolicy />} />
 
@@ -103,6 +111,12 @@ function App() {
           <Route path="/blog/finestre-pvc-alluminio-legno-2026" element={<FinestreMateriali2026 />} />
           <Route path="/blog/cappotto-termico-risparmio-2026" element={<CappottoTermico2026 />} />
           <Route path="/blog/manutenzione-fotovoltaico-2026" element={<ManutenzioneFotovoltaico2026 />} />
+          <Route path="/blog/infissi-risparmio-energetico-2026" element={<InfissiRisparmioEnergetico2026 />} />
+          <Route path="/blog/conto-termico-3-2026" element={<FotovoltaicoContoTermico2026 />} />
+          <Route path="/blog/ristrutturazione-completa-casa-2026" element={<RistrutturazioneCompleta2026 />} />
+          <Route path="/blog/fotovoltaico-aziende-2026" element={<FotovoltaicoAziende2026 />} />
+          <Route path="/blog/classe-energetica-casa-2026" element={<ClasseEnergeticaCasa2026 />} />
+          <Route path="/blog/umidita-condensa-muffa-soluzioni-2026" element={<UmiditaCondensaMuffa2026 />} />
 
           {/* GEO — Fotovoltaico per provincia */}
           <Route path="/fotovoltaico-trieste" element={<FotovoltaicoTrieste />} />

@@ -48,6 +48,7 @@ export default function FotovoltaicoAziende() {
         description="Impianti fotovoltaici per aziende e capannoni in Friuli Venezia Giulia e Veneto. Risparmio energetico fino all'80%, ammortamento in 4-5 anni, detrazione 50%. Sopralluogo gratuito."
         keywords="fotovoltaico aziende, fotovoltaico industriale, pannelli solari capannone, fotovoltaico commerciale, impianto fotovoltaico azienda friuli, fotovoltaico azienda veneto"
         canonical="https://renovasolution.it/fotovoltaico-aziende"
+        ogImage="/images/fotovoltaico-azienda.jpg"
         schema={[
           serviceSchema('Fotovoltaico per Aziende', 'Impianti fotovoltaici per aziende e capannoni industriali', 'https://renovasolution.it/fotovoltaico-aziende'),
           faqSchema(faqItems)
@@ -93,7 +94,7 @@ export default function FotovoltaicoAziende() {
               </h2>
               <div className="space-y-4 text-gray-600 leading-relaxed">
                 <p>
-                  Gli impianti fotovoltaici aziendali Technogelox Ecoenergia sono progettati per soddisfare i reali consumi energetici della tua impresa, ottimizzando l'autoconsumo e sfruttando in modo intelligente gli incentivi fiscali disponibili.
+                  Gli impianti fotovoltaici aziendali Renova Solution sono progettati per soddisfare i reali consumi energetici della tua impresa, ottimizzando l'autoconsumo e sfruttando in modo intelligente gli incentivi fiscali disponibili.
                 </p>
                 <p>
                   Ogni impianto è studiato per garantire un rapido ritorno dell'investimento grazie al risparmio generato, ai contributi governativi mirati e ad un miglioramento dell'efficienza operativa.

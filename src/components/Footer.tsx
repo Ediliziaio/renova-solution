@@ -38,6 +38,7 @@ export default function Footer() {
   ];
 
   const aziendaLinks = [
+    { name: 'Progetti', path: '/progetti' },
     { name: 'Chi Siamo', path: '/chi-siamo' },
     { name: 'Assistenza', path: '/assistenza' },
     { name: 'Blog', path: '/blog' },

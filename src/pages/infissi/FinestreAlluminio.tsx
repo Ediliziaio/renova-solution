@@ -69,6 +69,7 @@ export default function FinestreAlluminio() {
         description="Finestre e infissi in alluminio a taglio termico in Friuli Venezia Giulia e Veneto. Design moderno, resistenza e durabilità. Detrazione fiscale 50%. Misurazione gratuita."
         keywords="finestre alluminio, infissi alluminio, finestre alluminio taglio termico, serramenti alluminio, infissi alluminio friuli, finestre alluminio veneto"
         canonical="https://renovasolution.it/infissi/finestre-alluminio"
+        ogImage="/images/confronto-finestre.jpg"
         schema={[
           serviceSchema('Finestre in Alluminio', 'Vendita e installazione finestre in alluminio a taglio termico', 'https://renovasolution.it/infissi/finestre-alluminio'),
           faqSchema(faqItems)
@@ -242,7 +243,7 @@ export default function FinestreAlluminio() {
         </div>
       </section>
 
-      {/* Sconto in fattura */}
+      {/* Detrazione fiscale */}
       <section className="py-16 bg-gradient-to-r from-blue-900 to-blue-700">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-12 items-center">

@@ -21,7 +21,7 @@ export default function CappottoTermico() {
     },
     {
       question: 'Quali detrazioni si possono ottenere?',
-      answer: 'Il cappotto termico rientra nell\'Ecobonus con detrazione del 65% (o 50% in base alle specifiche) per interventi di riqualificazione energetica. Lo sconto in fattura è disponibile.',
+      answer: 'Il cappotto termico rientra nell\'Ecobonus con detrazione del 50% per abitazione principale (36% per altri immobili). La detrazione viene recuperata in 10 rate annuali nella dichiarazione dei redditi.',
     },
     {
       question: 'Quanto dura l\'installazione?',
@@ -52,8 +52,8 @@ export default function CappottoTermico() {
     },
     {
       icon: Euro,
-      title: 'Detrazione fiscale al 65%',
-      description: 'L\'intervento rientra nell\'Ecobonus con detrazione del 65%, sconto in fattura o cessione del credito.',
+      title: 'Detrazione fiscale del 50%',
+      description: 'L\'intervento rientra nell\'Ecobonus con detrazione del 50% per abitazione principale, recuperabile in 10 rate annuali.',
     },
   ];
 
@@ -68,9 +68,10 @@ export default function CappottoTermico() {
     <div className="min-h-screen bg-white">
       <SEO
         title="Cappotto Termico | Isolamento Termico Esterno a Cappotto | Renova Solution"
-        description="Installazione cappotto termico esterno in Friuli Venezia Giulia e Veneto. Risparmio energetico fino al 40%, eliminazione ponti termici e muffe. Detrazione fiscale 50-65%. Preventivo gratuito."
+        description="Installazione cappotto termico esterno in Friuli Venezia Giulia e Veneto. Risparmio energetico fino al 40%, eliminazione ponti termici e muffe. Detrazione fiscale del 50%. Preventivo gratuito."
         keywords="cappotto termico, isolamento termico esterno, cappotto termico friuli, cappotto termico veneto, cappotto termico prezzi, isolamento facciata, EPS, riqualificazione energetica"
         canonical="https://renovasolution.it/ristrutturazioni/cappotto-termico"
+        ogImage="/images/cappotto.jpg"
         schema={[
           serviceSchema('Cappotto Termico', 'Installazione cappotto termico esterno per isolamento e risparmio energetico', 'https://renovasolution.it/ristrutturazioni/cappotto-termico'),
           faqSchema(faqItems),
@@ -227,14 +228,14 @@ export default function CappottoTermico() {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="text-white">
               <h2 className="text-3xl font-bold mb-4">
-                Ecobonus 65%: il cappotto ti costa la metà
+                Ecobonus 50%: il cappotto ti costa la metà
               </h2>
               <p className="text-white/80 leading-relaxed mb-6">
-                Il cappotto termico rientra nell'Ecobonus con detrazione del 65% delle spese. Puoi scegliere di detrarre in 10 anni, usufruire dello sconto immediato in fattura o cedere il credito a banche e intermediari finanziari.
+                Il cappotto termico rientra nell'Ecobonus con detrazione del 50% delle spese per abitazione principale (36% per altri immobili). La detrazione viene recuperata in 10 rate annuali nella dichiarazione dei redditi.
               </p>
               <div className="grid grid-cols-2 gap-4 mb-6">
                 <div className="bg-white/10 p-4 rounded-lg text-center">
-                  <div className="text-3xl font-bold text-orange-400">65%</div>
+                  <div className="text-3xl font-bold text-orange-400">50%</div>
                   <div className="text-sm text-white/80">Detrazione Ecobonus</div>
                 </div>
                 <div className="bg-white/10 p-4 rounded-lg text-center">
@@ -244,10 +245,10 @@ export default function CappottoTermico() {
               </div>
               <ul className="space-y-3 mb-6">
                 {[
-                  'Detrazione del 65% in 10 anni',
-                  'Sconto immediato in fattura',
-                  'Cessione del credito disponibile',
-                  'Nessun limite di spesa per condomini',
+                  'Detrazione del 50% in 10 rate annuali (abitazione principale)',
+                  'Detrazione del 36% per seconde case e altri immobili',
+                  'Recupero tramite dichiarazione dei redditi (730 o Redditi PF)',
+                  'Gestione completa pratica ENEA inclusa',
                 ].map((item) => (
                   <li key={item} className="flex items-center gap-2">
                     <CheckCircle className="w-5 h-5 text-green-400" />

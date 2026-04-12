@@ -178,7 +178,11 @@ export default function GeoServicePage({
         description={seoDescription}
         keywords={seoKeywords}
         canonical={canonicalUrl}
+        ogImage={`https://renovasolution.it${serviceImages[servizio]}`}
         schema={combinedSchema}
+        geoRegion={codiceISO}
+        geoPlacename={`${provincia}, ${regione}`}
+        geoPosition={`${lat};${lng}`}
       />
       <div className="min-h-screen bg-white overflow-x-hidden">
         <Navbar />

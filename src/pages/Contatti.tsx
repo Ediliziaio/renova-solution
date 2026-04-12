@@ -134,6 +134,7 @@ export default function Contatti() {
         keywords="contatti Renova Solution, preventivo fotovoltaico, preventivo infissi, sopralluogo gratuito, Prata di Pordenone, Pordenone, Veneto, Friuli"
         schema={localBusinessSchema}
         canonical="https://renovasolution.it/contatti"
+        ogImage="/images/team.jpg"
       />
       
       <div className="min-h-screen bg-white">

@@ -206,6 +206,7 @@ export default function ChiSiamo() {
         keywords="Renova Solution chi siamo, azienda fotovoltaico Pordenone, riqualificazione energetica"
         schema={organizationSchema}
         canonical="https://renovasolution.it/chi-siamo"
+        ogImage="/images/team.jpg"
       />
       
       <div className="min-h-screen bg-white">

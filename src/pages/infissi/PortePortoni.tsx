@@ -70,6 +70,7 @@ export default function PortePortoni() {
         description="Porte blindate, portoni sezionali e porte d'ingresso in Friuli Venezia Giulia e Veneto. Massima sicurezza, isolamento termico e acustico. Installazione professionale e detrazione 50%."
         keywords="porte blindate friuli, portoni sezionali veneto, porte ingresso sicurezza, porte blindate prezzi, portoni garage, porte antieffrazione"
         canonical="https://renovasolution.it/infissi/porte-portoni"
+        ogImage="/images/confronto-finestre.jpg"
         schema={[
           serviceSchema('Porte Blindate e Portoni', 'Vendita e installazione porte blindate e portoni di sicurezza', 'https://renovasolution.it/infissi/porte-portoni'),
           faqSchema(faqItems)

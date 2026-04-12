@@ -49,6 +49,7 @@ export default function Manutenzione() {
         description="Servizio di manutenzione impianti fotovoltaici in Friuli Venezia Giulia e Veneto. Pulizia pannelli, controllo inverter, monitoraggio produzione. Massimizza la resa del tuo impianto."
         keywords="manutenzione fotovoltaico, pulizia pannelli solari, manutenzione impianto solare, controllo inverter, monitoraggio fotovoltaico, manutenzione pannelli friuli veneto"
         canonical="https://renovasolution.it/manutenzione"
+        ogImage="/images/manutenzione.jpg"
         schema={[
           serviceSchema('Manutenzione Impianti Fotovoltaici', 'Servizio di manutenzione e assistenza per impianti fotovoltaici', 'https://renovasolution.it/manutenzione'),
           faqSchema(faqItems)

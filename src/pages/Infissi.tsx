@@ -5,6 +5,7 @@ import Recensioni from '../components/Recensioni';
 import FormPreventivo from '../components/FormPreventivo';
 import FAQ from '../components/FAQ';
 import BlogSection from '../components/BlogSection';
+import GalleriaLavori from '../components/GalleriaLavori';
 import SEO, { serviceSchema, faqSchema } from '../components/SEO';
 import { Shield, Thermometer, VolumeX, Sun, Wind, Lock, CheckCircle, ArrowRight } from 'lucide-react';
 
@@ -104,6 +105,7 @@ export default function Infissi() {
         keywords="infissi PVC, finestre alluminio, serramenti legno, infissi Treviso, finestre Udine, doppio vetro, detrazione infissi"
         schema={[schema, faqStructuredData]}
         canonical="https://renovasolution.it/infissi"
+        ogImage="/images/confronto-finestre.jpg"
       />
     <div className="min-h-screen bg-white">
       <Navbar />
@@ -211,19 +213,19 @@ export default function Infissi() {
                 Detrazione fiscale
               </span>
               <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-white mb-3 md:mb-4">
-                Risparmia il 50% con lo sconto in fattura
+                Risparmia il 50% con la detrazione fiscale
               </h2>
               <p className="text-white/70 text-sm md:text-base mb-4 md:mb-6">
-                La sostituzione degli infissi rientra nella detrazione fiscale del 50% per il risparmio energetico. 
-                Puoi scegliere di detrarre in 10 anni o usufruire dello sconto immediato in fattura.
+                La sostituzione degli infissi rientra nella detrazione fiscale del 50% per il risparmio energetico (abitazione principale).
+                La detrazione viene ripartita in 10 rate annuali di pari importo nella dichiarazione dei redditi.
               </p>
-              
+
               <ul className="space-y-2 md:space-y-3 mb-6 md:mb-8">
                 {[
-                  'Detrazione del 50% sulle spese',
-                  'Limite massimo di 60.000€',
-                  'Sconto immediato in fattura disponibile',
-                  'Cessione del credito possibile',
+                  'Detrazione del 50% sulle spese (abitazione principale)',
+                  'Limite massimo di 96.000€ per unità immobiliare',
+                  'Recupero in 10 rate annuali tramite dichiarazione dei redditi',
+                  'Gestione completa pratica ENEA inclusa',
                 ].map((item) => (
                   <li key={item} className="flex items-center gap-2 text-sm md:text-base text-white/80">
                     <CheckCircle className="w-4 h-4 md:w-5 md:h-5 text-[#C8E600] flex-shrink-0" />
@@ -251,6 +253,7 @@ export default function Infissi() {
         </div>
       </section>
 
+      <GalleriaLavori filtroCategoria="infissi" maxProgetti={3} />
       <Recensioni />
       <FormPreventivo />
       <FAQ title="FAQ Infissi e Serramenti" items={faqItems} />

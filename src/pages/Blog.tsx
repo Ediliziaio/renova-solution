@@ -24,7 +24,7 @@ export default function Blog() {
     {
       id: 1,
       titolo: 'Detrazioni fiscali 2026: guida completa a Ecobonus, Superbonus e detrazioni ristrutturazioni',
-      excerpt: 'Guida completa alle detrazioni fiscali per il 2026: scopri come usufruire del 50% per ristrutturazioni e del 65-70% per efficientamento energetico e fotovoltaico. Tutte le novità e i requisiti aggiornati.',
+      excerpt: 'Guida completa alle detrazioni fiscali per il 2026: scopri come usufruire del 50% per ristrutturazioni ed efficientamento energetico su abitazione principale. Tutte le novità e i requisiti aggiornati.',
       categoria: 'Fisco',
       data: '15 Marzo 2026',
       dataISO: '2026-03-15',
@@ -98,16 +98,94 @@ export default function Blog() {
       immagine: '/images/manutenzione.jpg',
       slug: 'manutenzione-fotovoltaico-2026',
       keywords: ['manutenzione fotovoltaico 2026', 'pulizia pannelli', 'inverter fotovoltaico', 'impianto fotovoltaico', 'manutenzione pannelli']
+    },
+    {
+      id: 7,
+      titolo: 'Infissi e risparmio energetico: quanto si risparmia davvero cambiando le finestre nel 2026',
+      excerpt: 'Analisi dettagliata del risparmio reale ottenibile con la sostituzione degli infissi. Dati su trasmittanza termica, confronto materiali, vetri e case study con calcoli concreti su bollette prima e dopo.',
+      categoria: 'Infissi',
+      data: '8 Aprile 2026',
+      dataISO: '2026-04-08',
+      lettura: '14 min',
+      autore: 'Renova Team',
+      immagine: '/images/confronto-finestre.jpg',
+      slug: 'infissi-risparmio-energetico-2026',
+      keywords: ['risparmio energetico infissi', 'cambiare finestre risparmio', 'sostituzione infissi costo', 'infissi risparmio bolletta', 'trasmittanza termica infissi']
+    },
+    {
+      id: 8,
+      titolo: 'Conto Termico 3.0 nel 2026: come funziona, chi può accedere e quanto si risparmia',
+      excerpt: 'Guida completa al Conto Termico 3.0: interventi ammessi, importi, tempistiche di erogazione, procedura di domanda al GSE e confronto con l\'Ecobonus. Tutto quello che serve sapere nel 2026.',
+      categoria: 'Fisco',
+      data: '2 Aprile 2026',
+      dataISO: '2026-04-02',
+      lettura: '12 min',
+      autore: 'Renova Team',
+      immagine: '/images/climatizzazione.jpg',
+      slug: 'conto-termico-3-2026',
+      keywords: ['conto termico 3.0 2026', 'incentivi pompe di calore', 'conto termico come funziona', 'conto termico requisiti', 'incentivi riscaldamento 2026']
+    },
+    {
+      id: 9,
+      titolo: 'Ristrutturazione completa della casa nel 2026: costi, tempi, bonus fiscali e consigli pratici',
+      excerpt: 'Guida pratica alla ristrutturazione completa: costi al metro quadro, cronoprogramma reale, pratiche edilizie, bonus fiscali aggiornati al 2026 e consigli per evitare errori costosi.',
+      categoria: 'Ristrutturazione',
+      data: '25 Marzo 2026',
+      dataISO: '2026-03-25',
+      lettura: '15 min',
+      autore: 'Renova Team',
+      immagine: '/images/ristrutturazione.jpg',
+      slug: 'ristrutturazione-completa-casa-2026',
+      keywords: ['ristrutturazione completa casa 2026', 'costo ristrutturazione al mq', 'ristrutturazione appartamento costi', 'tempi ristrutturazione', 'bonus ristrutturazione 2026']
+    },
+    {
+      id: 10,
+      titolo: 'Fotovoltaico per aziende nel 2026: ROI, incentivi e vantaggi fiscali per le imprese',
+      excerpt: 'Analisi approfondita del fotovoltaico aziendale: dimensionamento impianto, costi per taglia, calcolo ROI reale, incentivi disponibili, Comunità Energetiche e case study concreti.',
+      categoria: 'Fotovoltaico',
+      data: '18 Marzo 2026',
+      dataISO: '2026-03-18',
+      lettura: '13 min',
+      autore: 'Marco Bianchi',
+      immagine: '/images/fotovoltaico-azienda.jpg',
+      slug: 'fotovoltaico-aziende-2026',
+      keywords: ['fotovoltaico aziende 2026', 'impianto fotovoltaico industriale', 'fotovoltaico capannone', 'ROI fotovoltaico aziendale', 'autoconsumo fotovoltaico']
+    },
+    {
+      id: 11,
+      titolo: 'Classe energetica della casa: cos\'è, come migliorarla e quanto vale nel 2026',
+      excerpt: 'Tutto sulla classe energetica: dalle classi A4-G all\'APE, la Direttiva Case Green, come migliorare la classe con interventi mirati e quanto incide sul valore dell\'immobile.',
+      categoria: 'Ristrutturazione',
+      data: '1 Marzo 2026',
+      dataISO: '2026-03-01',
+      lettura: '12 min',
+      autore: 'Laura Rossi',
+      immagine: '/images/ristrutturazione.jpg',
+      slug: 'classe-energetica-casa-2026',
+      keywords: ['classe energetica casa', 'APE attestato prestazione energetica', 'migliorare classe energetica', 'direttiva case green', 'certificazione energetica']
+    },
+    {
+      id: 12,
+      titolo: 'Umidità, condensa e muffa in casa: cause, soluzioni e come eliminare il problema definitivamente',
+      excerpt: 'Guida completa per capire le cause di umidità, condensa e muffa nelle case del Friuli e Veneto. Soluzioni definitive con infissi moderni, cappotto termico, VMC e interventi mirati.',
+      categoria: 'Infissi',
+      data: '15 Febbraio 2026',
+      dataISO: '2026-02-15',
+      lettura: '11 min',
+      autore: 'Renova Team',
+      immagine: '/images/confronto-finestre.jpg',
+      slug: 'umidita-condensa-muffa-soluzioni-2026',
+      keywords: ['condensa finestre', 'muffa casa cause', 'umidità pareti soluzioni', 'condensa vetri finestre', 'eliminare condensa infissi']
     }
   ];
 
   const categorie = [
-    { name: 'Tutti', slug: 'tutti', count: 24 },
-    { name: 'Fotovoltaico', slug: 'fotovoltaico', count: 8 },
-    { name: 'Ristrutturazione', slug: 'ristrutturazione', count: 6 },
-    { name: 'Infissi', slug: 'infissi', count: 4 },
-    { name: 'Fisco', slug: 'fisco', count: 3 },
-    { name: 'Riscaldamento', slug: 'riscaldamento', count: 2 },
+    { name: 'Tutti', slug: 'tutti', count: 12 },
+    { name: 'Fotovoltaico', slug: 'fotovoltaico', count: 3 },
+    { name: 'Ristrutturazione', slug: 'ristrutturazione', count: 3 },
+    { name: 'Infissi', slug: 'infissi', count: 3 },
+    { name: 'Fisco', slug: 'fisco', count: 2 },
+    { name: 'Riscaldamento', slug: 'riscaldamento', count: 1 },
     { name: 'Manutenzione', slug: 'manutenzione', count: 1 }
   ];
 
@@ -188,6 +266,7 @@ export default function Blog() {
         keywords="blog fotovoltaico 2026, guide ristrutturazioni, consigli infissi, detrazioni fiscali 2026, agevolazioni casa, Ecobonus, Superbonus, risparmio energetico, fotovoltaico Friuli, ristrutturazione Veneto"
         ogType="website"
         canonical="https://renovasolution.it/blog"
+        ogImage="/images/team.jpg"
       />
       
       {/* Structured Data */}

@@ -69,6 +69,7 @@ export default function FinestrePVC() {
         description="Finestre e infissi in PVC ad alta efficienza termica in Friuli Venezia Giulia e Veneto. Isolamento termico e acustico superiore, zero manutenzione, detrazione 50%. Preventivo gratuito."
         keywords="finestre pvc, infissi pvc, finestre pvc friuli, infissi pvc veneto, finestre pvc prezzi, serramenti pvc, finestre isolamento termico"
         canonical="https://renovasolution.it/infissi/finestre-pvc"
+        ogImage="/images/confronto-finestre.jpg"
         schema={[
           serviceSchema('Finestre in PVC', 'Vendita e installazione finestre in PVC ad alta efficienza termica', 'https://renovasolution.it/infissi/finestre-pvc'),
           faqSchema(faqItems)
@@ -200,23 +201,23 @@ export default function FinestrePVC() {
         </div>
       </section>
 
-      {/* Sconto in fattura */}
+      {/* Detrazione fiscale */}
       <section className="py-16 bg-gradient-to-r from-blue-900 to-blue-700">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="text-white">
               <h2 className="text-3xl font-bold mb-4">
-                Risparmia subito con lo sconto in fattura del 50%
+                Detrazione fiscale del 50% sulle finestre in PVC
               </h2>
               <p className="text-white/80 leading-relaxed mb-6">
-                La sostituzione delle finestre rientra nelle detrazioni fiscali per il risparmio energetico. Puoi scegliere di detrarre il 50% delle spese in 10 anni oppure usufruire dello sconto immediato in fattura o della cessione del credito.
+                La sostituzione delle finestre rientra nelle detrazioni fiscali per il risparmio energetico. La detrazione del 50% (per abitazione principale) viene recuperata in 10 rate annuali nella dichiarazione dei redditi.
               </p>
               <ul className="space-y-3 mb-6">
                 {[
-                  'Detrazione del 50% sulle spese',
-                  'Limite massimo di 96.000€',
-                  'Sconto immediato in fattura',
-                  'Cessione del credito disponibile',
+                  'Detrazione del 50% sulle spese (abitazione principale)',
+                  'Limite massimo di 96.000€ per unità immobiliare',
+                  'Recupero in 10 rate annuali tramite 730 o Redditi PF',
+                  'Gestione completa pratica ENEA inclusa',
                 ].map((item) => (
                   <li key={item} className="flex items-center gap-2">
                     <CheckCircle className="w-5 h-5 text-green-400" />

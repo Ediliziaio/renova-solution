@@ -53,6 +53,7 @@ export default function Climatizzazione() {
         description="Impianti di climatizzazione, condizionamento e riscaldamento a pompa di calore in Friuli Venezia Giulia e Veneto. Installazione, manutenzione e assistenza. Preventivo gratuito."
         keywords="climatizzazione friuli, condizionamento veneto, impianto climatizzazione, pompa di calore, aria condizionata, riscaldamento efficiente"
         canonical="https://renovasolution.it/climatizzazione"
+        ogImage="/images/climatizzazione.jpg"
         schema={[
           serviceSchema('Climatizzazione', 'Impianti di climatizzazione e condizionamento per casa e azienda', 'https://renovasolution.it/climatizzazione'),
           faqSchema(faqItems)
@@ -75,7 +76,7 @@ export default function Climatizzazione() {
             Climatizzazione per la casa e l'ambiente di lavoro
           </h1>
           <p className="text-white/80 text-lg max-w-xl mb-6">
-            Technogelox Ecoenergia installa e si occupa della manutenzione di climatizzatori efficienti, silenziosi e personalizzati.
+            Renova Solution installa e si occupa della manutenzione di climatizzatori efficienti, silenziosi e personalizzati.
           </p>
           <Link 
             to="/contatti"
@@ -176,16 +177,16 @@ export default function Climatizzazione() {
         </div>
       </section>
 
-      {/* Sconto in fattura */}
+      {/* Detrazione fiscale */}
       <section className="py-16 bg-gradient-to-r from-blue-900 to-blue-700">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="text-white">
               <h2 className="text-3xl font-bold mb-4">
-                SCONTO IN FATTURA DEL 65%
+                DETRAZIONE FISCALE DEL 50%
               </h2>
               <p className="text-white/80 leading-relaxed mb-6">
-                Acquistando un climatizzatore provvisto di pompa di calore, è possibile usufruire del contro termico e delle detrazioni fiscali previste per gli interventi di ristrutturazione edilizia, con un risparmio fino al 65%.
+                Installando un climatizzatore con pompa di calore, puoi usufruire della detrazione fiscale del 50% (per abitazione principale) o del Conto Termico 3.0. La detrazione viene recuperata in 10 rate annuali nella dichiarazione dei redditi.
               </p>
               <Link 
                 to="/contatti"
@@ -197,7 +198,7 @@ export default function Climatizzazione() {
             <div className="relative">
               <img 
                 src="https://images.unsplash.com/photo-1585771724684-38269d6639fd?w=800&h=600&fit=crop" 
-                alt="Sconto in fattura" 
+                alt="Detrazione fiscale climatizzazione" 
                 className="rounded-2xl shadow-xl"
               />
             </div>

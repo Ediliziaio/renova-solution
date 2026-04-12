@@ -10,6 +10,7 @@ import Recensioni from '../components/Recensioni';
 import FormPreventivo from '../components/FormPreventivo';
 import FAQ from '../components/FAQ';
 import BlogSection from '../components/BlogSection';
+import GalleriaLavori from '../components/GalleriaLavori';
 import SEO, { serviceSchema, faqSchema } from '../components/SEO';
 import { CheckCircle, Zap, Sun, Battery } from 'lucide-react';
 
@@ -55,6 +56,7 @@ export default function FotovoltaicoPrivati() {
         keywords="fotovoltaico casa, impianto solare privati, pannelli fotovoltaici, batterie accumulo, fotovoltaico Treviso, fotovoltaico Udine"
         schema={[schema, faqStructuredData]}
         canonical="https://renovasolution.it/fotovoltaico-privati"
+        ogImage="/images/fotovoltaico-casa.jpg"
       />
     <div className="min-h-screen bg-white">
       <Navbar />
@@ -124,7 +126,7 @@ export default function FotovoltaicoPrivati() {
                   'Materiali delle migliori marche (SunPower, Tesla, Daikin)',
                   'Installazione in 2-3 giorni lavorativi',
                   'Assistenza e monitoraggio inclusi',
-                  'Detrazione fiscale 50% e sconto in fattura',
+                  'Detrazione fiscale del 50% in 10 rate annuali',
                 ].map((item) => (
                   <li key={item} className="flex items-center gap-2 text-sm md:text-base text-gray-700">
                     <CheckCircle className="w-4 h-4 md:w-5 md:h-5 text-[#C8E600] flex-shrink-0" />
@@ -206,6 +208,7 @@ export default function FotovoltaicoPrivati() {
         </div>
       </section>
 
+      <GalleriaLavori filtroCategoria="fotovoltaico" maxProgetti={3} />
       <Recensioni />
       <FormPreventivo />
       <FAQ title="FAQ Fotovoltaico per Privati" items={faqItems} />

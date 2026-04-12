@@ -76,6 +76,7 @@ export default function FinestreLegnoAlluminio() {
         description="Finestre e infissi in legno-alluminio in Friuli Venezia Giulia e Veneto. Il calore del legno all'interno, la resistenza dell'alluminio all'esterno. Detrazione 50%. Preventivo gratuito."
         keywords="finestre legno alluminio, infissi legno alluminio, serramenti legno alluminio, finestre legno alluminio prezzi, infissi legno alluminio friuli veneto"
         canonical="https://renovasolution.it/infissi/finestre-legno-alluminio"
+        ogImage="/images/confronto-finestre.jpg"
         schema={[
           serviceSchema('Finestre Legno-Alluminio', 'Vendita e installazione finestre in legno-alluminio premium', 'https://renovasolution.it/infissi/finestre-legno-alluminio'),
           faqSchema(faqItems)

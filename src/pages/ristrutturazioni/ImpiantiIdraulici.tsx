@@ -65,6 +65,7 @@ export default function ImpiantiIdraulici() {
         description="Rifacimento impianti idraulici e sanitari in Friuli Venezia Giulia e Veneto. Sostituzione tubazioni, impianti bagno e cucina, riscaldamento a pavimento. Preventivo gratuito."
         keywords="impianti idraulici friuli, rifacimento impianto idraulico, idraulico veneto, impianto bagno, impianto cucina, riscaldamento a pavimento, tubazioni"
         canonical="https://renovasolution.it/ristrutturazioni/impianti-idraulici"
+        ogImage="/images/ristrutturazione.jpg"
         schema={[
           serviceSchema('Impianti Idraulici', 'Rifacimento impianti idraulici e sanitari per abitazioni', 'https://renovasolution.it/ristrutturazioni/impianti-idraulici'),
           faqSchema(faqItems),

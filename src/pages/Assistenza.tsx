@@ -99,6 +99,7 @@ export default function Assistenza() {
         keywords="assistenza fotovoltaico, manutenzione impianti solari, riparazione inverter, manutenzione batterie, assistenza tecnica Friuli, assistenza tecnica Veneto"
         schema={[schema, faqStructuredData]}
         canonical="https://renovasolution.it/assistenza"
+        ogImage="/images/manutenzione.jpg"
       />
       
       <div className="min-h-screen bg-white">
