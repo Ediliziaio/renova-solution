@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import Navbar from '../../components/Navbar';
 import Footer from '../../components/Footer';
-import SEO from '../../components/SEO';
+import SEO, { blogPostSchema } from '../../components/SEO';
 import { motion } from 'framer-motion';
 import { Calendar, Clock, User, ArrowLeft, CheckCircle, AlertCircle } from 'lucide-react';
 
@@ -68,6 +68,7 @@ export default function InfissiRisparmioEnergetico2026() {
 
       <script type="application/ld+json">{JSON.stringify(schema)}</script>
       <script type="application/ld+json">{JSON.stringify(breadcrumbSchema)}</script>
+      <script type="application/ld+json">{JSON.stringify(blogPostSchema(articleData.title, articleData.excerpt, `https://renovasolution.it/blog/${articleData.slug}`, `https://renovasolution.it${articleData.image}`, articleData.dateISO, articleData.author))}</script>
 
       <div className="min-h-screen bg-white">
         <Navbar />
@@ -593,16 +594,15 @@ export default function InfissiRisparmioEnergetico2026() {
                 </ul>
               </div>
 
-              <div className="bg-red-50 border-l-4 border-red-500 rounded-xl p-5 my-6">
-                <p className="flex items-start gap-3 text-red-800">
-                  <AlertCircle className="w-5 h-5 flex-shrink-0 mt-0.5 text-red-500" />
+              <div className="bg-green-50 border-l-4 border-green-500 rounded-xl p-5 my-6">
+                <p className="flex items-start gap-3 text-green-800">
+                  <AlertCircle className="w-5 h-5 flex-shrink-0 mt-0.5 text-green-500" />
                   <span>
-                    <strong>Importante — Sconto in fattura e cessione del credito aboliti:</strong> dal 1° gennaio 2025
-                    (Legge di Bilancio 2025) non è più possibile optare per lo sconto in fattura né per la cessione del
-                    credito per la grande maggioranza degli interventi di riqualificazione energetica su abitazioni private.
-                    L'unica opzione disponibile nel 2026 è la <strong>detrazione diretta in dichiarazione dei redditi
-                    in 10 rate annuali uguali</strong>. Fanno eccezione solo gli interventi su edifici in zone sismiche 1 e 2
-                    o su immobili di proprietà di ONLUS e IACP.
+                    <strong>Detrazione fiscale del 50% per la prima casa:</strong> nel 2026 puoi usufruire della
+                    detrazione fiscale del 50% sulle spese per la sostituzione degli infissi sulla tua abitazione
+                    principale. L'importo detraibile viene recuperato in <strong>10 rate annuali di pari importo
+                    tramite la dichiarazione dei redditi</strong>, riducendo concretamente il costo dell'investimento
+                    in nuovi serramenti ad alta efficienza energetica.
                   </span>
                 </p>
               </div>

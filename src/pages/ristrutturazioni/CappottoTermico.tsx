@@ -151,7 +151,7 @@ export default function CappottoTermico() {
             </div>
             <div className="relative">
               <img 
-                src="https://images.unsplash.com/photo-1600607688969-a5bfcd646154?w=800&h=600&fit=crop" 
+                src="/images/finitura-moderna.jpg" 
                 alt="Dettaglio cappotto termico" 
                 className="rounded-2xl shadow-xl"
               />
@@ -265,7 +265,7 @@ export default function CappottoTermico() {
             </div>
             <div className="relative">
               <img 
-                src="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?w=800&h=600&fit=crop" 
+                src="/images/porta-blindata-moderna.jpg" 
                 alt="Casa con cappotto termico" 
                 className="rounded-2xl shadow-xl"
               />

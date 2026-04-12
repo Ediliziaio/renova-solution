@@ -1,15 +1,11 @@
-import { useState } from 'react';
-import { Link } from 'react-router-dom';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import SEO, { localBusinessSchema } from '../components/SEO';
 import { motion } from 'framer-motion';
-import { 
-  MapPin, 
-  Phone, 
-  Mail, 
-  Send, 
-  CheckCircle,
+import {
+  MapPin,
+  Phone,
+  Mail,
   MessageSquare,
   ArrowRight,
   Calendar,
@@ -19,48 +15,6 @@ import {
 } from 'lucide-react';
 
 export default function Contatti() {
-  const [formData, setFormData] = useState({
-    nome: '',
-    cognome: '',
-    telefono: '',
-    email: '',
-    comune: '',
-    provincia: '',
-    servizio: '',
-    messaggio: '',
-    privacy: false
-  });
-
-  const [submitted, setSubmitted] = useState(false);
-
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    setSubmitted(true);
-    setTimeout(() => setSubmitted(false), 3000);
-  };
-
-  const province = [
-    'Udine', 'Trieste', 'Gorizia', 'Pordenone',
-    'Treviso', 'Venezia', 'Padova', 'Vicenza'
-  ];
-
-  const servizi = [
-    { value: '', label: 'Seleziona un servizio' },
-    { value: 'fotovoltaico-privati', label: 'Fotovoltaico per Privati' },
-    { value: 'fotovoltaico-aziende', label: 'Fotovoltaico per Aziende' },
-    { value: 'accumulo', label: 'Batterie di Accumulo' },
-    { value: 'climatizzazione', label: 'Climatizzazione' },
-    { value: 'pompe-calore', label: 'Pompe di Calore' },
-    { value: 'finestre-pvc', label: 'Finestre PVC' },
-    { value: 'finestre-alluminio', label: 'Finestre Alluminio' },
-    { value: 'finestre-legno', label: 'Finestre Legno-Alluminio' },
-    { value: 'porte', label: 'Porte e Portoni' },
-    { value: 'ristrutturazione', label: 'Ristrutturazione Completa' },
-    { value: 'cappotto', label: 'Cappotto Termico' },
-    { value: 'idraulici', label: 'Impianti Idraulici' },
-    { value: 'assistenza', label: 'Assistenza Tecnica' }
-  ];
-
   const contatti = [
     {
       icon: Phone,
@@ -256,149 +210,26 @@ export default function Contatti() {
                   Nessun impegno, solo informazioni utili.
                 </p>
 
-                {submitted ? (
-                  <motion.div
-                    initial={{ opacity: 0, scale: 0.95 }}
-                    animate={{ opacity: 1, scale: 1 }}
-                    className="bg-green-50 border border-green-200 rounded-2xl p-8 text-center"
+                <div style={{minHeight:'650px'}}>
+                  <iframe
+                    src="https://api.leadconnectorhq.com/widget/form/g2H271QFeRb5FT73aUyz"
+                    style={{width:'100%',height:'100%',border:'none',borderRadius:'3px'}}
+                    id="inline-g2H271QFeRb5FT73aUyz"
+                    data-layout="{'id':'INLINE'}"
+                    data-trigger-type="alwaysShow"
+                    data-trigger-value=""
+                    data-activation-type="alwaysActivated"
+                    data-activation-value=""
+                    data-deactivation-type="neverDeactivate"
+                    data-deactivation-value=""
+                    data-form-name="Invio Richiesta"
+                    data-height="623"
+                    data-layout-iframe-id="inline-g2H271QFeRb5FT73aUyz"
+                    data-form-id="g2H271QFeRb5FT73aUyz"
+                    title="Invio Richiesta"
                   >
-                    <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                      <CheckCircle className="w-8 h-8 text-green-600" />
-                    </div>
-                    <h3 className="text-xl font-bold text-green-800 mb-2">Messaggio inviato!</h3>
-                    <p className="text-green-700">Ti ricontattiamo entro 2 ore lavorative.</p>
-                  </motion.div>
-                ) : (
-                  <form onSubmit={handleSubmit} className="space-y-5">
-                    <div className="grid sm:grid-cols-2 gap-5">
-                      <div>
-                        <label className="block text-sm font-medium mb-2">Nome *</label>
-                        <input
-                          type="text"
-                          required
-                          value={formData.nome}
-                          onChange={(e) => setFormData({...formData, nome: e.target.value})}
-                          className="w-full px-4 py-3 border border-gray-200 rounded-xl focus:ring-2 focus:ring-[#C8E600] focus:border-transparent outline-none transition-all"
-                          placeholder="Mario"
-                        />
-                      </div>
-                      <div>
-                        <label className="block text-sm font-medium mb-2">Cognome *</label>
-                        <input
-                          type="text"
-                          required
-                          value={formData.cognome}
-                          onChange={(e) => setFormData({...formData, cognome: e.target.value})}
-                          className="w-full px-4 py-3 border border-gray-200 rounded-xl focus:ring-2 focus:ring-[#C8E600] focus:border-transparent outline-none transition-all"
-                          placeholder="Rossi"
-                        />
-                      </div>
-                    </div>
-
-                    <div className="grid sm:grid-cols-2 gap-5">
-                      <div>
-                        <label className="block text-sm font-medium mb-2">Telefono *</label>
-                        <input
-                          type="tel"
-                          required
-                          value={formData.telefono}
-                          onChange={(e) => setFormData({...formData, telefono: e.target.value})}
-                          className="w-full px-4 py-3 border border-gray-200 rounded-xl focus:ring-2 focus:ring-[#C8E600] focus:border-transparent outline-none transition-all"
-                          placeholder="3xx xxx xxxx"
-                        />
-                      </div>
-                      <div>
-                        <label className="block text-sm font-medium mb-2">Email *</label>
-                        <input
-                          type="email"
-                          required
-                          value={formData.email}
-                          onChange={(e) => setFormData({...formData, email: e.target.value})}
-                          className="w-full px-4 py-3 border border-gray-200 rounded-xl focus:ring-2 focus:ring-[#C8E600] focus:border-transparent outline-none transition-all"
-                          placeholder="mario@email.it"
-                        />
-                      </div>
-                    </div>
-
-                    <div className="grid sm:grid-cols-2 gap-5">
-                      <div>
-                        <label className="block text-sm font-medium mb-2">Provincia *</label>
-                        <select
-                          required
-                          value={formData.provincia}
-                          onChange={(e) => setFormData({...formData, provincia: e.target.value})}
-                          className="w-full px-4 py-3 border border-gray-200 rounded-xl focus:ring-2 focus:ring-[#C8E600] focus:border-transparent outline-none transition-all"
-                        >
-                          <option value="">Seleziona provincia</option>
-                          {province.map(p => (
-                            <option key={p} value={p.toLowerCase()}>{p}</option>
-                          ))}
-                        </select>
-                      </div>
-                      <div>
-                        <label className="block text-sm font-medium mb-2">Comune *</label>
-                        <input
-                          type="text"
-                          required
-                          value={formData.comune}
-                          onChange={(e) => setFormData({...formData, comune: e.target.value})}
-                          className="w-full px-4 py-3 border border-gray-200 rounded-xl focus:ring-2 focus:ring-[#C8E600] focus:border-transparent outline-none transition-all"
-                          placeholder="Inserisci il comune"
-                        />
-                      </div>
-                    </div>
-
-                    <div>
-                      <label className="block text-sm font-medium mb-2">Servizio di interesse</label>
-                      <select
-                        value={formData.servizio}
-                        onChange={(e) => setFormData({...formData, servizio: e.target.value})}
-                        className="w-full px-4 py-3 border border-gray-200 rounded-xl focus:ring-2 focus:ring-[#C8E600] focus:border-transparent outline-none transition-all"
-                      >
-                        {servizi.map(s => (
-                          <option key={s.value} value={s.value}>{s.label}</option>
-                        ))}
-                      </select>
-                    </div>
-
-                    <div>
-                      <label className="block text-sm font-medium mb-2">Messaggio</label>
-                      <textarea
-                        rows={4}
-                        value={formData.messaggio}
-                        onChange={(e) => setFormData({...formData, messaggio: e.target.value})}
-                        className="w-full px-4 py-3 border border-gray-200 rounded-xl focus:ring-2 focus:ring-[#C8E600] focus:border-transparent outline-none transition-all resize-none"
-                        placeholder="Descrivi la tua esigenza..."
-                      />
-                    </div>
-
-                    <div className="flex items-start gap-3">
-                      <input
-                        type="checkbox"
-                        id="privacy"
-                        required
-                        checked={formData.privacy}
-                        onChange={(e) => setFormData({...formData, privacy: e.target.checked})}
-                        className="mt-1 w-5 h-5 rounded border-gray-300 text-[#C8E600] focus:ring-[#C8E600]"
-                      />
-                      <label htmlFor="privacy" className="text-sm text-gray-600">
-                        Ho letto e accetto la <Link to="/privacy" className="text-[#C8E600] underline">Privacy Policy</Link> *
-                      </label>
-                    </div>
-
-                    <button
-                      type="submit"
-                      className="w-full bg-[#C8E600] text-black px-8 py-4 rounded-full font-bold hover:bg-[#b3cc00] transition-colors flex items-center justify-center gap-2"
-                    >
-                      <Send className="w-5 h-5" />
-                      Invia richiesta
-                    </button>
-
-                    <p className="text-xs text-gray-500 text-center">
-                      * Campi obbligatori. I tuoi dati sono al sicuro, non li cediamo a terzi.
-                    </p>
-                  </form>
-                )}
+                  </iframe>
+                </div>
               </div>
 
               {/* Sidebar - Perché sceglierci */}

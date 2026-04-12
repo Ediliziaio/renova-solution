@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import Navbar from '../../components/Navbar';
 import Footer from '../../components/Footer';
-import SEO from '../../components/SEO';
+import SEO, { blogPostSchema } from '../../components/SEO';
 import { motion } from 'framer-motion';
 import { Calendar, Clock, User, ArrowLeft, CheckCircle, AlertCircle, Euro } from 'lucide-react';
 
@@ -68,6 +68,7 @@ export default function FotovoltaicoContoTermico2026() {
 
       <script type="application/ld+json">{JSON.stringify(schema)}</script>
       <script type="application/ld+json">{JSON.stringify(breadcrumbSchema)}</script>
+      <script type="application/ld+json">{JSON.stringify(blogPostSchema(articleData.title, articleData.excerpt, `https://renovasolution.it/blog/${articleData.slug}`, `https://renovasolution.it${articleData.image}`, articleData.dateISO, articleData.author))}</script>
 
       <div className="min-h-screen bg-white">
         <Navbar />

@@ -148,7 +148,7 @@ export default function FotovoltaicoPrivati() {
             
             <div className="relative">
               <img 
-                src="https://images.unsplash.com/photo-1509391366360-2e959784a276?w=800&h=600&fit=crop" 
+                src="/images/impianto-fotovoltaico.jpg" 
                 alt="Installazione fotovoltaica" 
                 className="rounded-xl md:rounded-2xl shadow-lg md:shadow-xl w-full h-64 sm:h-80 object-cover"
               />
@@ -168,7 +168,7 @@ export default function FotovoltaicoPrivati() {
           <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center">
             <div className="order-2 lg:order-1 relative">
               <img 
-                src="https://images.unsplash.com/photo-1620714223084-8fcacc6dfd8d?w=800&h=600&fit=crop" 
+                src="/images/batteria-accumulo-ext.jpg" 
                 alt="Batteria di accumulo" 
                 className="rounded-xl md:rounded-2xl shadow-lg md:shadow-xl w-full h-64 sm:h-80 object-cover"
               />

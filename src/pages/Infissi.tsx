@@ -244,7 +244,7 @@ export default function Infissi() {
             
             <div className="relative">
               <img 
-                src="https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=800&h=600&fit=crop" 
+                src="/images/finestra-pvc.jpg" 
                 alt="Finestre moderne" 
                 className="rounded-xl md:rounded-2xl shadow-lg md:shadow-xl w-full h-64 sm:h-80 object-cover"
               />

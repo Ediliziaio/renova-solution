@@ -32,10 +32,10 @@ export default function Progetti() {
   );
 
   const stats = {
-    totale: progetti.length,
-    infissi: progetti.filter(p => p.categoria === 'infissi').length,
-    fotovoltaico: progetti.filter(p => p.categoria === 'fotovoltaico').length,
-    ristrutturazioni: progetti.filter(p => p.categoria === 'ristrutturazioni').length,
+    totale: 3000,
+    infissi: 1200,
+    fotovoltaico: 800,
+    ristrutturazioni: 1000,
   };
 
   const apriLightbox = (progetto: Progetto, indice: number) => {
@@ -66,7 +66,7 @@ export default function Progetti() {
       <section className="relative h-[450px] flex items-center">
         <div className="absolute inset-0">
           <img
-            src="/images/fotovoltaico-casa.jpg"
+            src="/images/progetti/fotovoltaico-casa-1.jpg"
             alt="Progetti e lavori realizzati da Renova Solution"
             className="w-full h-full object-cover"
           />

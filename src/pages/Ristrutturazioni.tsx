@@ -207,7 +207,7 @@ export default function Ristrutturazioni() {
               <p className="text-white/70 text-sm md:text-base mb-4 md:mb-6">
                 La ristrutturazione edilizia prevede una detrazione del 50% delle spese, 
                 con un limite massimo di 96.000€ per unità immobiliare. 
-                Puoi scegliere di detrarre in 10 anni o usufruire dello sconto immediato in fattura.
+                Puoi detrarre il 50% delle spese in 10 rate annuali nella dichiarazione dei redditi.
               </p>
               
               <div className="grid grid-cols-2 gap-3 md:gap-4 mb-6 md:mb-8">
@@ -245,7 +245,7 @@ export default function Ristrutturazioni() {
             
             <div className="relative">
               <img 
-                src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&h=600&fit=crop" 
+                src="/images/casa-ristrutturata.jpg" 
                 alt="Ristrutturazione interni" 
                 className="rounded-xl md:rounded-2xl shadow-lg md:shadow-xl w-full h-64 sm:h-80 object-cover"
               />

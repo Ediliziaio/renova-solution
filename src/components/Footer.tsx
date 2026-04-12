@@ -163,7 +163,7 @@ export default function Footer() {
             <div className="mt-6">
               <p className="text-gray-500 text-xs mb-3">Seguici</p>
               <div className="flex gap-2.5">
-                <a href="#" className="w-9 h-9 bg-gray-800 rounded-full flex items-center justify-center hover:bg-[#C8E600] hover:text-black transition-colors">
+                <a href="https://www.facebook.com/profile.php?id=100095204480095" target="_blank" rel="noopener noreferrer" className="w-9 h-9 bg-gray-800 rounded-full flex items-center justify-center hover:bg-[#C8E600] hover:text-black transition-colors">
                   <Facebook size={16} />
                 </a>
                 <a href="#" className="w-9 h-9 bg-gray-800 rounded-full flex items-center justify-center hover:bg-[#C8E600] hover:text-black transition-colors">

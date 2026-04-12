@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import Navbar from '../../components/Navbar';
 import Footer from '../../components/Footer';
-import SEO from '../../components/SEO';
+import SEO, { blogPostSchema } from '../../components/SEO';
 import { motion } from 'framer-motion';
 import { Calendar, Clock, User, ArrowLeft, Tag, CheckCircle, AlertCircle, Euro, FileText } from 'lucide-react';
 
@@ -68,7 +68,8 @@ export default function DetrazioniFiscali2026() {
       
       <script type="application/ld+json">{JSON.stringify(schema)}</script>
       <script type="application/ld+json">{JSON.stringify(breadcrumbSchema)}</script>
-      
+      <script type="application/ld+json">{JSON.stringify(blogPostSchema(articleData.title, articleData.excerpt, `https://renovasolution.it/blog/${articleData.slug}`, `https://renovasolution.it${articleData.image}`, articleData.dateISO, articleData.author))}</script>
+
       <div className="min-h-screen bg-white">
         <Navbar />
         
@@ -237,8 +238,9 @@ export default function DetrazioniFiscali2026() {
               </ul>
               <div className="bg-blue-50 border-l-4 border-blue-400 p-4 my-6">
                 <p className="text-blue-800 text-sm">
-                  <strong>Nota:</strong> Dal 2025 la cessione del credito e lo sconto in fattura non sono più disponibili 
-                  per la maggior parte degli interventi. L'unica opzione è la detrazione diretta in 10 anni.
+                  <strong>Come funziona:</strong> la <strong>detrazione fiscale del 50%</strong> per la prima casa viene
+                  recuperata in <strong>10 rate annuali di pari importo</strong> tramite la dichiarazione dei redditi,
+                  abbattendo in modo concreto il costo complessivo degli interventi sulla tua abitazione.
                 </p>
               </div>
 

@@ -90,9 +90,9 @@ export const organizationSchema = {
   description: 'Impianti fotovoltaici, infissi e ristrutturazioni in Friuli Venezia Giulia e Veneto',
   address: {
     '@type': 'PostalAddress',
-    streetAddress: 'Via Revedole 78/B',
-    addressLocality: 'Pordenone',
-    postalCode: '33170',
+    streetAddress: 'Via Friuli, 92',
+    addressLocality: 'Prata di Pordenone',
+    postalCode: '33080',
     addressRegion: 'PN',
     addressCountry: 'IT'
   },
@@ -189,3 +189,27 @@ export const faqSchema = (faqs: { question: string; answer: string }[]) => ({
     }
   }))
 });
+
+export function blogPostSchema(title: string, description: string, url: string, image: string, datePublished: string, author: string) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'BlogPosting',
+    headline: title,
+    description,
+    url,
+    image,
+    datePublished,
+    author: {
+      '@type': 'Person',
+      name: author,
+    },
+    publisher: {
+      '@type': 'Organization',
+      name: 'Renova Solution',
+      logo: {
+        '@type': 'ImageObject',
+        url: 'https://renovasolution.it/logo.png',
+      },
+    },
+  };
+}

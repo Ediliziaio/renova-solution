@@ -150,7 +150,7 @@ export default function PortePortoni() {
             </div>
             <div className="relative">
               <img 
-                src="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?w=800&h=600&fit=crop" 
+                src="/images/porta-blindata-moderna.jpg" 
                 alt="Porta blindata moderna" 
                 className="rounded-2xl shadow-xl"
               />
@@ -200,7 +200,7 @@ export default function PortePortoni() {
             </div>
             <div className="relative">
               <img 
-                src="https://images.unsplash.com/photo-1600585154363-67eb9e2e2099?w=800&h=600&fit=crop" 
+                src="/images/dettagli-sicurezza-porta.jpg" 
                 alt="Dettagli sicurezza porta" 
                 className="rounded-2xl shadow-xl"
               />
@@ -219,7 +219,7 @@ export default function PortePortoni() {
           <div className="grid md:grid-cols-3 gap-6">
             <div className="text-center">
               <img 
-                src="https://images.unsplash.com/photo-1600566752229-250ed79470f8?w=400&h=300&fit=crop" 
+                src="/images/finitura-legno.jpg" 
                 alt="Finitura legno" 
                 className="w-full h-48 object-cover rounded-lg mb-4"
               />
@@ -228,7 +228,7 @@ export default function PortePortoni() {
             </div>
             <div className="text-center">
               <img 
-                src="https://images.unsplash.com/photo-1600607688969-a5bfcd646154?w=400&h=300&fit=crop" 
+                src="/images/finitura-moderna.jpg" 
                 alt="Finitura moderna" 
                 className="w-full h-48 object-cover rounded-lg mb-4"
               />
@@ -237,7 +237,7 @@ export default function PortePortoni() {
             </div>
             <div className="text-center">
               <img 
-                src="https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=400&h=300&fit=crop" 
+                src="/images/finitura-classica.jpg" 
                 alt="Finitura classica" 
                 className="w-full h-48 object-cover rounded-lg mb-4"
               />
@@ -257,7 +257,7 @@ export default function PortePortoni() {
                 Investi nella sicurezza con il 50% di detrazione
               </h2>
               <p className="text-white/80 leading-relaxed mb-6">
-                La sostituzione della porta d'ingresso rientra nelle detrazioni fiscali per il risparmio energetico. Puoi detrarre il 50% delle spese o usufruire dello sconto immediato in fattura.
+                La sostituzione della porta d'ingresso rientra nelle detrazioni fiscali per il risparmio energetico. Puoi detrarre il 50% delle spese, recuperandole in 10 rate annuali nella dichiarazione dei redditi.
               </p>
               <div className="grid grid-cols-2 gap-4 mb-6">
                 <div className="bg-white/10 p-4 rounded-lg text-center">
@@ -278,7 +278,7 @@ export default function PortePortoni() {
             </div>
             <div className="relative">
               <img 
-                src="https://images.unsplash.com/photo-1600607688969-a5bfcd646154?w=800&h=600&fit=crop" 
+                src="/images/finitura-moderna.jpg" 
                 alt="Porta blindata elegante" 
                 className="rounded-2xl shadow-xl"
               />

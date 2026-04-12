@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import Navbar from '../../components/Navbar';
 import Footer from '../../components/Footer';
-import SEO from '../../components/SEO';
+import SEO, { blogPostSchema } from '../../components/SEO';
 import { motion } from 'framer-motion';
 import { Calendar, Clock, User, ArrowLeft, CheckCircle, AlertCircle } from 'lucide-react';
 
@@ -68,6 +68,7 @@ export default function ClasseEnergeticaCasa2026() {
 
       <script type="application/ld+json">{JSON.stringify(schema)}</script>
       <script type="application/ld+json">{JSON.stringify(breadcrumbSchema)}</script>
+      <script type="application/ld+json">{JSON.stringify(blogPostSchema(articleData.title, articleData.excerpt, `https://renovasolution.it/blog/${articleData.slug}`, `https://renovasolution.it${articleData.image}`, articleData.dateISO, articleData.author))}</script>
 
       <div className="min-h-screen bg-white">
         <Navbar />
@@ -551,16 +552,15 @@ export default function ClasseEnergeticaCasa2026() {
                 </ul>
               </div>
 
-              <div className="bg-red-50 border-l-4 border-red-400 p-5 my-6">
-                <h4 className="font-bold text-red-800 mb-2 flex items-center gap-2">
-                  <AlertCircle className="w-5 h-5" /> Attenzione: lo sconto in fattura non è più disponibile
+              <div className="bg-green-50 border-l-4 border-green-400 p-5 my-6">
+                <h4 className="font-bold text-green-800 mb-2 flex items-center gap-2">
+                  <AlertCircle className="w-5 h-5" /> Detrazione fiscale del 50% per la prima casa
                 </h4>
-                <p className="text-red-900">
-                  Dal 2024 lo <strong>sconto in fattura e la cessione del credito</strong> sono stati
-                  definitivamente aboliti per la quasi totalità degli interventi. Nel 2026 la detrazione
-                  fiscale può essere utilizzata <strong>solo direttamente in dichiarazione dei redditi</strong>.
-                  Assicurati di avere un reddito IRPEF sufficiente per poter sfruttare tutta la detrazione
-                  nel periodo di 10 anni.
+                <p className="text-green-900">
+                  Nel 2026 puoi beneficiare della <strong>detrazione fiscale del 50%</strong> sulle spese
+                  di riqualificazione energetica per la tua abitazione principale. La detrazione viene
+                  recuperata in <strong>10 rate annuali di pari importo</strong> tramite la dichiarazione
+                  dei redditi: un vantaggio concreto che abbatte sensibilmente il costo dell'investimento.
                 </p>
               </div>
 

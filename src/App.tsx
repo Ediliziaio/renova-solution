@@ -21,6 +21,7 @@ import ChiSiamo from './pages/ChiSiamo';
 import Assistenza from './pages/Assistenza';
 import Contatti from './pages/Contatti';
 import Progetti from './pages/Progetti';
+import Preventivo from './pages/Preventivo';
 import Privacy from './pages/Privacy';
 import CookiePolicy from './pages/CookiePolicy';
 import DetrazioniFiscali2026 from './pages/blog/DetrazioniFiscali2026';
@@ -100,6 +101,7 @@ function App() {
           <Route path="/chi-siamo" element={<ChiSiamo />} />
           <Route path="/assistenza" element={<Assistenza />} />
           <Route path="/contatti" element={<Contatti />} />
+          <Route path="/preventivo" element={<Preventivo />} />
           <Route path="/progetti" element={<Progetti />} />
           <Route path="/privacy" element={<Privacy />} />
           <Route path="/cookie-policy" element={<CookiePolicy />} />

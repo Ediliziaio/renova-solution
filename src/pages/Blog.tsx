@@ -173,7 +173,7 @@ export default function Blog() {
       dataISO: '2026-02-15',
       lettura: '11 min',
       autore: 'Renova Team',
-      immagine: '/images/confronto-finestre.jpg',
+      immagine: '/images/muffa-umidita.jpg',
       slug: 'umidita-condensa-muffa-soluzioni-2026',
       keywords: ['condensa finestre', 'muffa casa cause', 'umidità pareti soluzioni', 'condensa vetri finestre', 'eliminare condensa infissi']
     }

@@ -155,7 +155,7 @@ export default function FinestreLegnoAlluminio() {
             </div>
             <div className="relative">
               <img 
-                src="https://images.unsplash.com/photo-1600210492493-0946911123ea?w=800&h=600&fit=crop" 
+                src="/images/finestra-legno-alluminio.jpg" 
                 alt="Dettaglio finestra legno-alluminio" 
                 className="rounded-2xl shadow-xl"
               />
@@ -265,7 +265,7 @@ export default function FinestreLegnoAlluminio() {
             </div>
             <div className="relative">
               <img 
-                src="https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=800&h=600&fit=crop" 
+                src="/images/finitura-classica.jpg" 
                 alt="Finestre legno-alluminio eleganti" 
                 className="rounded-2xl shadow-xl"
               />

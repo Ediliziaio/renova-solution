@@ -118,7 +118,7 @@ export default function PompeDiCalore() {
             </div>
             <div className="relative">
               <img 
-                src="https://images.unsplash.com/photo-1585771724684-38269d6639fd?w=800&h=600&fit=crop" 
+                src="/images/pompa-di-calore.jpg" 
                 alt="Pompa di calore installazione" 
                 className="rounded-2xl shadow-xl"
               />
@@ -152,7 +152,7 @@ export default function PompeDiCalore() {
             </div>
             <div className="relative">
               <img 
-                src="https://images.unsplash.com/photo-1585771724684-38269d6639fd?w=800&h=600&fit=crop" 
+                src="/images/pompa-di-calore.jpg" 
                 alt="Detrazione fiscale pompe di calore" 
                 className="rounded-2xl shadow-xl"
               />

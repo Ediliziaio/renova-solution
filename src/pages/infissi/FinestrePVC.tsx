@@ -8,6 +8,7 @@ import Recensioni from '../../components/Recensioni';
 import FormPreventivo from '../../components/FormPreventivo';
 import FAQ from '../../components/FAQ';
 import { Thermometer, VolumeX, Shield, Sparkles, CheckCircle, Euro } from 'lucide-react';
+import GalleriaLavori from '../../components/GalleriaLavori';
 
 export default function FinestrePVC() {
   const faqItems = [
@@ -153,7 +154,7 @@ export default function FinestrePVC() {
             </div>
             <div className="relative">
               <img 
-                src="https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=800&h=600&fit=crop" 
+                src="/images/finestra-pvc.jpg" 
                 alt="Dettaglio finestra PVC" 
                 className="rounded-2xl shadow-xl"
               />
@@ -234,7 +235,7 @@ export default function FinestrePVC() {
             </div>
             <div className="relative">
               <img 
-                src="https://images.unsplash.com/photo-1600607687644-c7171b42498f?w=800&h=600&fit=crop" 
+                src="/images/detrazioni-fiscali.jpg" 
                 alt="Detrazioni fiscali" 
                 className="rounded-2xl shadow-xl"
               />
@@ -267,6 +268,9 @@ export default function FinestrePVC() {
           </div>
         </div>
       </section>
+
+      {/* Progetti realizzati */}
+      <GalleriaLavori filtroCategoria="infissi" maxProgetti={5} mostraLinkCompleto={true} />
 
       <Recensioni />
       <FormPreventivo />

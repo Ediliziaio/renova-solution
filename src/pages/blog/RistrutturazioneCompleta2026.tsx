@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import Navbar from '../../components/Navbar';
 import Footer from '../../components/Footer';
-import SEO from '../../components/SEO';
+import SEO, { blogPostSchema } from '../../components/SEO';
 import { motion } from 'framer-motion';
 import { Calendar, Clock, User, ArrowLeft, CheckCircle, AlertCircle } from 'lucide-react';
 
@@ -68,6 +68,7 @@ export default function RistrutturazioneCompleta2026() {
 
       <script type="application/ld+json">{JSON.stringify(schema)}</script>
       <script type="application/ld+json">{JSON.stringify(breadcrumbSchema)}</script>
+      <script type="application/ld+json">{JSON.stringify(blogPostSchema(articleData.title, articleData.excerpt, `https://renovasolution.it/blog/${articleData.slug}`, `https://renovasolution.it${articleData.image}`, articleData.dateISO, articleData.author))}</script>
 
       <div className="min-h-screen bg-white">
         <Navbar />
@@ -462,9 +463,9 @@ export default function RistrutturazioneCompleta2026() {
 
               <div className="bg-blue-50 border-l-4 border-blue-400 p-4 my-6">
                 <p className="text-blue-800 text-sm">
-                  <strong>Importante:</strong> dal 2025 la cessione del credito e lo sconto in fattura non sono più
-                  disponibili per le ristrutturazioni ordinarie. L'unica modalità di fruizione del bonus è la
-                  <strong> detrazione diretta in dichiarazione dei redditi (IRPEF)</strong>, ripartita in 10 anni.
+                  <strong>Buone notizie:</strong> la <strong>detrazione fiscale del 50%</strong> per le ristrutturazioni
+                  sulla prima casa è confermata anche nel 2026. L'importo viene recuperato comodamente in
+                  <strong> 10 rate annuali di pari importo</strong> tramite la dichiarazione dei redditi (IRPEF).
                   Verifica sempre con il tuo commercialista prima di avviare i lavori.
                 </p>
               </div>

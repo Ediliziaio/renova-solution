@@ -219,7 +219,7 @@ export default function ChiSiamo() {
             style={{ scale: heroScale }}
           >
             <img 
-              src="https://images.unsplash.com/photo-1509391366360-2e959784a276?w=1920&h=1080&fit=crop" 
+              src="/images/impianto-fotovoltaico.jpg" 
               alt="Impianti fotovoltaici" 
               className="w-full h-full object-cover"
             />
@@ -401,7 +401,7 @@ export default function ChiSiamo() {
                     transition={{ duration: 0.3 }}
                   >
                     <img 
-                      src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=600&h=400&fit=crop" 
+                      src="/images/installazione-fotovoltaico.jpg" 
                       alt="Installazione fotovoltaico" 
                       className="w-full h-40 md:h-48 object-cover hover:scale-110 transition-transform duration-500"
                     />
@@ -412,7 +412,7 @@ export default function ChiSiamo() {
                     transition={{ duration: 0.3 }}
                   >
                     <img 
-                      src="https://images.unsplash.com/photo-1548613053-220e75581890?w=600&h=400&fit=crop" 
+                      src="/images/pannelli-solari.jpg" 
                       alt="Pannelli solari" 
                       className="w-full h-40 md:h-48 object-cover hover:scale-110 transition-transform duration-500"
                     />
@@ -423,7 +423,7 @@ export default function ChiSiamo() {
                     transition={{ duration: 0.3 }}
                   >
                     <img 
-                      src="https://images.unsplash.com/photo-1621905251189-08b45d6a269e?w=600&h=400&fit=crop" 
+                      src="/images/tecnici-al-lavoro.jpg" 
                       alt="Tecnici al lavoro" 
                       className="w-full h-40 md:h-48 object-cover hover:scale-110 transition-transform duration-500"
                     />
@@ -434,7 +434,7 @@ export default function ChiSiamo() {
                     transition={{ duration: 0.3 }}
                   >
                     <img 
-                      src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=600&h=400&fit=crop" 
+                      src="/images/infissi-chi-siamo.jpg" 
                       alt="Infissi" 
                       className="w-full h-40 md:h-48 object-cover hover:scale-110 transition-transform duration-500"
                     />
@@ -771,7 +771,7 @@ export default function ChiSiamo() {
               >
                 <div className="aspect-square rounded-3xl overflow-hidden shadow-2xl">
                   <img 
-                    src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=800&h=800&fit=crop" 
+                    src="/images/tecnico-al-lavoro.jpg" 
                     alt="Tecnico al lavoro" 
                     className="w-full h-full object-cover"
                   />

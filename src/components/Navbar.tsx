@@ -231,8 +231,8 @@ export default function Navbar() {
             </div>
 
             {/* CTA Button - Desktop */}
-            <Link 
-              to="/contatti"
+            <Link
+              to="/preventivo"
               className="hidden xl:block bg-[#C8E600] hover:bg-[#b3cc00] text-black px-5 py-2.5 rounded-full text-sm font-bold transition-colors"
             >
               Preventivo
@@ -470,7 +470,7 @@ export default function Navbar() {
             </Link>
             
             <Link 
-              to="/contatti" 
+              to="/preventivo"
               className="block w-full bg-[#C8E600] text-black text-center py-3 rounded-full font-bold mt-4 hover:bg-[#b3cc00] transition-colors"
               onClick={() => setMobileMenuOpen(false)}
             >

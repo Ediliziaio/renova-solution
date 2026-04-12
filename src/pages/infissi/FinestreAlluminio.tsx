@@ -153,7 +153,7 @@ export default function FinestreAlluminio() {
             </div>
             <div className="relative">
               <img 
-                src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&h=600&fit=crop" 
+                src="/images/casa-ristrutturata.jpg" 
                 alt="Finestra alluminio design" 
                 className="rounded-2xl shadow-xl"
               />
@@ -187,7 +187,7 @@ export default function FinestreAlluminio() {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="relative order-2 lg:order-1">
               <img 
-                src="https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?w=800&h=600&fit=crop" 
+                src="/images/taglio-termico-alluminio.jpg" 
                 alt="Taglio termico alluminio" 
                 className="rounded-2xl shadow-xl"
               />
@@ -276,7 +276,7 @@ export default function FinestreAlluminio() {
             </div>
             <div className="relative">
               <img 
-                src="https://images.unsplash.com/photo-1600566752355-35792bedcfea?w=800&h=600&fit=crop" 
+                src="/images/finestre-alluminio-moderne.jpg" 
                 alt="Finestre alluminio moderne" 
                 className="rounded-2xl shadow-xl"
               />

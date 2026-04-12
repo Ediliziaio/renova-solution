@@ -112,7 +112,7 @@ export default function FotovoltaicoAziende() {
             </div>
             <div className="relative">
               <img 
-                src="https://images.unsplash.com/photo-1466611653911-95081537e5b7?w=800&h=600&fit=crop" 
+                src="/images/fotovoltaico-aziendale.jpg" 
                 alt="Impianto fotovoltaico aziendale" 
                 className="rounded-2xl shadow-xl"
               />
@@ -153,7 +153,7 @@ export default function FotovoltaicoAziende() {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="relative">
               <img 
-                src="https://images.unsplash.com/photo-1620714223084-8fcacc6dfd8d?w=800&h=600&fit=crop" 
+                src="/images/batteria-accumulo-ext.jpg" 
                 alt="Sistemi di accumulo" 
                 className="rounded-2xl shadow-xl"
               />

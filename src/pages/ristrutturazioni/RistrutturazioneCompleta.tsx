@@ -175,7 +175,7 @@ export default function RistrutturazioneCompleta() {
             </div>
             <div className="relative">
               <img 
-                src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&h=600&fit=crop" 
+                src="/images/casa-ristrutturata.jpg" 
                 alt="Casa ristrutturata" 
                 className="rounded-2xl shadow-xl"
               />
@@ -253,7 +253,7 @@ export default function RistrutturazioneCompleta() {
             </div>
             <div className="relative">
               <img 
-                src="https://images.unsplash.com/photo-1600607687644-c7171b42498f?w=800&h=600&fit=crop" 
+                src="/images/detrazioni-fiscali.jpg" 
                 alt="Detrazioni fiscali" 
                 className="rounded-2xl shadow-xl"
               />

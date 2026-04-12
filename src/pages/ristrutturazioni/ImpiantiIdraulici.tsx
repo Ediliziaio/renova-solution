@@ -153,7 +153,7 @@ export default function ImpiantiIdraulici() {
             </div>
             <div className="relative">
               <img 
-                src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&h=600&fit=crop" 
+                src="/images/tubi-idraulici.jpg" 
                 alt="Tubi idraulici" 
                 className="rounded-2xl shadow-xl"
               />
@@ -241,7 +241,7 @@ export default function ImpiantiIdraulici() {
             </div>
             <div className="relative">
               <img 
-                src="https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?w=800&h=600&fit=crop" 
+                src="/images/bagno-moderno.jpg" 
                 alt="Bagno moderno" 
                 className="rounded-2xl shadow-xl"
               />
@@ -280,7 +280,7 @@ export default function ImpiantiIdraulici() {
             </div>
             <div className="relative">
               <img 
-                src="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?w=800&h=600&fit=crop" 
+                src="/images/installazione-professionale.jpg" 
                 alt="Installazione professionale" 
                 className="rounded-2xl shadow-xl"
               />
