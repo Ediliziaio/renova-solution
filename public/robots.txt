@@ -1,6 +1,6 @@
 User-agent: *
 Allow: /
-Sitemap: https://renovasolution.it/sitemap.xml
+Sitemap: https://www.renovasolution.it/sitemap.xml
 
 User-agent: Googlebot
 Allow: /
