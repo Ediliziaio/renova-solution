@@ -17,20 +17,24 @@ import { CheckCircle, Zap, Sun, Battery } from 'lucide-react';
 export default function FotovoltaicoPrivati() {
   const faqItems = [
     {
-      question: 'Quanto costa un impianto fotovoltaico da 6 kW?',
-      answer: 'Un impianto da 6 kW (ideale per una famiglia di 4 persone) costa generalmente tra 8.000€ e 12.000€ prima delle detrazioni. Con il 50% di detrazione fiscale, il costo effettivo si riduce a 4.000€-6.000€.',
+      question: 'Quanto costa un impianto fotovoltaico per casa?',
+      answer: 'Il costo di un impianto fotovoltaico residenziale varia in base alla potenza: un impianto da 3 kW costa tra 5.000€ e 7.000€, mentre uno da 6 kW (ideale per una famiglia di 4 persone) si aggira tra 8.000€ e 12.000€. Grazie alla detrazione fiscale del 50%, il costo effettivo si dimezza, rendendo l\'investimento ancora più conveniente e recuperabile in 4-6 anni.',
     },
     {
-      question: 'Quanto si risparmia in bolletta?',
-      answer: 'Con un impianto da 6 kW puoi ridurre la bolletta elettrica fino al 70-80%, con un risparmio annuo di 800€-1.500€ a seconda dei tuoi consumi.',
+      question: 'Quanto produce un impianto fotovoltaico da 6 kW?',
+      answer: 'In Veneto e Friuli Venezia Giulia, un impianto fotovoltaico da 6 kW produce mediamente tra 7.000 e 8.500 kWh all\'anno, grazie alle ottime condizioni di irraggiamento solare del Nord-Est Italia. Questa produzione copre abbondantemente il fabbisogno energetico annuo di una famiglia media, che si attesta intorno ai 4.000-5.000 kWh, con la possibilità di immettere il surplus in rete tramite lo scambio sul posto.',
     },
     {
-      question: 'Serve la batteria di accumulo?',
-      answer: 'Consigliatissima! Senza accumulo, l\'energia non consumata immediatamente viene immessa in rete. Con la batteria, la conservi per usarla di sera e di notte, massimizzando il risparmio fino al 90%.',
+      question: 'Quali detrazioni fiscali sono previste per il fotovoltaico?',
+      answer: 'L\'installazione di un impianto fotovoltaico beneficia della detrazione fiscale del 50% per l\'abitazione principale, recuperabile in 10 rate annuali nella dichiarazione dei redditi, con un limite massimo di spesa di 96.000€. Per le seconde case la detrazione è del 36%. Renova Solution si occupa di tutta la pratica burocratica, inclusa la comunicazione ENEA e la gestione della connessione con il GSE.',
     },
     {
-      question: 'Quanto dura un impianto fotovoltaico?',
-      answer: 'I pannelli fotovoltaici hanno una vita utile di 25-30 anni, con garanzia di prestazione che garantisce almeno l\'80% dell\'efficienza iniziale dopo 25 anni.',
+      question: 'Quanto durano i pannelli fotovoltaici?',
+      answer: 'I pannelli fotovoltaici di ultima generazione hanno una durata garantita di 25-30 anni, con una garanzia di prestazione che assicura almeno l\'80% dell\'efficienza iniziale dopo 25 anni. L\'inverter ha generalmente una garanzia di 10-15 anni. La manutenzione richiesta è minima: basta un controllo annuale e la pulizia periodica dei moduli per mantenere le prestazioni ottimali.',
+    },
+    {
+      question: 'Conviene installare una batteria di accumulo con il fotovoltaico?',
+      answer: 'La batteria di accumulo è fortemente consigliata perché permette di immagazzinare l\'energia solare prodotta durante il giorno e utilizzarla di sera e di notte, portando l\'autoconsumo dal 30-40% fino al 90%. Questo significa una riduzione drastica della bolletta elettrica e una maggiore indipendenza dalla rete. Le batterie moderne al litio hanno una garanzia di 10 anni e una vita utile superiore ai 15 anni.',
     },
   ];
 

@@ -36,6 +36,9 @@ import RistrutturazioneCompleta2026 from './pages/blog/RistrutturazioneCompleta2
 import FotovoltaicoAziende2026 from './pages/blog/FotovoltaicoAziende2026';
 import ClasseEnergeticaCasa2026 from './pages/blog/ClasseEnergeticaCasa2026';
 import UmiditaCondensaMuffa2026 from './pages/blog/UmiditaCondensaMuffa2026';
+import BonusInfissi2026 from './pages/blog/BonusInfissi2026';
+import FotovoltaicoPompaCalore2026 from './pages/blog/FotovoltaicoPompaCalore2026';
+import RistrutturazioneBagno2026 from './pages/blog/RistrutturazioneBagno2026';
 
 // GEO Landing Pages — Fotovoltaico
 import FotovoltaicoTrieste from './pages/geo/FotovoltaicoTrieste';
@@ -119,6 +122,9 @@ function App() {
           <Route path="/blog/fotovoltaico-aziende-2026" element={<FotovoltaicoAziende2026 />} />
           <Route path="/blog/classe-energetica-casa-2026" element={<ClasseEnergeticaCasa2026 />} />
           <Route path="/blog/umidita-condensa-muffa-soluzioni-2026" element={<UmiditaCondensaMuffa2026 />} />
+          <Route path="/blog/bonus-infissi-2026" element={<BonusInfissi2026 />} />
+          <Route path="/blog/fotovoltaico-pompa-calore-2026" element={<FotovoltaicoPompaCalore2026 />} />
+          <Route path="/blog/ristrutturazione-bagno-2026" element={<RistrutturazioneBagno2026 />} />
 
           {/* GEO — Fotovoltaico per provincia */}
           <Route path="/fotovoltaico-trieste" element={<FotovoltaicoTrieste />} />

@@ -32,6 +32,27 @@ interface GeoServicePageProps {
   ctaText: string;
 }
 
+// All provinces with their slugs for cross-linking
+const allProvinces = [
+  { name: 'Trieste', slug: 'trieste' },
+  { name: 'Udine', slug: 'udine' },
+  { name: 'Pordenone', slug: 'pordenone' },
+  { name: 'Gorizia', slug: 'gorizia' },
+  { name: 'Venezia', slug: 'venezia' },
+  { name: 'Padova', slug: 'padova' },
+  { name: 'Verona', slug: 'verona' },
+  { name: 'Vicenza', slug: 'vicenza' },
+  { name: 'Treviso', slug: 'treviso' },
+  { name: 'Belluno', slug: 'belluno' },
+  { name: 'Rovigo', slug: 'rovigo' },
+];
+
+const allServices: Array<{ key: 'fotovoltaico' | 'infissi' | 'ristrutturazioni'; label: string; page: string }> = [
+  { key: 'fotovoltaico', label: 'Fotovoltaico', page: 'fotovoltaico-privati' },
+  { key: 'infissi', label: 'Infissi', page: 'infissi' },
+  { key: 'ristrutturazioni', label: 'Ristrutturazioni', page: 'ristrutturazioni' },
+];
+
 const serviceIcons = {
   fotovoltaico: Sun,
   infissi: HomeIcon,
@@ -68,10 +89,12 @@ export default function GeoServicePage({
   const Icon = serviceIcons[servizio];
   const canonicalUrl = `https://www.renovasolution.it/${servizio}-${provinciaSlug}`;
 
+  const serviceLabel = servizio.charAt(0).toUpperCase() + servizio.slice(1);
+
   const localBusinessSchema = {
     '@context': 'https://schema.org',
     '@type': 'LocalBusiness',
-    name: `Renova Solution - ${servizio.charAt(0).toUpperCase() + servizio.slice(1)} ${provincia}`,
+    name: `Renova Solution - ${serviceLabel} ${provincia}`,
     image: `https://www.renovasolution.it${serviceImages[servizio]}`,
     '@id': canonicalUrl,
     url: canonicalUrl,
@@ -90,14 +113,21 @@ export default function GeoServicePage({
       latitude: lat,
       longitude: lng,
     },
-    areaServed: {
-      '@type': 'City',
-      name: provincia,
-      containedInPlace: {
-        '@type': 'AdministrativeArea',
-        name: regione,
+    hasMap: `https://www.google.com/maps?q=${lat},${lng}`,
+    areaServed: [
+      {
+        '@type': 'City',
+        name: provincia,
+        containedInPlace: {
+          '@type': 'AdministrativeArea',
+          name: regione,
+        },
       },
-    },
+      ...comuni.map((comune) => ({
+        '@type': 'City',
+        name: comune,
+      })),
+    ],
     openingHoursSpecification: [
       {
         '@type': 'OpeningHoursSpecification',
@@ -112,23 +142,51 @@ export default function GeoServicePage({
         closes: '12:00',
       },
     ],
+    sameAs: [
+      'https://facebook.com/renovasolution',
+      'https://instagram.com/renovasolution',
+      'https://linkedin.com/company/renovasolution',
+    ],
   };
 
   const serviceSchema = {
     '@context': 'https://schema.org',
     '@type': 'Service',
-    name: `${servizio.charAt(0).toUpperCase() + servizio.slice(1)} a ${provincia}`,
+    name: `${serviceLabel} a ${provincia}`,
     description: seoDescription,
+    serviceType: serviceLabel,
     provider: {
       '@type': 'LocalBusiness',
       name: 'Renova Solution',
       telephone: '+39-393-959-6194',
+      address: {
+        '@type': 'PostalAddress',
+        addressLocality: 'Prata di Pordenone',
+        addressRegion: 'PN',
+        addressCountry: 'IT',
+      },
     },
     areaServed: {
       '@type': 'City',
       name: provincia,
+      containedInPlace: {
+        '@type': 'AdministrativeArea',
+        name: regione,
+      },
     },
     url: canonicalUrl,
+    offers: {
+      '@type': 'Offer',
+      availability: 'https://schema.org/InStock',
+      areaServed: {
+        '@type': 'City',
+        name: provincia,
+      },
+      priceSpecification: {
+        '@type': 'PriceSpecification',
+        priceCurrency: 'EUR',
+      },
+    },
   };
 
   const faqSchema = {
@@ -144,6 +202,8 @@ export default function GeoServicePage({
     })),
   };
 
+  const servicePageSlug = servizio === 'fotovoltaico' ? 'fotovoltaico-privati' : servizio;
+
   const breadcrumbSchema = {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
@@ -157,13 +217,13 @@ export default function GeoServicePage({
       {
         '@type': 'ListItem',
         position: 2,
-        name: servizio.charAt(0).toUpperCase() + servizio.slice(1),
-        item: `https://www.renovasolution.it/${servizio === 'fotovoltaico' ? 'fotovoltaico-privati' : servizio}`,
+        name: serviceLabel,
+        item: `https://www.renovasolution.it/${servicePageSlug}`,
       },
       {
         '@type': 'ListItem',
         position: 3,
-        name: `${servizio.charAt(0).toUpperCase() + servizio.slice(1)} ${provincia}`,
+        name: `${serviceLabel} ${provincia}`,
         item: canonicalUrl,
       },
     ],
@@ -262,10 +322,10 @@ export default function GeoServicePage({
               <Link to="/" className="hover:text-[#C8E600] transition-colors">Home</Link>
               <span>/</span>
               <Link
-                to={`/${servizio === 'fotovoltaico' ? 'fotovoltaico-privati' : servizio}`}
+                to={`/${servicePageSlug}`}
                 className="hover:text-[#C8E600] transition-colors"
               >
-                {servizio.charAt(0).toUpperCase() + servizio.slice(1)}
+                {serviceLabel}
               </Link>
               <span>/</span>
               <span className="text-gray-900 font-medium">{provincia} ({regioneShort})</span>
@@ -288,7 +348,7 @@ export default function GeoServicePage({
                   <Icon className="w-6 h-6 text-black" />
                 </div>
                 <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900">
-                  {servizio.charAt(0).toUpperCase() + servizio.slice(1)} a {provincia}
+                  {serviceLabel} a {provincia}
                 </h2>
               </div>
               <div className="text-gray-600 text-base md:text-lg leading-relaxed space-y-4">
@@ -400,7 +460,7 @@ export default function GeoServicePage({
               className="text-center mb-12"
             >
               <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900">
-                Domande frequenti — {servizio.charAt(0).toUpperCase() + servizio.slice(1)} a {provincia}
+                Domande frequenti — {serviceLabel} a {provincia}
               </h2>
             </motion.div>
 
@@ -458,24 +518,47 @@ export default function GeoServicePage({
           </div>
         </section>
 
-        {/* LINK ALTRE PROVINCE */}
+        {/* INTERNAL CROSS-LINKS: same service in other provinces + other services in same province */}
         <section className="py-12 bg-gray-50 border-t border-gray-200">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h3 className="text-lg font-bold text-gray-900 mb-4">
-              {servizio.charAt(0).toUpperCase() + servizio.slice(1)} in altre province
-            </h3>
-            <div className="flex flex-wrap gap-2">
-              {['Trieste', 'Udine', 'Pordenone', 'Gorizia', 'Venezia', 'Padova', 'Verona', 'Vicenza', 'Treviso', 'Belluno', 'Rovigo']
-                .filter((p) => p !== provincia)
-                .map((p) => (
-                  <Link
-                    key={p}
-                    to={`/${servizio}-${p.toLowerCase()}`}
-                    className="text-sm text-gray-600 hover:text-[#C8E600] hover:underline transition-colors"
-                  >
-                    {servizio.charAt(0).toUpperCase() + servizio.slice(1)} {p}
-                  </Link>
-                ))}
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-8">
+            {/* Same service, other provinces */}
+            <div>
+              <h3 className="text-lg font-bold text-gray-900 mb-4">
+                {serviceLabel} in altre province
+              </h3>
+              <div className="flex flex-wrap gap-3">
+                {allProvinces
+                  .filter((p) => p.slug !== provinciaSlug)
+                  .map((p) => (
+                    <Link
+                      key={p.slug}
+                      to={`/${servizio}-${p.slug}`}
+                      className="text-sm bg-white border border-gray-200 rounded-full px-4 py-2 text-gray-700 hover:border-[#C8E600] hover:text-black transition-colors"
+                    >
+                      {serviceLabel} {p.name}
+                    </Link>
+                  ))}
+              </div>
+            </div>
+
+            {/* Other services, same province */}
+            <div>
+              <h3 className="text-lg font-bold text-gray-900 mb-4">
+                Altri servizi a {provincia}
+              </h3>
+              <div className="flex flex-wrap gap-3">
+                {allServices
+                  .filter((s) => s.key !== servizio)
+                  .map((s) => (
+                    <Link
+                      key={s.key}
+                      to={`/${s.key}-${provinciaSlug}`}
+                      className="text-sm bg-white border border-gray-200 rounded-full px-4 py-2 text-gray-700 hover:border-[#C8E600] hover:text-black transition-colors"
+                    >
+                      {s.label} {provincia}
+                    </Link>
+                  ))}
+              </div>
             </div>
           </div>
         </section>

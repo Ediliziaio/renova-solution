@@ -12,20 +12,24 @@ import { Shield, Thermometer, VolumeX, Sun, Wind, Lock, CheckCircle, ArrowRight 
 export default function Infissi() {
   const faqItems = [
     {
-      question: 'Quanto costa cambiare gli infissi di un appartamento?',
-      answer: 'Il costo dipende dal numero di finestre e dal materiale scelto. In media, per un appartamento di 100mq con 6-8 finestre si va dai 4.000€ ai 10.000€. Con la detrazione del 50%, il costo effettivo si dimezza.',
+      question: 'Quanto costa la sostituzione degli infissi in un appartamento?',
+      answer: 'Il costo per la sostituzione degli infissi dipende dal materiale scelto, dalle dimensioni e dal numero di finestre. Per un appartamento di 100 mq con 6-8 finestre, il prezzo varia dai 4.000€ ai 10.000€ per infissi in PVC, e dai 6.000€ ai 14.000€ per il legno-alluminio. Con la detrazione fiscale del 50% per l\'abitazione principale, il costo effettivo si dimezza notevolmente.',
     },
     {
-      question: 'PVC o alluminio: cosa scegliere?',
-      answer: 'Il PVC offre il miglior isolamento termico a un prezzo contenuto. L\'alluminio è più resistente e ha profili più sottili. Per il massimo comfort, il PVC è la scelta migliore per la maggior parte delle case.',
+      question: 'Meglio infissi in PVC o in alluminio?',
+      answer: 'Gli infissi in PVC offrono il miglior rapporto qualità-prezzo con eccellenti proprietà di isolamento termico e acustico, richiedono poca manutenzione e sono disponibili in molte finiture. L\'alluminio è più indicato per grandi vetrate e contesti moderni grazie ai profili più sottili e alla maggiore resistenza strutturale. Il legno-alluminio rappresenta la scelta premium, combinando il calore estetico del legno interno con la durabilità dell\'alluminio esterno.',
     },
     {
-      question: 'Quanto si risparmia in bolletta?',
-      answer: 'Con infissi nuovi puoi ridurre i consumi di riscaldamento e raffrescamento fino al 30-40%. Su una bolletta annua di 1.500€, il risparmio è di circa 450-600€ all\'anno.',
+      question: 'Quali detrazioni fiscali sono previste per la sostituzione degli infissi?',
+      answer: 'La sostituzione degli infissi rientra nella detrazione fiscale del 50% per l\'abitazione principale (bonus ristrutturazione), con un limite massimo di spesa di 96.000€ per unità immobiliare, recuperabile in 10 rate annuali nella dichiarazione dei redditi. Per accedere alla detrazione è necessario che i nuovi serramenti rispettino i valori di trasmittanza termica previsti dalla normativa. Renova Solution gestisce integralmente la pratica ENEA richiesta.',
     },
     {
-      question: 'Quanto dura l\'installazione?',
-      answer: 'Per un appartamento standard l\'installazione richiede generalmente 1-2 giorni lavorativi. Non serve lasciare la casa, i tecnici lavorano da fuori.',
+      question: 'Quanto si risparmia in bolletta con infissi nuovi?',
+      answer: 'Sostituendo vecchi infissi con modelli di ultima generazione a doppio o triplo vetro, è possibile ridurre le dispersioni termiche fino al 40%, con un risparmio annuo in bolletta compreso tra 400€ e 700€ a seconda della superficie vetrata e del tipo di riscaldamento utilizzato. L\'investimento si ripaga generalmente in 5-8 anni, considerando anche il beneficio della detrazione fiscale.',
+    },
+    {
+      question: 'Quali sono i tempi di installazione per la sostituzione degli infissi?',
+      answer: 'Per un appartamento standard con 6-8 finestre, l\'installazione completa richiede generalmente 1-2 giorni lavorativi. I nostri tecnici specializzati lavorano dall\'esterno, quindi non è necessario lasciare la casa durante i lavori. Dalla firma del contratto alla posa in opera, i tempi di consegna sono di circa 4-6 settimane, necessarie per la produzione su misura dei serramenti.',
     },
   ];
 

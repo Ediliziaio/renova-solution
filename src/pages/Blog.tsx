@@ -176,15 +176,54 @@ export default function Blog() {
       immagine: '/images/muffa-umidita.jpg',
       slug: 'umidita-condensa-muffa-soluzioni-2026',
       keywords: ['condensa finestre', 'muffa casa cause', 'umidità pareti soluzioni', 'condensa vetri finestre', 'eliminare condensa infissi']
+    },
+    {
+      id: 13,
+      titolo: 'Bonus infissi 2026: guida completa alla detrazione del 50% per finestre e serramenti',
+      excerpt: 'Tutto sul bonus infissi 2026: requisiti, importi massimi, documenti necessari, come richiederlo e quali infissi scegliere per massimizzare risparmio energetico e detrazione fiscale.',
+      categoria: 'Fisco',
+      data: '12 Aprile 2026',
+      dataISO: '2026-04-12',
+      lettura: '12 min',
+      autore: 'Renova Team',
+      immagine: '/images/confronto-finestre.jpg',
+      slug: 'bonus-infissi-2026',
+      keywords: ['bonus infissi 2026', 'detrazione infissi', 'sostituzione finestre detrazione', 'ecobonus infissi', 'bonus serramenti']
+    },
+    {
+      id: 14,
+      titolo: 'Fotovoltaico con pompa di calore 2026: la combinazione perfetta per azzerare le bollette',
+      excerpt: 'Come abbinare impianto fotovoltaico e pompa di calore per eliminare le bollette di gas e luce. Costi, risparmi reali, dimensionamento e incentivi fiscali disponibili nel 2026.',
+      categoria: 'Fotovoltaico',
+      data: '14 Aprile 2026',
+      dataISO: '2026-04-14',
+      lettura: '13 min',
+      autore: 'Marco Bianchi',
+      immagine: '/images/impianto-fotovoltaico.jpg',
+      slug: 'fotovoltaico-pompa-calore-2026',
+      keywords: ['fotovoltaico pompa di calore', 'casa senza bollette', 'fotovoltaico riscaldamento', 'autoconsumo fotovoltaico', 'pompa calore fotovoltaico']
+    },
+    {
+      id: 15,
+      titolo: 'Ristrutturazione bagno 2026: costi, tempi, tendenze e bonus fiscali',
+      excerpt: 'Guida completa alla ristrutturazione del bagno nel 2026: costi al metro quadro, tempistiche reali, tendenze di design, materiali consigliati, detrazioni fiscali e errori da evitare.',
+      categoria: 'Ristrutturazione',
+      data: '16 Aprile 2026',
+      dataISO: '2026-04-16',
+      lettura: '14 min',
+      autore: 'Renova Team',
+      immagine: '/images/progetti/ristrutturazione-bagno.jpg',
+      slug: 'ristrutturazione-bagno-2026',
+      keywords: ['ristrutturazione bagno 2026', 'costo ristrutturazione bagno', 'rifacimento bagno costi', 'bonus bagno 2026', 'bagno moderno tendenze']
     }
   ];
 
   const categorie = [
-    { name: 'Tutti', slug: 'tutti', count: 12 },
-    { name: 'Fotovoltaico', slug: 'fotovoltaico', count: 3 },
-    { name: 'Ristrutturazione', slug: 'ristrutturazione', count: 3 },
+    { name: 'Tutti', slug: 'tutti', count: 15 },
+    { name: 'Fotovoltaico', slug: 'fotovoltaico', count: 4 },
+    { name: 'Ristrutturazione', slug: 'ristrutturazione', count: 4 },
     { name: 'Infissi', slug: 'infissi', count: 3 },
-    { name: 'Fisco', slug: 'fisco', count: 2 },
+    { name: 'Fisco', slug: 'fisco', count: 3 },
     { name: 'Riscaldamento', slug: 'riscaldamento', count: 1 },
     { name: 'Manutenzione', slug: 'manutenzione', count: 1 }
   ];

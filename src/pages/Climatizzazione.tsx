@@ -11,20 +11,24 @@ import { Building2, Home, Zap, Volume2, Wind } from 'lucide-react';
 export default function Climatizzazione() {
   const faqItems = [
     {
-      question: 'Quanto costa climatizzare un ambiente da 100mq con sistemi di ultima generazione?',
-      answer: 'Il costo dipende dal tipo di sistema scelto, ma per un appartamento di 100mq si va dai 3.000€ ai 8.000€ per impianti multi-split di ultima generazione.',
+      question: 'Quanto costa installare una pompa di calore per casa?',
+      answer: 'Il costo di una pompa di calore per un appartamento di 100 mq varia dai 3.000€ ai 8.000€ per un sistema multi-split, e dai 6.000€ ai 12.000€ per una pompa di calore aria-acqua con impianto radiante. Il prezzo dipende dalla potenza necessaria, dal numero di unità interne e dalla marca scelta. Con la detrazione fiscale del 50% o il Conto Termico 3.0, l\'investimento diventa ancora più accessibile.',
     },
     {
-      question: 'Quanto si risparmia collegando l\'impianto di climatizzazione a un sistema fotovoltaico?',
-      answer: 'Collegando la climatizzazione al fotovoltaico si può risparmiare fino al 70-80% sui costi di raffrescamento e riscaldamento.',
+      question: 'Quanto si risparmia con la pompa di calore rispetto alla caldaia a gas?',
+      answer: 'Una pompa di calore di ultima generazione consuma fino al 50-60% in meno rispetto a una caldaia tradizionale a gas, grazie a un coefficiente di prestazione (COP) medio di 3-4, ovvero per ogni kWh di energia elettrica consumata ne produce 3-4 di energia termica. Abbinata a un impianto fotovoltaico, il risparmio può arrivare fino all\'80% sui costi di riscaldamento e raffrescamento, eliminando completamente la bolletta del gas.',
     },
     {
-      question: 'Quanti pannelli fotovoltaici servono per far funzionare un condizionatore?',
-      answer: 'Per alimentare un condizionatore da 3kW servono circa 8-10 pannelli fotovoltaici da 400W.',
+      question: 'Ogni quanto va fatta la manutenzione del climatizzatore?',
+      answer: 'La manutenzione ordinaria del climatizzatore va effettuata almeno una volta all\'anno, preferibilmente prima della stagione estiva. Include la pulizia dei filtri, il controllo del gas refrigerante, la verifica delle prestazioni e la sanificazione delle unità interne per garantire aria pulita e salubre. Renova Solution offre contratti di manutenzione programmata che prolungano la vita dell\'impianto e mantengono i consumi sempre al minimo.',
     },
     {
-      question: 'Il sistema di accumulo è necessario per climatizzare la casa?',
-      answer: 'Non è obbligatorio, ma consente di utilizzare l\'energia solare anche di sera e durante la notte per il riscaldamento o il raffrescamento.',
+      question: 'Quali incentivi fiscali esistono per la climatizzazione?',
+      answer: 'L\'installazione di un climatizzatore a pompa di calore beneficia della detrazione fiscale del 50% per l\'abitazione principale (recuperabile in 10 rate annuali), oppure del Conto Termico 3.0 che rimborsa fino al 65% della spesa entro 90 giorni. Per gli interventi di sostituzione della caldaia con pompa di calore in classe energetica superiore, è possibile accedere anche all\'Ecobonus. Renova Solution ti guida nella scelta dell\'incentivo più vantaggioso per la tua situazione.',
+    },
+    {
+      question: 'Come si dimensiona correttamente un impianto di climatizzazione?',
+      answer: 'Il dimensionamento corretto di un impianto di climatizzazione dipende da diversi fattori: la superficie dell\'ambiente, l\'esposizione solare, il livello di isolamento termico dell\'edificio, il numero di occupanti e la destinazione d\'uso dei locali. Come regola indicativa, servono circa 300-350 W per metro quadro in ambienti ben isolati. I nostri tecnici effettuano un sopralluogo gratuito con calcolo termotecnico per garantire il massimo comfort con il minimo consumo energetico.',
     },
   ];
 
