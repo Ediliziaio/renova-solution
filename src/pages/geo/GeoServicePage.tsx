@@ -66,13 +66,13 @@ export default function GeoServicePage({
   ctaText,
 }: GeoServicePageProps) {
   const Icon = serviceIcons[servizio];
-  const canonicalUrl = `https://renovasolution.it/${servizio}-${provinciaSlug}`;
+  const canonicalUrl = `https://www.renovasolution.it/${servizio}-${provinciaSlug}`;
 
   const localBusinessSchema = {
     '@context': 'https://schema.org',
     '@type': 'LocalBusiness',
     name: `Renova Solution - ${servizio.charAt(0).toUpperCase() + servizio.slice(1)} ${provincia}`,
-    image: `https://renovasolution.it${serviceImages[servizio]}`,
+    image: `https://www.renovasolution.it${serviceImages[servizio]}`,
     '@id': canonicalUrl,
     url: canonicalUrl,
     telephone: '+39-393-959-6194',
@@ -152,13 +152,13 @@ export default function GeoServicePage({
         '@type': 'ListItem',
         position: 1,
         name: 'Home',
-        item: 'https://renovasolution.it',
+        item: 'https://www.renovasolution.it',
       },
       {
         '@type': 'ListItem',
         position: 2,
         name: servizio.charAt(0).toUpperCase() + servizio.slice(1),
-        item: `https://renovasolution.it/${servizio === 'fotovoltaico' ? 'fotovoltaico-privati' : servizio}`,
+        item: `https://www.renovasolution.it/${servizio === 'fotovoltaico' ? 'fotovoltaico-privati' : servizio}`,
       },
       {
         '@type': 'ListItem',
@@ -178,7 +178,7 @@ export default function GeoServicePage({
         description={seoDescription}
         keywords={seoKeywords}
         canonical={canonicalUrl}
-        ogImage={`https://renovasolution.it${serviceImages[servizio]}`}
+        ogImage={`https://www.renovasolution.it${serviceImages[servizio]}`}
         schema={combinedSchema}
         geoRegion={codiceISO}
         geoPlacename={`${provincia}, ${regione}`}

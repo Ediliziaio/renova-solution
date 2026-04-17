@@ -43,7 +43,7 @@ export default function FotovoltaicoPrivati() {
   const schema = serviceSchema(
     'Impianti Fotovoltaici per Privati',
     'Impianti fotovoltaici con accumulo per famiglie in Veneto e Friuli. Sopralluogo gratuito, installazione in 2-3 giorni, detrazione 50%.',
-    'https://renovasolution.it/fotovoltaico-privati'
+    'https://www.renovasolution.it/fotovoltaico-privati'
   );
 
   const faqStructuredData = faqSchema(faqItems);
@@ -55,7 +55,7 @@ export default function FotovoltaicoPrivati() {
         description="Impianti fotovoltaici con batterie di accumulo per casa. Risparmia fino al 70% in bolletta. Sopralluogo gratuito, installazione in 2-3 giorni. Detrazione 50%."
         keywords="fotovoltaico casa, impianto solare privati, pannelli fotovoltaici, batterie accumulo, fotovoltaico Treviso, fotovoltaico Udine"
         schema={[schema, faqStructuredData]}
-        canonical="https://renovasolution.it/fotovoltaico-privati"
+        canonical="https://www.renovasolution.it/fotovoltaico-privati"
         ogImage="/images/fotovoltaico-casa.jpg"
       />
     <div className="min-h-screen bg-white">

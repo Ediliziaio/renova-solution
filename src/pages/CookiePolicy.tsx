@@ -9,7 +9,7 @@ export default function CookiePolicy() {
         title="Cookie Policy | Renova Solution"
         description="Informativa sui cookie di Renova Solution. Scopri quali cookie utilizziamo e come gestire le tue preferenze."
         keywords="cookie policy, cookie, GDPR, privacy, Renova Solution"
-        canonical="https://renovasolution.it/cookie-policy"
+        canonical="https://www.renovasolution.it/cookie-policy"
       />
       
       <div className="min-h-screen bg-white">

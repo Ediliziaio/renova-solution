@@ -180,7 +180,7 @@ export default function Home() {
         title="Renova Solution | Fotovoltaico, Infissi e Ristrutturazioni in Friuli Venezia Giulia e Veneto"
         description="Impianti fotovoltaici, infissi ad alta efficienza e ristrutturazioni chiavi in mano in Friuli Venezia Giulia e Veneto. Sopralluogo gratuito a Trieste, Udine, Pordenone, Gorizia, Treviso, Venezia, Padova, Vicenza, Verona, Belluno, Rovigo."
         keywords="fotovoltaico friuli venezia giulia, fotovoltaico veneto, infissi friuli, infissi veneto, ristrutturazioni friuli venezia giulia, ristrutturazioni veneto, pannelli solari trieste, infissi udine, ristrutturazioni padova, fotovoltaico treviso, infissi pordenone, fotovoltaico vicenza, infissi verona, ristrutturazioni venezia, cappotto termico, finestre PVC, detrazione fiscale 50%"
-        canonical="https://renovasolution.it/"
+        canonical="https://www.renovasolution.it/"
         schema={[organizationSchema, localBusinessSchema]}
       />
       <div className="min-h-screen bg-white overflow-x-hidden">

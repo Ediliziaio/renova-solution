@@ -9,7 +9,7 @@ export default function Privacy() {
         title="Privacy Policy | Renova Solution"
         description="Informativa sulla privacy di Renova Solution. Come trattiamo i tuoi dati personali in conformità con il GDPR."
         keywords="privacy policy, GDPR, protezione dati personali, Renova Solution"
-        canonical="https://renovasolution.it/privacy"
+        canonical="https://www.renovasolution.it/privacy"
       />
       
       <div className="min-h-screen bg-white">

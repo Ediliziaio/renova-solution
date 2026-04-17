@@ -56,9 +56,9 @@ export default function Progetti() {
         title="Progetti e Lavori Realizzati | Renova Solution"
         description="Scopri i progetti e i lavori realizzati da Renova Solution in Friuli Venezia Giulia e Veneto: installazioni fotovoltaiche, sostituzione infissi, ristrutturazioni complete. Foto reali dei nostri interventi."
         keywords="progetti fotovoltaico, lavori infissi, ristrutturazioni friuli, installazioni fotovoltaico veneto, portfolio lavori edili, foto installazioni"
-        canonical="https://renovasolution.it/progetti"
+        canonical="https://www.renovasolution.it/progetti"
         ogImage="/images/fotovoltaico-casa.jpg"
-        schema={[serviceSchema('Progetti e Lavori', 'Portfolio dei lavori realizzati da Renova Solution', 'https://renovasolution.it/progetti')]}
+        schema={[serviceSchema('Progetti e Lavori', 'Portfolio dei lavori realizzati da Renova Solution', 'https://www.renovasolution.it/progetti')]}
       />
       <Navbar />
 

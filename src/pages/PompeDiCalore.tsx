@@ -57,10 +57,10 @@ export default function PompeDiCalore() {
         title="Pompe di Calore | Riscaldamento Efficiente per Casa e Azienda | Renova Solution"
         description="Installazione pompe di calore aria-acqua e aria-aria in Friuli Venezia Giulia e Veneto. Risparmio fino al 60% sul riscaldamento. Detrazione fiscale del 50% e Conto Termico 3.0. Sopralluogo gratuito."
         keywords="pompe di calore friuli, pompa di calore veneto, pompa calore aria acqua, riscaldamento pompa di calore, pompa di calore casa, installazione pompa calore"
-        canonical="https://renovasolution.it/pompe-di-calore"
+        canonical="https://www.renovasolution.it/pompe-di-calore"
         ogImage="/images/climatizzazione.jpg"
         schema={[
-          serviceSchema('Pompe di Calore', 'Installazione e manutenzione pompe di calore per casa e azienda', 'https://renovasolution.it/pompe-di-calore'),
+          serviceSchema('Pompe di Calore', 'Installazione e manutenzione pompe di calore per casa e azienda', 'https://www.renovasolution.it/pompe-di-calore'),
           faqSchema(faqItems)
         ]}
       />

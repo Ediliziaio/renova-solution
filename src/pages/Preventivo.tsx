@@ -11,7 +11,7 @@ export default function Preventivo() {
         title="Richiedi Preventivo Gratuito | Renova Solution"
         description="Richiedi un preventivo gratuito per fotovoltaico, infissi, ristrutturazioni e climatizzazione in Friuli Venezia Giulia e Veneto. Risposta entro 2 ore lavorative."
         keywords="preventivo gratuito, preventivo fotovoltaico, preventivo infissi, preventivo ristrutturazione, Friuli Venezia Giulia, Veneto"
-        canonical="https://renovasolution.it/preventivo"
+        canonical="https://www.renovasolution.it/preventivo"
       />
       <Navbar />
 

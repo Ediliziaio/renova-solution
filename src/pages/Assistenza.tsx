@@ -86,7 +86,7 @@ export default function Assistenza() {
   const schema = serviceSchema(
     'Assistenza e Manutenzione Impianti Fotovoltaici',
     'Servizio di assistenza tecnica e manutenzione impianti fotovoltaici, batterie di accumulo e infissi in Friuli Venezia Giulia e Veneto. Interventi in 24-48h.',
-    'https://renovasolution.it/assistenza'
+    'https://www.renovasolution.it/assistenza'
   );
 
   const faqStructuredData = faqSchema(faqItems);
@@ -98,7 +98,7 @@ export default function Assistenza() {
         description="Servizio di assistenza tecnica e manutenzione impianti fotovoltaici, batterie di accumulo e infissi in Friuli Venezia Giulia e Veneto. Interventi in 24-48h."
         keywords="assistenza fotovoltaico, manutenzione impianti solari, riparazione inverter, manutenzione batterie, assistenza tecnica Friuli, assistenza tecnica Veneto"
         schema={[schema, faqStructuredData]}
-        canonical="https://renovasolution.it/assistenza"
+        canonical="https://www.renovasolution.it/assistenza"
         ogImage="/images/manutenzione.jpg"
       />
       

@@ -87,7 +87,7 @@ export default function Contatti() {
         description="Contatta Renova Solution per preventivi gratuiti su fotovoltaico, infissi e ristrutturazioni. Ufficio a Prata di Pordenone (PN). Operiamo in tutto il Veneto e Friuli Venezia Giulia. Tel: 393 959 6194"
         keywords="contatti Renova Solution, preventivo fotovoltaico, preventivo infissi, sopralluogo gratuito, Prata di Pordenone, Pordenone, Veneto, Friuli"
         schema={localBusinessSchema}
-        canonical="https://renovasolution.it/contatti"
+        canonical="https://www.renovasolution.it/contatti"
         ogImage="/images/team.jpg"
       />
       

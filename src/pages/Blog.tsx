@@ -198,13 +198,13 @@ export default function Blog() {
     '@type': 'Blog',
     name: 'Blog Renova Solution',
     description: 'Guide e consigli su fotovoltaico, infissi, ristrutturazioni e agevolazioni fiscali in Friuli Venezia Giulia e Veneto.',
-    url: 'https://renovasolution.it/blog',
+    url: 'https://www.renovasolution.it/blog',
     publisher: {
       '@type': 'Organization',
       name: 'Renova Solution',
       logo: {
         '@type': 'ImageObject',
-        url: 'https://renovasolution.it/logo.png'
+        url: 'https://www.renovasolution.it/logo.png'
       }
     }
   };
@@ -227,12 +227,12 @@ export default function Blog() {
       name: 'Renova Solution',
       logo: {
         '@type': 'ImageObject',
-        url: 'https://renovasolution.it/logo.png'
+        url: 'https://www.renovasolution.it/logo.png'
       }
     },
     mainEntityOfPage: {
       '@type': 'WebPage',
-      '@id': `https://renovasolution.it/blog/${articolo.slug}`
+      '@id': `https://www.renovasolution.it/blog/${articolo.slug}`
     },
     keywords: articolo.keywords.join(', '),
     articleSection: articolo.categoria
@@ -247,13 +247,13 @@ export default function Blog() {
         '@type': 'ListItem',
         position: 1,
         name: 'Home',
-        item: 'https://renovasolution.it/'
+        item: 'https://www.renovasolution.it/'
       },
       {
         '@type': 'ListItem',
         position: 2,
         name: 'Blog',
-        item: 'https://renovasolution.it/blog'
+        item: 'https://www.renovasolution.it/blog'
       }
     ]
   };
@@ -265,7 +265,7 @@ export default function Blog() {
         description="Scopri le ultime novità 2026 su fotovoltaico, infissi, ristrutturazioni e agevolazioni fiscali in Friuli Venezia Giulia e Veneto. Guide pratiche, consigli degli esperti e aggiornamenti."
         keywords="blog fotovoltaico 2026, guide ristrutturazioni, consigli infissi, detrazioni fiscali 2026, agevolazioni casa, Ecobonus, Superbonus, risparmio energetico, fotovoltaico Friuli, ristrutturazione Veneto"
         ogType="website"
-        canonical="https://renovasolution.it/blog"
+        canonical="https://www.renovasolution.it/blog"
         ogImage="/images/team.jpg"
       />
       

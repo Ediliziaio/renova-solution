@@ -52,10 +52,10 @@ export default function Climatizzazione() {
         title="Climatizzazione | Impianti di Condizionamento e Riscaldamento | Renova Solution"
         description="Impianti di climatizzazione, condizionamento e riscaldamento a pompa di calore in Friuli Venezia Giulia e Veneto. Installazione, manutenzione e assistenza. Preventivo gratuito."
         keywords="climatizzazione friuli, condizionamento veneto, impianto climatizzazione, pompa di calore, aria condizionata, riscaldamento efficiente"
-        canonical="https://renovasolution.it/climatizzazione"
+        canonical="https://www.renovasolution.it/climatizzazione"
         ogImage="/images/climatizzazione.jpg"
         schema={[
-          serviceSchema('Climatizzazione', 'Impianti di climatizzazione e condizionamento per casa e azienda', 'https://renovasolution.it/climatizzazione'),
+          serviceSchema('Climatizzazione', 'Impianti di climatizzazione e condizionamento per casa e azienda', 'https://www.renovasolution.it/climatizzazione'),
           faqSchema(faqItems)
         ]}
       />

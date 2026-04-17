@@ -78,7 +78,7 @@ export default function Ristrutturazioni() {
   const schema = serviceSchema(
     'Ristrutturazioni Edilizie',
     'Ristrutturazioni complete, cappotto termico, impianti idraulici ed elettrici. Dalla progettazione alla consegna chiavi in mano in Veneto e Friuli.',
-    'https://renovasolution.it/ristrutturazioni'
+    'https://www.renovasolution.it/ristrutturazioni'
   );
 
   const faqStructuredData = faqSchema(faqItems);
@@ -90,7 +90,7 @@ export default function Ristrutturazioni() {
         description="Ristrutturazioni complete, cappotto termico, impianti idraulici ed elettrici. Dalla progettazione alla consegna chiavi in mano. Detrazione 50%."
         keywords="ristrutturazione casa, ristrutturazione appartamento, cappotto termico, impianti idraulici, ristrutturazione Treviso, ristrutturazione Udine"
         schema={[schema, faqStructuredData]}
-        canonical="https://renovasolution.it/ristrutturazioni"
+        canonical="https://www.renovasolution.it/ristrutturazioni"
         ogImage="/images/ristrutturazione.jpg"
       />
     <div className="min-h-screen bg-white">

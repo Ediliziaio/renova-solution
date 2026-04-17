@@ -17,7 +17,7 @@ export default function SEO({
   title,
   description,
   keywords,
-  ogImage = 'https://renovasolution.it/logo.png',
+  ogImage = 'https://www.renovasolution.it/logo.png',
   ogType = 'website',
   canonical,
   schema,
@@ -26,7 +26,7 @@ export default function SEO({
   geoPosition = '45.9;12.3',
 }: SEOProps) {
   const siteName = 'Renova Solution';
-  const siteUrl = 'https://renovasolution.it';
+  const siteUrl = 'https://www.renovasolution.it';
   const fullTitle = title.includes(siteName) ? title : `${title} | ${siteName}`;
   const fullOgImage = ogImage.startsWith('http') ? ogImage : `${siteUrl}${ogImage}`;
   const pageUrl = canonical || siteUrl;
@@ -85,8 +85,8 @@ export const organizationSchema = {
   '@context': 'https://schema.org',
   '@type': 'Organization',
   name: 'Renova Solution',
-  url: 'https://renovasolution.it',
-  logo: 'https://renovasolution.it/logo.png',
+  url: 'https://www.renovasolution.it',
+  logo: 'https://www.renovasolution.it/logo.png',
   description: 'Impianti fotovoltaici, infissi e ristrutturazioni in Friuli Venezia Giulia e Veneto',
   address: {
     '@type': 'PostalAddress',
@@ -114,9 +114,9 @@ export const localBusinessSchema = {
   '@context': 'https://schema.org',
   '@type': 'LocalBusiness',
   name: 'Renova Solution',
-  image: 'https://renovasolution.it/logo.png',
-  '@id': 'https://renovasolution.it',
-  url: 'https://renovasolution.it',
+  image: 'https://www.renovasolution.it/logo.png',
+  '@id': 'https://www.renovasolution.it',
+  url: 'https://www.renovasolution.it',
   telephone: '+39-393-959-6194',
   priceRange: '€€',
   address: {
@@ -208,7 +208,7 @@ export function blogPostSchema(title: string, description: string, url: string, 
       name: 'Renova Solution',
       logo: {
         '@type': 'ImageObject',
-        url: 'https://renovasolution.it/logo.png',
+        url: 'https://www.renovasolution.it/logo.png',
       },
     },
   };

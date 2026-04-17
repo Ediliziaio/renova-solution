@@ -35,12 +35,12 @@ export default function ManutenzioneFotovoltaico2026() {
       name: 'Renova Solution',
       logo: {
         '@type': 'ImageObject',
-        url: 'https://renovasolution.it/logo.png'
+        url: 'https://www.renovasolution.it/logo.png'
       }
     },
     mainEntityOfPage: {
       '@type': 'WebPage',
-      '@id': `https://renovasolution.it/blog/${articleData.slug}`
+      '@id': `https://www.renovasolution.it/blog/${articleData.slug}`
     },
     keywords: 'manutenzione fotovoltaico 2026, pulizia pannelli, inverter fotovoltaico, impianto fotovoltaico, manutenzione pannelli',
     articleSection: articleData.category
@@ -50,9 +50,9 @@ export default function ManutenzioneFotovoltaico2026() {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
     itemListElement: [
-      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://renovasolution.it/' },
-      { '@type': 'ListItem', position: 2, name: 'Blog', item: 'https://renovasolution.it/blog' },
-      { '@type': 'ListItem', position: 3, name: articleData.title, item: `https://renovasolution.it/blog/${articleData.slug}` }
+      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.renovasolution.it/' },
+      { '@type': 'ListItem', position: 2, name: 'Blog', item: 'https://www.renovasolution.it/blog' },
+      { '@type': 'ListItem', position: 3, name: articleData.title, item: `https://www.renovasolution.it/blog/${articleData.slug}` }
     ]
   };
 
@@ -63,12 +63,12 @@ export default function ManutenzioneFotovoltaico2026() {
         description={articleData.excerpt}
         keywords="manutenzione fotovoltaico 2026, pulizia pannelli solari, inverter fotovoltaico, impianto fotovoltaico, manutenzione pannelli, fotovoltaico casa"
         ogType="article"
-        canonical={`https://renovasolution.it/blog/${articleData.slug}`}
+        canonical={`https://www.renovasolution.it/blog/${articleData.slug}`}
       />
       
       <script type="application/ld+json">{JSON.stringify(schema)}</script>
       <script type="application/ld+json">{JSON.stringify(breadcrumbSchema)}</script>
-      <script type="application/ld+json">{JSON.stringify(blogPostSchema(articleData.title, articleData.excerpt, `https://renovasolution.it/blog/${articleData.slug}`, `https://renovasolution.it${articleData.image}`, articleData.dateISO, articleData.author))}</script>
+      <script type="application/ld+json">{JSON.stringify(blogPostSchema(articleData.title, articleData.excerpt, `https://www.renovasolution.it/blog/${articleData.slug}`, `https://www.renovasolution.it${articleData.image}`, articleData.dateISO, articleData.author))}</script>
 
       <div className="min-h-screen bg-white">
         <Navbar />
