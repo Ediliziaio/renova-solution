@@ -6,6 +6,7 @@ import FormPreventivo from '../components/FormPreventivo';
 import FAQ from '../components/FAQ';
 import BlogSection from '../components/BlogSection';
 import GalleriaLavori from '../components/GalleriaLavori';
+import PartnerLogosInfissi from '../components/PartnerLogosInfissi';
 import SEO, { serviceSchema, faqSchema } from '../components/SEO';
 import { Shield, Thermometer, VolumeX, Sun, Wind, Lock, CheckCircle, ArrowRight } from 'lucide-react';
 
@@ -258,6 +259,7 @@ export default function Infissi() {
       </section>
 
       <GalleriaLavori filtroCategoria="infissi" maxProgetti={3} />
+      <PartnerLogosInfissi />
       <Recensioni />
       <FormPreventivo />
       <FAQ title="FAQ Infissi e Serramenti" items={faqItems} />
