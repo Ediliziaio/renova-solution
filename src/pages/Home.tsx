@@ -585,68 +585,30 @@ Bagni, cucine, rifacimenti facciate, adeguamenti energetici.`}
           </AnimatedSection>
           
           <AnimatedSection delay={0.2}>
-            <form className="bg-white rounded-2xl p-6 md:p-10 shadow-xl">
-              <div className="space-y-5">
-                <div>
-                  <label className="block text-sm font-medium text-gray-700 mb-2">Nome e Cognome</label>
-                  <input 
-                    type="text" 
-                    className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:border-[#C8E600] focus:ring-2 focus:ring-[#C8E600]/20 outline-none transition-all"
-                    placeholder="Mario Rossi"
-                  />
-                </div>
-                
-                <div>
-                  <label className="block text-sm font-medium text-gray-700 mb-2">Telefono</label>
-                  <input 
-                    type="tel" 
-                    className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:border-[#C8E600] focus:ring-2 focus:ring-[#C8E600]/20 outline-none transition-all"
-                    placeholder="+39 3xx xxx xxxx"
-                  />
-                </div>
-                
-                <div>
-                  <label className="block text-sm font-medium text-gray-700 mb-2">Comune (dove si trova l'immobile)</label>
-                  <select className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:border-[#C8E600] focus:ring-2 focus:ring-[#C8E600]/20 outline-none transition-all text-gray-700">
-                    <option value="">Seleziona il comune</option>
-                    <option value="udine">Udine</option>
-                    <option value="trieste">Trieste</option>
-                    <option value="gorizia">Gorizia</option>
-                    <option value="pordenone">Pordenone</option>
-                    <option value="treviso">Treviso</option>
-                    <option value="venezia">Venezia</option>
-                    <option value="padova">Padova</option>
-                    <option value="vicenza">Vicenza</option>
-                    <option value="altro">Altro</option>
-                  </select>
-                </div>
-                
-                <div>
-                  <label className="block text-sm font-medium text-gray-700 mb-2">Di cosa hai bisogno?</label>
-                  <select className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:border-[#C8E600] focus:ring-2 focus:ring-[#C8E600]/20 outline-none transition-all text-gray-700">
-                    <option value="">Seleziona il servizio</option>
-                    <option value="fotovoltaico">Fotovoltaico</option>
-                    <option value="infissi">Infissi</option>
-                    <option value="ristrutturazione">Ristrutturazione</option>
-                    <option value="non-so">Non so ancora</option>
-                  </select>
-                </div>
-                
-                <motion.button 
-                  type="submit"
-                  whileHover={{ scale: 1.02 }}
-                  whileTap={{ scale: 0.98 }}
-                  className="w-full bg-[#C8E600] text-black py-4 rounded-full font-bold text-base hover:bg-[#b3cc00] transition-colors flex items-center justify-center gap-2"
-                >
-                  Invia la richiesta
-                  <ArrowRight className="w-5 h-5" />
-                </motion.button>
+            <div className="bg-white rounded-2xl p-4 md:p-6 shadow-xl">
+              <div style={{ minHeight: '650px' }}>
+                <iframe
+                  src="https://api.leadconnectorhq.com/widget/form/g2H271QFeRb5FT73aUyz"
+                  style={{ width: '100%', height: '100%', border: 'none', borderRadius: '3px' }}
+                  id="inline-g2H271QFeRb5FT73aUyz-home"
+                  data-layout="{'id':'INLINE'}"
+                  data-trigger-type="alwaysShow"
+                  data-trigger-value=""
+                  data-activation-type="alwaysActivated"
+                  data-activation-value=""
+                  data-deactivation-type="neverDeactivate"
+                  data-deactivation-value=""
+                  data-form-name="Invio Richiesta"
+                  data-height="623"
+                  data-layout-iframe-id="inline-g2H271QFeRb5FT73aUyz-home"
+                  data-form-id="g2H271QFeRb5FT73aUyz"
+                  title="Invio Richiesta"
+                />
               </div>
-              
-              <p className="text-center text-gray-400 text-xs mt-5">
+              <p className="text-center text-gray-400 text-xs mt-4">
                 Nessuno ti chiamerà 40 volte. Un contatto. Una risposta.
               </p>
-            </form>
+            </div>
           </AnimatedSection>
         </div>
       </section>
