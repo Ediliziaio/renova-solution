@@ -14,7 +14,7 @@ export default function FotovoltaicoRovigo() {
       servizio="fotovoltaico"
       heroTitle="Fotovoltaico a Rovigo: risparmia fino al 70% in bolletta"
       heroSubtitle="Impianti fotovoltaici con accumulo a Rovigo e nel Polesine. Sopralluogo gratuito, preventivo chiaro, detrazioni fiscali incluse."
-      seoTitle="Fotovoltaico Rovigo | Impianti Fotovoltaici Rovigo | Renova Solution"
+      seoTitle="Fotovoltaico Rovigo | Impianti Solari | Renova Solution"
       seoDescription="Installazione impianti fotovoltaici a Rovigo e nel Polesine. Pannelli solari con accumulo, detrazione 50%, sopralluogo gratuito. Renova Solution Veneto."
       seoKeywords="fotovoltaico rovigo, pannelli solari rovigo, impianto fotovoltaico rovigo, fotovoltaico con accumulo rovigo, energia solare polesine, installazione fotovoltaico adria, fotovoltaico delta del po"
       introText="Il Polesine rodigino, vasta pianura tra l'Adige e il Po, e uno dei territori con la maggiore irradiazione solare del Veneto. L'assenza di rilievi e l'ampiezza degli orizzonti garantiscono ore di sole superiori alla media regionale, rendendo Rovigo e provincia un territorio particolarmente adatto al fotovoltaico. Un impianto ben dimensionato copre fino al 70-80% del fabbisogno energetico domestico, con un ritorno dell'investimento in 5-6 anni grazie alle detrazioni fiscali del 50%.

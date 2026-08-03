@@ -8,7 +8,9 @@ import { Calendar, Clock, User, ArrowLeft, Tag, CheckCircle, TrendingUp, Euro, H
 export default function CappottoTermico2026() {
   const articleData = {
     title: 'Cappotto termico 2026: quanto si risparmia in bolletta? Dati reali e calcoli',
+    metaTitle: 'Cappotto termico 2026: quanto si risparmia',
     excerpt: 'Analisi dettagliata dei risparmi reali ottenibili con il cappotto termico nel 2026. Dati sui consumi prima e dopo l\'intervento in diverse zone climatiche italiane. Calcolo del risparmio annuo.',
+    metaDescription: 'Quanto si risparmia davvero con il cappotto termico nel 2026: consumi prima e dopo, dati per zona climatica e calcolo del risparmio annuo.',
     date: '20 Febbraio 2026',
     dateISO: '2026-02-20',
     readTime: '8 min',
@@ -59,8 +61,8 @@ export default function CappottoTermico2026() {
   return (
     <>
       <SEO 
-        title={`${articleData.title} | Renova Solution`}
-        description={articleData.excerpt}
+        title={`${articleData.metaTitle} | Renova Solution`}
+        description={articleData.metaDescription}
         keywords="cappotto termico 2026, isolamento casa, risparmio bolletta, coibentazione, efficienza energetica, isolamento termico, ristrutturazione casa"
         ogType="article"
         canonical={`https://www.renovasolution.it/blog/${articleData.slug}`}

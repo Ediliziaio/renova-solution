@@ -14,7 +14,7 @@ export default function FotovoltaicoVicenza() {
       servizio="fotovoltaico"
       heroTitle="Fotovoltaico a Vicenza: risparmia fino al 70% in bolletta"
       heroSubtitle="Impianti fotovoltaici con accumulo a Vicenza e provincia. Sopralluogo gratuito, preventivo chiaro, detrazioni fiscali incluse."
-      seoTitle="Fotovoltaico Vicenza | Impianti Fotovoltaici Vicenza | Renova Solution"
+      seoTitle="Fotovoltaico Vicenza | Impianti Solari | Renova Solution"
       seoDescription="Installazione impianti fotovoltaici a Vicenza e provincia. Pannelli solari con accumulo, detrazione 50%, sopralluogo gratuito. Renova Solution Veneto."
       seoKeywords="fotovoltaico vicenza, pannelli solari vicenza, impianto fotovoltaico vicenza, fotovoltaico con accumulo vicenza, energia solare vicenza provincia, installazione fotovoltaico bassano del grappa, fotovoltaico schio thiene"
       introText="La provincia di Vicenza, terra delle ville palladiane e del tessuto imprenditoriale veneto, e un territorio ideale per il fotovoltaico. Dalle colline Beriche alla Pedemontana, dalle ville palladiane patrimonio UNESCO alle aree industriali di Arzignano e Schio, il sole non manca. Un impianto fotovoltaico ben dimensionato copre fino al 70-80% del fabbisogno energetico domestico, con un ritorno dell'investimento in 5-6 anni grazie alle detrazioni fiscali del 50%.

@@ -8,7 +8,9 @@ import { Calendar, Clock, User, ArrowLeft, Tag, CheckCircle, XCircle, Thermomete
 export default function FinestreMateriali2026() {
   const articleData = {
     title: 'Finestre PVC, alluminio o legno 2026: guida definitiva alla scelta',
+    metaTitle: 'Finestre PVC, alluminio o legno: come scegliere',
     excerpt: 'Confronto completo tra PVC, alluminio e legno per infissi nel 2026: pro e contro, costi, isolamento termico, manutenzione e durata. Quale materiale scegliere per la tua casa.',
+    metaDescription: 'PVC, alluminio o legno per gli infissi nel 2026: pro e contro, costi, isolamento termico, manutenzione e durata a confronto.',
     date: '28 Febbraio 2026',
     dateISO: '2026-02-28',
     readTime: '11 min',
@@ -59,8 +61,8 @@ export default function FinestreMateriali2026() {
   return (
     <>
       <SEO 
-        title={`${articleData.title} | Renova Solution`}
-        description={articleData.excerpt}
+        title={`${articleData.metaTitle} | Renova Solution`}
+        description={articleData.metaDescription}
         keywords="finestre PVC 2026, finestre alluminio, finestre legno, infissi casa, confronto materiali finestre, isolamento termico finestre, serramenti"
         ogType="article"
         canonical={`https://www.renovasolution.it/blog/${articleData.slug}`}

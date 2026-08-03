@@ -29,7 +29,7 @@ export default function Assistenza() {
     },
     {
       question: 'Cosa fare se l\'inverter smette di funzionare?',
-      answer: 'Contattaci immediatamente al 393 959 6194. L\'inverter è il cuore dell\'impianto e senza di esso non produci energia. Offriamo interventi in 24-48h in tutto il Veneto e Friuli V.G. con ricambi originali delle principali marche.'
+      answer: 'Contattaci immediatamente al 376 1293952. L\'inverter è il cuore dell\'impianto e senza di esso non produci energia. Offriamo interventi in 24-48h in tutto il Veneto e Friuli V.G. con ricambi originali delle principali marche.'
     },
     {
       question: 'La batteria di accumulo ha bisogno di manutenzione?',
@@ -151,11 +151,11 @@ export default function Assistenza() {
                 className="flex flex-col sm:flex-row gap-3"
               >
                 <a 
-                  href="tel:+393939596194"
+                  href="tel:+393761293952"
                   className="bg-[#C8E600] text-black px-6 py-3 rounded-full font-bold text-sm hover:bg-[#b3cc00] transition-colors flex items-center justify-center gap-2"
                 >
                   <Phone className="w-4 h-4" />
-                  Chiama ora 393 959 6194
+                  Chiama ora 376 1293952
                 </a>
                 <Link 
                   to="/contatti"
@@ -267,7 +267,7 @@ export default function Assistenza() {
                     </div>
                     <div>
                       <p className="text-sm text-gray-500">Telefono urgente</p>
-                      <a href="tel:+393939596194" className="font-bold text-lg hover:text-[#C8E600]">393 959 6194</a>
+                      <a href="tel:+393761293952" className="font-bold text-lg hover:text-[#C8E600]">376 1293952</a>
                     </div>
                   </div>
                   
@@ -277,7 +277,7 @@ export default function Assistenza() {
                     </div>
                     <div>
                       <p className="text-sm text-gray-500">Email</p>
-                      <a href="mailto:assistenza@renovasolution.it" className="font-bold hover:text-[#C8E600]">assistenza@renovasolution.it</a>
+                      <a href="mailto:commerciale@renovasolution.it" className="font-bold hover:text-[#C8E600]">commerciale@renovasolution.it</a>
                     </div>
                   </div>
                   
@@ -343,11 +343,11 @@ export default function Assistenza() {
             </p>
             <div className="flex flex-col sm:flex-row gap-3 justify-center">
               <a 
-                href="tel:+393939596194"
+                href="tel:+393761293952"
                 className="bg-black text-white px-8 py-3 rounded-full font-bold text-sm hover:bg-gray-800 transition-colors flex items-center justify-center gap-2"
               >
                 <Phone className="w-4 h-4" />
-                393 959 6194
+                376 1293952
               </a>
               <Link 
                 to="/contatti"

@@ -14,7 +14,7 @@ export default function FotovoltaicoVerona() {
       servizio="fotovoltaico"
       heroTitle="Fotovoltaico a Verona: risparmia fino al 70% in bolletta"
       heroSubtitle="Impianti fotovoltaici con accumulo a Verona e provincia. Sopralluogo gratuito, preventivo chiaro, detrazioni fiscali incluse."
-      seoTitle="Fotovoltaico Verona | Impianti Fotovoltaici Verona | Renova Solution"
+      seoTitle="Fotovoltaico Verona | Impianti Solari | Renova Solution"
       seoDescription="Installazione impianti fotovoltaici a Verona e provincia. Pannelli solari con accumulo, detrazione 50%, sopralluogo gratuito. Renova Solution Veneto."
       seoKeywords="fotovoltaico verona, pannelli solari verona, impianto fotovoltaico verona, fotovoltaico con accumulo verona, energia solare verona provincia, installazione fotovoltaico lago di garda, fotovoltaico valpolicella"
       introText="Verona e la sua provincia godono di un'irradiazione solare tra le piu elevate del Veneto, grazie al microclima mite influenzato dal Lago di Garda. Dalla Valpolicella alla Pianura Veronese, dal Lago di Garda alla Lessinia, il territorio offre condizioni eccellenti per la produzione di energia solare. Un impianto fotovoltaico ben progettato copre fino al 70-80% del fabbisogno energetico domestico, con un ritorno dell'investimento in 5-6 anni grazie alle detrazioni fiscali del 50%.

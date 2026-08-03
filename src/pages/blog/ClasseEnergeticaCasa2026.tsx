@@ -8,7 +8,9 @@ import { Calendar, Clock, User, ArrowLeft, CheckCircle, AlertCircle } from 'luci
 export default function ClasseEnergeticaCasa2026() {
   const articleData = {
     title: 'Classe energetica della casa: cos\'è, come migliorarla e quanto vale nel 2026',
+    metaTitle: 'Classe energetica casa: come migliorarla',
     excerpt: 'Guida completa alla classe energetica degli immobili nel 2026: dalla scala A4-G all\'APE, dalla Direttiva Case Green agli interventi più efficaci per migliorare la classe e aumentare il valore della casa.',
+    metaDescription: 'Classe energetica della casa nel 2026: scala A4-G, APE, Direttiva Case Green e gli interventi più efficaci per migliorarla.',
     date: '1 Marzo 2026',
     dateISO: '2026-03-01',
     readTime: '12 min',
@@ -59,8 +61,8 @@ export default function ClasseEnergeticaCasa2026() {
   return (
     <>
       <SEO
-        title={`${articleData.title} | Renova Solution`}
-        description={articleData.excerpt}
+        title={`${articleData.metaTitle} | Renova Solution`}
+        description={articleData.metaDescription}
         keywords="classe energetica casa, APE attestato prestazione energetica, migliorare classe energetica, classe energetica immobile, certificazione energetica costo, direttiva case green, classe energetica e valore casa"
         ogType="article"
         canonical={`https://www.renovasolution.it/blog/${articleData.slug}`}

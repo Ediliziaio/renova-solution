@@ -83,8 +83,8 @@ export default function RistrutturazioneCompleta() {
   return (
     <div className="min-h-screen bg-white">
       <SEO
-        title="Ristrutturazione Completa | Ristrutturazione Casa Chiavi in Mano | Renova Solution"
-        description="Ristrutturazione completa chiavi in mano in Friuli Venezia Giulia e Veneto. Bagno, cucina, pavimenti, impianti, cappotto termico. Un unico referente, preventivo fisso, tempi certi."
+        title="Ristrutturazione Completa Chiavi in Mano | Renova Solution"
+        description="Ristrutturazione completa chiavi in mano in FVG e Veneto: bagno, cucina, pavimenti, impianti e cappotto. Un solo referente, preventivo fisso, tempi certi."
         keywords="ristrutturazione completa, ristrutturazione casa chiavi in mano, ristrutturazione appartamento, ristrutturazione integrale friuli, ristrutturazione completa veneto, bonus ristrutturazione 50%"
         canonical="https://www.renovasolution.it/ristrutturazioni/ristrutturazione-completa"
         ogImage="/images/ristrutturazione.jpg"

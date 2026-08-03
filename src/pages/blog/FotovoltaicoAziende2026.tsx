@@ -8,7 +8,9 @@ import { Calendar, Clock, User, ArrowLeft, CheckCircle, AlertCircle } from 'luci
 export default function FotovoltaicoAziende2026() {
   const articleData = {
     title: 'Fotovoltaico per aziende nel 2026: ROI, incentivi e vantaggi fiscali per le imprese',
+    metaTitle: 'Fotovoltaico per aziende 2026: ROI e incentivi',
     excerpt: 'Guida completa al fotovoltaico industriale nel 2026: calcolo ROI reale, incentivi fiscali per le imprese, credito d\'imposta, PPA e case study con impianto da 100 kW su capannone in Friuli Venezia Giulia.',
+    metaDescription: 'Fotovoltaico industriale 2026: calcolo del ROI, incentivi e credito d\'imposta per le imprese, con un case study da 100 kW su capannone.',
     date: '18 Marzo 2026',
     dateISO: '2026-03-18',
     readTime: '13 min',
@@ -59,8 +61,8 @@ export default function FotovoltaicoAziende2026() {
   return (
     <>
       <SEO
-        title={`${articleData.title} | Renova Solution`}
-        description={articleData.excerpt}
+        title={`${articleData.metaTitle} | Renova Solution`}
+        description={articleData.metaDescription}
         keywords="fotovoltaico aziende 2026, impianto fotovoltaico industriale, fotovoltaico capannone, incentivi fotovoltaico imprese, ROI fotovoltaico aziendale, autoconsumo fotovoltaico azienda, fotovoltaico partita IVA"
         ogType="article"
         canonical={`https://www.renovasolution.it/blog/${articleData.slug}`}

@@ -1,6 +1,6 @@
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
-import SEO from '../components/SEO';
+import SEO, { webPageSchema, breadcrumbSchema } from '../components/SEO';
 
 export default function CookiePolicy() {
   return (
@@ -10,6 +10,14 @@ export default function CookiePolicy() {
         description="Informativa sui cookie di Renova Solution. Scopri quali cookie utilizziamo e come gestire le tue preferenze."
         keywords="cookie policy, cookie, GDPR, privacy, Renova Solution"
         canonical="https://www.renovasolution.it/cookie-policy"
+        schema={[
+          webPageSchema(
+            'Cookie Policy',
+            'Informativa sui cookie utilizzati dal sito Renova Solution e su come gestire le preferenze.',
+            '/cookie-policy'
+          ),
+          breadcrumbSchema([{ name: 'Cookie Policy', path: '/cookie-policy' }]),
+        ]}
       />
       
       <div className="min-h-screen bg-white">
@@ -215,8 +223,8 @@ export default function CookiePolicy() {
                 <p className="mt-2">
                   <strong>Renova Solution S.r.l.</strong><br />
                   Via Revedole 78/B, 33170 Pordenone (PN)<br />
-                  Email: info@renovasolution.it<br />
-                  Tel: +39 393 959 6194
+                  Email: commerciale@renovasolution.it<br />
+                  Tel: +39 376 1293952
                 </p>
               </section>
 

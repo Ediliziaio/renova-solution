@@ -1,4 +1,5 @@
 import { MapPin, Phone, Mail, Facebook, Linkedin, Instagram, Youtube } from 'lucide-react';
+import { CONTATTI } from '../data/contatti';
 
 export default function TopBar() {
   return (
@@ -11,11 +12,15 @@ export default function TopBar() {
           </div>
           <div className="flex items-center gap-2">
             <Phone size={14} className="text-[#C8E600]" />
-            <span className="text-gray-300">+39 393 959 6194</span>
+            <a href={CONTATTI.telefonoLink} className="text-gray-300 hover:text-[#C8E600] transition-colors">
+              {CONTATTI.telefono}
+            </a>
           </div>
           <div className="flex items-center gap-2">
             <Mail size={14} className="text-[#C8E600]" />
-            <span className="text-gray-300">info@renovasolution.it</span>
+            <a href={CONTATTI.emailLink} className="text-gray-300 hover:text-[#C8E600] transition-colors">
+              {CONTATTI.email}
+            </a>
           </div>
         </div>
         <div className="flex items-center gap-4">

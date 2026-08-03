@@ -14,7 +14,7 @@ export default function RistrutturazioniBelluno() {
       servizio="ristrutturazioni"
       heroTitle="Ristrutturazioni a Belluno: chiavi in mano, senza sorprese"
       heroSubtitle="Ristrutturazione di case montane, appartamenti, bagni e facciate a Belluno e provincia. Isolamento termico, cappotto e bonus 50% per affrontare il clima alpino."
-      seoTitle="Ristrutturazioni Belluno | Ristrutturazione Casa Belluno | Renova Solution"
+      seoTitle="Ristrutturazioni Belluno | Chiavi in Mano | Renova Solution"
       seoDescription="Ristrutturazioni a Belluno e provincia: case montane, appartamenti, bagni e cappotto termico. Isolamento alpino e bonus 50%. Preventivo gratuito Renova Solution."
       seoKeywords="ristrutturazioni belluno, ristrutturazione casa belluno, ristrutturazione bagno belluno, impresa ristrutturazioni belluno, bonus ristrutturazione belluno, ristrutturazione appartamento belluno"
       introText="La provincia di Belluno presenta un patrimonio edilizio fortemente influenzato dal contesto alpino: case montane in pietra e legno nei centri storici di Feltre, Pieve di Cadore e Agordo, chalet e residenze turistiche a Cortina d'Ampezzo e nelle valli dolomitiche, e un'edilizia residenziale nel fondovalle — Belluno, Sedico, Ponte nelle Alpi, Santa Giustina — dove i rigidi inverni mettono a dura prova edifici spesso costruiti senza un adeguato isolamento termico.

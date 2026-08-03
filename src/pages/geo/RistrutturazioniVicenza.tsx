@@ -14,7 +14,7 @@ export default function RistrutturazioniVicenza() {
       servizio="ristrutturazioni"
       heroTitle="Ristrutturazioni a Vicenza: chiavi in mano, senza sorprese"
       heroSubtitle="Ristrutturazione completa di ville palladiane, appartamenti, bagni e facciate a Vicenza e provincia. Efficientamento energetico, cappotto termico e bonus 50%."
-      seoTitle="Ristrutturazioni Vicenza | Ristrutturazione Casa Vicenza | Renova Solution"
+      seoTitle="Ristrutturazioni Vicenza | Chiavi in Mano | Renova Solution"
       seoDescription="Ristrutturazioni a Vicenza e provincia: ville, appartamenti, bagni, cucine e cappotto termico. Bonus 50% e risparmio energetico. Preventivo gratuito Renova."
       seoKeywords="ristrutturazioni vicenza, ristrutturazione casa vicenza, ristrutturazione bagno vicenza, impresa ristrutturazioni vicenza, bonus ristrutturazione vicenza, ristrutturazione appartamento vicenza"
       introText="La provincia di Vicenza custodisce un patrimonio architettonico straordinario: le ville palladiane patrimonio UNESCO, i centri storici di Bassano del Grappa e Marostica, e un tessuto residenziale diffuso — da Schio a Thiene, da Arzignano a Lonigo — composto da villette bifamiliari e condomini costruiti nel boom economico degli anni '60-'80, quando l'isolamento termico non era una priorità progettuale. Ristrutturare a Vicenza significa coniugare rispetto per la tradizione e innovazione tecnologica.

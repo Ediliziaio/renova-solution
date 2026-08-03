@@ -8,7 +8,9 @@ import { Calendar, Clock, User, ArrowLeft, CheckCircle, AlertCircle } from 'luci
 export default function UmiditaCondensaMuffa2026() {
   const articleData = {
     title: 'Umidità, condensa e muffa in casa: cause, soluzioni e come eliminare il problema definitivamente',
+    metaTitle: 'Umidità, condensa e muffa in casa: soluzioni',
     excerpt: 'Scopri perché si forma condensa sulle finestre e muffa negli angoli, quali sono le cause profonde (ponti termici, infissi vecchi, ventilazione insufficiente) e come risolverle con infissi moderni, cappotto termico e VMC nel 2026.',
+    metaDescription: 'Condensa sulle finestre e muffa negli angoli: cause (ponti termici, infissi vecchi, scarsa ventilazione) e soluzioni con infissi, cappotto e VMC.',
     date: '15 Febbraio 2026',
     dateISO: '2026-02-15',
     readTime: '11 min',
@@ -59,8 +61,8 @@ export default function UmiditaCondensaMuffa2026() {
   return (
     <>
       <SEO
-        title={`${articleData.title} | Renova Solution`}
-        description={articleData.excerpt}
+        title={`${articleData.metaTitle} | Renova Solution`}
+        description={articleData.metaDescription}
         keywords="condensa finestre, muffa casa cause, umidità pareti soluzioni, condensa vetri finestre, muffa angoli casa, eliminare condensa infissi, ponte termico finestre, ventilazione casa"
         ogType="article"
         canonical={`https://www.renovasolution.it/blog/${articleData.slug}`}

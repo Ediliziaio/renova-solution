@@ -1,7 +1,8 @@
 import { Link } from 'react-router-dom';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
-import SEO from '../components/SEO';
+import SEO, { localBusinessSchema, breadcrumbSchema } from '../components/SEO';
+import LeadForm from '../components/LeadForm';
 import { CheckCircle, Phone } from 'lucide-react';
 
 export default function Preventivo() {
@@ -12,6 +13,10 @@ export default function Preventivo() {
         description="Richiedi un preventivo gratuito per fotovoltaico, infissi, ristrutturazioni e climatizzazione in Friuli Venezia Giulia e Veneto. Risposta entro 2 ore lavorative."
         keywords="preventivo gratuito, preventivo fotovoltaico, preventivo infissi, preventivo ristrutturazione, Friuli Venezia Giulia, Veneto"
         canonical="https://www.renovasolution.it/preventivo"
+        schema={[
+          localBusinessSchema,
+          breadcrumbSchema([{ name: 'Richiedi preventivo', path: '/preventivo' }]),
+        ]}
       />
       <Navbar />
 
@@ -57,26 +62,7 @@ export default function Preventivo() {
                 Inserisci i tuoi dati e descrivici il tuo progetto. Ti ricontattiamo entro 2 ore lavorative con un preventivo chiaro e dettagliato.
               </p>
 
-              <div style={{minHeight:'650px'}}>
-                <iframe
-                  src="https://api.leadconnectorhq.com/widget/form/g2H271QFeRb5FT73aUyz"
-                  style={{width:'100%',height:'100%',border:'none',borderRadius:'3px'}}
-                  id="inline-g2H271QFeRb5FT73aUyz"
-                  data-layout="{'id':'INLINE'}"
-                  data-trigger-type="alwaysShow"
-                  data-trigger-value=""
-                  data-activation-type="alwaysActivated"
-                  data-activation-value=""
-                  data-deactivation-type="neverDeactivate"
-                  data-deactivation-value=""
-                  data-form-name="Invio Richiesta"
-                  data-height="623"
-                  data-layout-iframe-id="inline-g2H271QFeRb5FT73aUyz"
-                  data-form-id="g2H271QFeRb5FT73aUyz"
-                  title="Invio Richiesta"
-                >
-                </iframe>
-              </div>
+              <LeadForm title="Richiedi un preventivo gratuito" />
             </div>
 
             {/* Sidebar */}
@@ -102,11 +88,11 @@ export default function Preventivo() {
                 <div className="mt-8 pt-6 border-t border-gray-200">
                   <p className="text-sm text-gray-500 mb-3">Preferisci parlare direttamente?</p>
                   <a
-                    href="tel:+393939596194"
+                    href="tel:+393761293952"
                     className="flex items-center justify-center gap-2 bg-black text-white px-6 py-3 rounded-full font-medium hover:bg-gray-800 transition-colors w-full"
                   >
                     <Phone className="w-4 h-4" />
-                    393 959 6194
+                    376 1293952
                   </a>
                 </div>
               </div>

@@ -14,7 +14,7 @@ export default function RistrutturazioniTreviso() {
       servizio="ristrutturazioni"
       heroTitle="Ristrutturazioni a Treviso: chiavi in mano, senza sorprese"
       heroSubtitle="Ristrutturazione di case rurali, appartamenti, bagni e facciate a Treviso e provincia. Cappotto termico, efficientamento energetico e bonus 50% gestito per voi."
-      seoTitle="Ristrutturazioni Treviso | Ristrutturazione Casa Treviso | Renova Solution"
+      seoTitle="Ristrutturazioni Treviso | Chiavi in Mano | Renova Solution"
       seoDescription="Ristrutturazioni a Treviso e provincia: case, appartamenti, bagni, cucine, facciate e cappotto termico. Bonus 50% incluso. Preventivo gratuito Renova Solution."
       seoKeywords="ristrutturazioni treviso, ristrutturazione casa treviso, ristrutturazione bagno treviso, impresa ristrutturazioni treviso, bonus ristrutturazione treviso, ristrutturazione appartamento treviso"
       introText="La provincia di Treviso è un territorio in costante evoluzione edilizia: accanto alle case rurali della campagna trevigiana e alle ville venete storiche, negli ultimi decenni si è sviluppata un'intensa espansione residenziale — da Mogliano Veneto a Paese, da Villorba a Casier — con villette e palazzine che oggi necessitano dei primi importanti interventi di manutenzione straordinaria e ammodernamento. Il patrimonio edilizio più datato di Conegliano, Castelfranco Veneto e Vittorio Veneto richiede invece ristrutturazioni più profonde per adeguarsi agli standard energetici e abitativi attuali.

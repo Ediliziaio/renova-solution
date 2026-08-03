@@ -14,8 +14,8 @@ export default function RistrutturazioniTrieste() {
       servizio="ristrutturazioni"
       heroTitle="Ristrutturazioni a Trieste: chiavi in mano, senza sorprese"
       heroSubtitle="Ristrutturazioni complete di appartamenti, bagni e facciate a Trieste e provincia. Preventivo dettagliato, bonus 50%, un unico referente per tutto il cantiere."
-      seoTitle="Ristrutturazioni Trieste | Ristrutturazione Casa Trieste | Renova Solution"
-      seoDescription="Ristrutturazioni chiavi in mano a Trieste e provincia. Bagni, cucine, facciate, cappotto termico. Bonus 50%, preventivo gratuito. Renova Solution opera in tutto il FVG."
+      seoTitle="Ristrutturazioni Trieste | Chiavi in Mano | Renova Solution"
+      seoDescription="Ristrutturazioni chiavi in mano a Trieste e provincia. Bagni, cucine, facciate e cappotto termico. Bonus 50% e preventivo gratuito."
       seoKeywords="ristrutturazioni trieste, ristrutturazione casa trieste, ristrutturazione bagno trieste, ristrutturazione appartamento trieste, bonus ristrutturazione trieste, impresa ristrutturazioni trieste"
       introText="Il patrimonio edilizio di Trieste è tra i più caratteristici del Nord-Est: palazzi asburgici, edifici liberty del centro storico e condomini del secondo dopoguerra che oggi necessitano di interventi strutturali e impiantistici importanti. Ristrutturare a Trieste significa confrontarsi con vincoli architettonici, solai in legno, impianti obsoleti e la necessità di migliorare l'efficienza energetica di edifici costruiti quando il comfort termico non era una priorità.
 

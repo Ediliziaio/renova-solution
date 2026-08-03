@@ -90,7 +90,7 @@ export default function Ristrutturazioni() {
   return (
     <>
       <SEO 
-        title="Ristrutturazioni Edilizie | Chiavi in Mano in Veneto e Friuli"
+        title="Ristrutturazioni Chiavi in Mano | Renova Solution"
         description="Ristrutturazioni complete, cappotto termico, impianti idraulici ed elettrici. Dalla progettazione alla consegna chiavi in mano. Detrazione 50%."
         keywords="ristrutturazione casa, ristrutturazione appartamento, cappotto termico, impianti idraulici, ristrutturazione Treviso, ristrutturazione Udine"
         schema={[schema, faqStructuredData]}
@@ -130,7 +130,7 @@ export default function Ristrutturazioni() {
                 Preventivo gratuito
               </Link>
               <a 
-                href="tel:+393939596194"
+                href="tel:+393761293952"
                 className="bg-white/10 backdrop-blur-sm text-white px-6 md:px-8 py-3 md:py-4 rounded-full font-bold text-sm md:text-base hover:bg-white/20 transition-colors text-center"
               >
                 Chiama ora

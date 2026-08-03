@@ -14,7 +14,7 @@ export default function FotovoltaicoUdine() {
       servizio="fotovoltaico"
       heroTitle="Fotovoltaico a Udine: risparmia fino al 70% in bolletta"
       heroSubtitle="Impianti fotovoltaici residenziali e aziendali a Udine e in tutta la provincia. Preventivo gratuito, detrazioni fiscali e installazione chiavi in mano."
-      seoTitle="Fotovoltaico Udine | Impianti Fotovoltaici Udine | Renova Solution"
+      seoTitle="Fotovoltaico Udine | Impianti Solari | Renova Solution"
       seoDescription="Impianti fotovoltaici a Udine e provincia: Codroipo, Cervignano, Tolmezzo, Gemona. Pannelli solari con accumulo e detrazione 50%. Preventivo gratuito."
       seoKeywords="fotovoltaico udine, pannelli solari udine, impianto fotovoltaico udine provincia, fotovoltaico con accumulo udine, energia solare friuli, installazione fotovoltaico udine, fotovoltaico codroipo, fotovoltaico cervignano"
       introText="La provincia di Udine, con la sua vasta pianura friulana e le aree pedemontane, offre condizioni eccellenti per la produzione di energia solare. Le ampie superfici dei tetti residenziali e dei capannoni industriali sparsi nella pianura friulana rappresentano un'opportunita concreta per chi vuole abbattere i costi energetici e contribuire alla transizione ecologica.

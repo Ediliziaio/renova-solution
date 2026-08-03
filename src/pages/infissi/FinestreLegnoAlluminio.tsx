@@ -72,8 +72,8 @@ export default function FinestreLegnoAlluminio() {
   return (
     <div className="min-h-screen bg-white">
       <SEO
-        title="Finestre Legno-Alluminio | Infissi Premium Legno Alluminio | Renova Solution"
-        description="Finestre e infissi in legno-alluminio in Friuli Venezia Giulia e Veneto. Il calore del legno all'interno, la resistenza dell'alluminio all'esterno. Detrazione 50%. Preventivo gratuito."
+        title="Finestre Legno-Alluminio | Infissi Premium | Renova Solution"
+        description="Finestre in legno-alluminio in FVG e Veneto: il calore del legno dentro, la resistenza dell'alluminio fuori. Detrazione 50%, preventivo gratuito."
         keywords="finestre legno alluminio, infissi legno alluminio, serramenti legno alluminio, finestre legno alluminio prezzi, infissi legno alluminio friuli veneto"
         canonical="https://www.renovasolution.it/infissi/finestre-legno-alluminio"
         ogImage="/images/confronto-finestre.jpg"

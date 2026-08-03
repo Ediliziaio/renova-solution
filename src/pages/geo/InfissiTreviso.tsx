@@ -14,7 +14,7 @@ export default function InfissiTreviso() {
       servizio="infissi"
       heroTitle="Infissi a Treviso: comfort termico e risparmio energetico"
       heroSubtitle="Serramenti in PVC, alluminio e legno-alluminio a Treviso e provincia. Misurazione gratuita, posa certificata, detrazione fiscale 50%."
-      seoTitle="Infissi Treviso | Serramenti Treviso Provincia | Renova Solution"
+      seoTitle="Infissi Treviso | Serramenti e Finestre | Renova Solution"
       seoDescription="Infissi e serramenti a Treviso e provincia. Finestre in PVC, alluminio e legno-alluminio con taglio termico. Preventivo gratuito e detrazione 50%. Renova Solution."
       seoKeywords="infissi treviso, serramenti treviso, finestre pvc treviso, finestre alluminio treviso, sostituzione infissi treviso, infissi treviso prezzi"
       introText="La provincia di Treviso, immersa nella pianura veneta orientale e lambita dalle colline del Prosecco, presenta un clima umido con inverni freddi e nebbiosi ed estati calde e afose. Queste condizioni climatiche, con umidità relativa che supera frequentemente l'85%, mettono a dura prova gli infissi di vecchia generazione, causando condensa, dispersioni termiche e formazione di muffe nelle abitazioni.

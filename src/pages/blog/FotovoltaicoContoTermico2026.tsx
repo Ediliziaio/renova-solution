@@ -8,7 +8,9 @@ import { Calendar, Clock, User, ArrowLeft, CheckCircle, AlertCircle, Euro } from
 export default function FotovoltaicoContoTermico2026() {
   const articleData = {
     title: 'Conto Termico 3.0 nel 2026: come funziona, chi può accedere e quanto si risparmia',
+    metaTitle: 'Conto Termico 3.0 2026: come funziona',
     excerpt: 'Guida completa al Conto Termico 3.0 nel 2026: interventi ammessi, calcolo degli incentivi, importi massimi, procedura GSE e confronto con l\'Ecobonus. Tutto quello che devi sapere per ottenere il massimo rimborso.',
+    metaDescription: 'Conto Termico 3.0 nel 2026: interventi ammessi, calcolo degli incentivi, importi massimi, procedura GSE e confronto con l\'Ecobonus.',
     date: '2 Aprile 2026',
     dateISO: '2026-04-02',
     readTime: '12 min',
@@ -59,8 +61,8 @@ export default function FotovoltaicoContoTermico2026() {
   return (
     <>
       <SEO
-        title={`${articleData.title} | Renova Solution`}
-        description={articleData.excerpt}
+        title={`${articleData.metaTitle} | Renova Solution`}
+        description={articleData.metaDescription}
         keywords="conto termico 3.0 2026, incentivi pompe di calore, conto termico come funziona, conto termico requisiti, conto termico importo, incentivi riscaldamento 2026, conto termico fotovoltaico"
         ogType="article"
         canonical={`https://www.renovasolution.it/blog/${articleData.slug}`}

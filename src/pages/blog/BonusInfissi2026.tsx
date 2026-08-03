@@ -8,7 +8,9 @@ import { Calendar, Clock, User, ArrowLeft, Tag, CheckCircle, AlertCircle, Euro, 
 export default function BonusInfissi2026() {
   const articleData = {
     title: 'Bonus infissi 2026: guida completa alla detrazione del 50% per finestre e serramenti',
+    metaTitle: 'Bonus infissi 2026: detrazione 50%',
     excerpt: 'Tutto sul bonus infissi 2026: requisiti, importi massimi, documenti necessari, come richiederlo e quali infissi scegliere per massimizzare risparmio energetico e detrazione fiscale.',
+    metaDescription: 'Bonus infissi 2026: requisiti, importi massimi, documenti e come richiedere la detrazione del 50% per finestre e serramenti.',
     date: '12 Aprile 2026',
     dateISO: '2026-04-12',
     readTime: '12 min',
@@ -130,8 +132,8 @@ export default function BonusInfissi2026() {
   return (
     <>
       <SEO
-        title={`${articleData.title} | Renova Solution`}
-        description={articleData.excerpt}
+        title={`${articleData.metaTitle} | Renova Solution`}
+        description={articleData.metaDescription}
         keywords="bonus infissi 2026, detrazione infissi, sostituzione finestre detrazione, ecobonus infissi, detrazione 50% finestre, bonus serramenti 2026, sostituzione infissi detrazione fiscale"
         ogType="article"
         canonical="https://www.renovasolution.it/blog/bonus-infissi-2026"

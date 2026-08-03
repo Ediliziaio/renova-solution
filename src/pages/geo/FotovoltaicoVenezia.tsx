@@ -14,7 +14,7 @@ export default function FotovoltaicoVenezia() {
       servizio="fotovoltaico"
       heroTitle="Fotovoltaico a Venezia: risparmia fino al 70% in bolletta"
       heroSubtitle="Impianti fotovoltaici con accumulo a Venezia e provincia. Sopralluogo gratuito, preventivo chiaro, detrazioni fiscali incluse."
-      seoTitle="Fotovoltaico Venezia | Impianti Fotovoltaici Venezia | Renova Solution"
+      seoTitle="Fotovoltaico Venezia | Impianti Solari | Renova Solution"
       seoDescription="Installazione impianti fotovoltaici a Venezia e provincia. Pannelli solari con accumulo, detrazione 50%, sopralluogo gratuito. Renova Solution Veneto."
       seoKeywords="fotovoltaico venezia, pannelli solari venezia, impianto fotovoltaico venezia, fotovoltaico con accumulo venezia, energia solare venezia provincia, installazione fotovoltaico mestre, fotovoltaico chioggia"
       introText="Il territorio veneziano, dalla laguna all'entroterra, offre condizioni eccellenti per la produzione di energia solare. La luce riflessa dall'acqua della laguna e le ampie superfici pianeggianti della terraferma garantiscono una producibilita elevata durante tutto l'anno. Un impianto fotovoltaico ben progettato copre fino al 70-80% del fabbisogno energetico domestico, con un ritorno dell'investimento in 5-6 anni grazie alle detrazioni fiscali del 50%.

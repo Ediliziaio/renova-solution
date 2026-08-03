@@ -14,7 +14,7 @@ export default function RistrutturazioniVenezia() {
       servizio="ristrutturazioni"
       heroTitle="Ristrutturazioni a Venezia: chiavi in mano, senza sorprese"
       heroSubtitle="Ristrutturazione completa di appartamenti, bagni, cucine e facciate a Venezia e provincia. Cappotto termico, bonus 50% e gestione burocratica inclusa."
-      seoTitle="Ristrutturazioni Venezia | Ristrutturazione Casa Venezia | Renova Solution"
+      seoTitle="Ristrutturazioni Venezia | Chiavi in Mano | Renova Solution"
       seoDescription="Ristrutturazioni a Venezia e provincia: bagno, cucina, appartamento completo, facciate e cappotto termico. Bonus 50%, preventivo gratuito. Renova Solution."
       seoKeywords="ristrutturazioni venezia, ristrutturazione casa venezia, ristrutturazione bagno venezia, impresa ristrutturazioni venezia, bonus ristrutturazione venezia, ristrutturazione appartamento venezia"
       introText="Il patrimonio edilizio veneziano è unico al mondo: palazzi storici affacciati sui canali, edilizia lagunare soggetta all'acqua alta e all'umidità di risalita, e una terraferma — da Mestre a Spinea, da Mira a Noale — dove predominano condomini degli anni '60 e '70 con evidenti carenze di isolamento termico e impiantistica obsoleta. Ristrutturare in provincia di Venezia significa affrontare sfide tecniche specifiche che richiedono competenza ed esperienza locale.

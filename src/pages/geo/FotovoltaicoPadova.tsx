@@ -14,7 +14,7 @@ export default function FotovoltaicoPadova() {
       servizio="fotovoltaico"
       heroTitle="Fotovoltaico a Padova: risparmia fino al 70% in bolletta"
       heroSubtitle="Impianti fotovoltaici con accumulo a Padova e provincia. Sopralluogo gratuito, preventivo chiaro, detrazioni fiscali incluse."
-      seoTitle="Fotovoltaico Padova | Impianti Fotovoltaici Padova | Renova Solution"
+      seoTitle="Fotovoltaico Padova | Impianti Solari | Renova Solution"
       seoDescription="Installazione impianti fotovoltaici a Padova e provincia. Pannelli solari con accumulo, detrazione 50%, sopralluogo gratuito. Renova Solution Veneto."
       seoKeywords="fotovoltaico padova, pannelli solari padova, impianto fotovoltaico padova, fotovoltaico con accumulo padova, energia solare padova provincia, installazione fotovoltaico abano terme, fotovoltaico cittadella"
       introText="Padova e la sua provincia, dalla pianura ai Colli Euganei, offrono un territorio ideale per l'energia solare. La zona termale di Abano Terme e Montegrotto, famosa per le sue acque calde, beneficia di un microclima favorevole che si traduce in ottime rese fotovoltaiche. Un impianto ben dimensionato copre fino al 70-80% del fabbisogno energetico domestico, con un ritorno dell'investimento in 5-6 anni grazie alle detrazioni fiscali del 50%.

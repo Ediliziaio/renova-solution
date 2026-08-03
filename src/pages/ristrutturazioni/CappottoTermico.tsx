@@ -67,8 +67,8 @@ export default function CappottoTermico() {
   return (
     <div className="min-h-screen bg-white">
       <SEO
-        title="Cappotto Termico | Isolamento Termico Esterno a Cappotto | Renova Solution"
-        description="Installazione cappotto termico esterno in Friuli Venezia Giulia e Veneto. Risparmio energetico fino al 40%, eliminazione ponti termici e muffe. Detrazione fiscale del 50%. Preventivo gratuito."
+        title="Cappotto Termico | Isolamento Esterno | Renova Solution"
+        description="Cappotto termico esterno in FVG e Veneto: fino al 40% di risparmio, addio ponti termici e muffe. Detrazione 50% e preventivo gratuito."
         keywords="cappotto termico, isolamento termico esterno, cappotto termico friuli, cappotto termico veneto, cappotto termico prezzi, isolamento facciata, EPS, riqualificazione energetica"
         canonical="https://www.renovasolution.it/ristrutturazioni/cappotto-termico"
         ogImage="/images/cappotto.jpg"

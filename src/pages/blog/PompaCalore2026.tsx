@@ -8,7 +8,9 @@ import { Calendar, Clock, User, ArrowLeft, Tag, CheckCircle, Thermometer, Euro }
 export default function PompaCalore2026() {
   const articleData = {
     title: 'Pompa di calore vs caldaia a gas 2026: quale scegliere? Guida completa',
+    metaTitle: 'Pompa di calore vs caldaia a gas 2026',
     excerpt: 'Confronto dettagliato tra pompe di calore e caldaie a gas nel 2026: costi di installazione, consumi, manutenzione, risparmio energetico e impatto ambientale. Guida definitiva alla scelta.',
+    metaDescription: 'Pompa di calore o caldaia a gas nel 2026? Costi di installazione, consumi, manutenzione, risparmio energetico e impatto ambientale.',
     date: '5 Marzo 2026',
     dateISO: '2026-03-05',
     readTime: '9 min',
@@ -59,8 +61,8 @@ export default function PompaCalore2026() {
   return (
     <>
       <SEO 
-        title={`${articleData.title} | Renova Solution`}
-        description={articleData.excerpt}
+        title={`${articleData.metaTitle} | Renova Solution`}
+        description={articleData.metaDescription}
         keywords="pompa di calore 2026, caldaia a gas, riscaldamento casa, confronto riscaldamento, risparmio energetico, condizionamento, impianto riscaldamento"
         ogType="article"
         canonical={`https://www.renovasolution.it/blog/${articleData.slug}`}

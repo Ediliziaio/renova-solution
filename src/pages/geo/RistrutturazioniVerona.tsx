@@ -14,7 +14,7 @@ export default function RistrutturazioniVerona() {
       servizio="ristrutturazioni"
       heroTitle="Ristrutturazioni a Verona: chiavi in mano, senza sorprese"
       heroSubtitle="Ristrutturazione di ville, appartamenti, bagni e facciate a Verona e provincia. Cappotto termico, efficientamento energetico e bonus 50% incluso."
-      seoTitle="Ristrutturazioni Verona | Ristrutturazione Casa Verona | Renova Solution"
+      seoTitle="Ristrutturazioni Verona | Chiavi in Mano | Renova Solution"
       seoDescription="Ristrutturazioni a Verona e provincia: ville, appartamenti, bagni, cucine e facciate. Cappotto termico e bonus 50%. Preventivo gratuito Renova Solution."
       seoKeywords="ristrutturazioni verona, ristrutturazione casa verona, ristrutturazione bagno verona, impresa ristrutturazioni verona, bonus ristrutturazione verona, ristrutturazione appartamento verona"
       introText="Verona e la sua provincia offrono un patrimonio edilizio ricco e diversificato: ville storiche e corti rurali nella Valpolicella, appartamenti in condomini degli anni '60-'80 nella cintura urbana di San Giovanni Lupatoto, Bussolengo e Villafranca, e un centro storico patrimonio UNESCO dove ogni intervento richiede il massimo rispetto dei vincoli architettonici. Ristrutturare a Verona significa valorizzare immobili di grande pregio adattandoli alle esigenze di comfort ed efficienza energetica contemporanee.

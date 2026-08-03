@@ -4,6 +4,7 @@ import { motion, useInView } from 'framer-motion';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import SEO, { organizationSchema, localBusinessSchema } from '../components/SEO';
+import LeadForm from '../components/LeadForm';
 import { 
   Sun, 
   Home as HomeIcon, 
@@ -177,8 +178,8 @@ export default function Home() {
   return (
     <>
       <SEO 
-        title="Renova Solution | Fotovoltaico, Infissi e Ristrutturazioni in Friuli Venezia Giulia e Veneto"
-        description="Impianti fotovoltaici, infissi ad alta efficienza e ristrutturazioni chiavi in mano in Friuli Venezia Giulia e Veneto. Sopralluogo gratuito a Trieste, Udine, Pordenone, Gorizia, Treviso, Venezia, Padova, Vicenza, Verona, Belluno, Rovigo."
+        title="Fotovoltaico, Infissi e Ristrutturazioni | Renova Solution"
+        description="Impianti fotovoltaici, infissi ad alta efficienza e ristrutturazioni chiavi in mano in Friuli Venezia Giulia e Veneto. Sopralluogo gratuito, +3000 progetti."
         keywords="fotovoltaico friuli venezia giulia, fotovoltaico veneto, infissi friuli, infissi veneto, ristrutturazioni friuli venezia giulia, ristrutturazioni veneto, pannelli solari trieste, infissi udine, ristrutturazioni padova, fotovoltaico treviso, infissi pordenone, fotovoltaico vicenza, infissi verona, ristrutturazioni venezia, cappotto termico, finestre PVC, detrazione fiscale 50%"
         canonical="https://www.renovasolution.it/"
         schema={[organizationSchema, localBusinessSchema]}
@@ -586,25 +587,7 @@ Bagni, cucine, rifacimenti facciate, adeguamenti energetici.`}
           
           <AnimatedSection delay={0.2}>
             <div className="bg-white rounded-2xl p-4 md:p-6 shadow-xl">
-              <div style={{ minHeight: '650px' }}>
-                <iframe
-                  src="https://api.leadconnectorhq.com/widget/form/g2H271QFeRb5FT73aUyz"
-                  style={{ width: '100%', height: '100%', border: 'none', borderRadius: '3px' }}
-                  id="inline-g2H271QFeRb5FT73aUyz-home"
-                  data-layout="{'id':'INLINE'}"
-                  data-trigger-type="alwaysShow"
-                  data-trigger-value=""
-                  data-activation-type="alwaysActivated"
-                  data-activation-value=""
-                  data-deactivation-type="neverDeactivate"
-                  data-deactivation-value=""
-                  data-form-name="Invio Richiesta"
-                  data-height="623"
-                  data-layout-iframe-id="inline-g2H271QFeRb5FT73aUyz-home"
-                  data-form-id="g2H271QFeRb5FT73aUyz"
-                  title="Invio Richiesta"
-                />
-              </div>
+              <LeadForm title="Richiedi informazioni" />
               <p className="text-center text-gray-400 text-xs mt-4">
                 Nessuno ti chiamerà 40 volte. Un contatto. Una risposta.
               </p>

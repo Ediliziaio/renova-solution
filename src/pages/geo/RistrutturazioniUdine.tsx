@@ -14,7 +14,7 @@ export default function RistrutturazioniUdine() {
       servizio="ristrutturazioni"
       heroTitle="Ristrutturazioni a Udine: chiavi in mano, senza sorprese"
       heroSubtitle="Ristrutturazioni complete di case, appartamenti e facciate a Udine e in tutta la provincia. Coordinamento totale dei lavori, bonus 50%, preventivo trasparente."
-      seoTitle="Ristrutturazioni Udine | Ristrutturazione Casa Udine | Renova Solution"
+      seoTitle="Ristrutturazioni Udine | Chiavi in Mano | Renova Solution"
       seoDescription="Ristrutturazioni chiavi in mano a Udine e provincia. Appartamenti, bagni, cucine, cappotto termico. Bonus 50%, preventivo gratuito. Impresa edile in tutto il FVG."
       seoKeywords="ristrutturazioni udine, ristrutturazione casa udine, ristrutturazione bagno udine, ristrutturazione appartamento udine, bonus ristrutturazione udine, impresa ristrutturazioni udine"
       introText="La provincia di Udine presenta un tessuto edilizio estremamente variegato: dal centro storico cittadino con i suoi palazzi nobiliari e le case a corte friulane, fino alle abitazioni montane della Carnia e del Tarvisiano, passando per le villette della Bassa Friulana. Questa diversità richiede competenze specifiche per ogni tipologia di intervento, dalla ristrutturazione antisismica post-1976 alla riqualificazione energetica degli edifici anni '60-'80.

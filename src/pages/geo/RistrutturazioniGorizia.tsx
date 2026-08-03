@@ -14,7 +14,7 @@ export default function RistrutturazioniGorizia() {
       servizio="ristrutturazioni"
       heroTitle="Ristrutturazioni a Gorizia: chiavi in mano, senza sorprese"
       heroSubtitle="Ristrutturazioni complete di case e appartamenti a Gorizia, Monfalcone, Grado e provincia. Preventivo chiaro, bonus 50%, cantiere coordinato da un unico referente."
-      seoTitle="Ristrutturazioni Gorizia | Ristrutturazione Casa Gorizia | Renova Solution"
+      seoTitle="Ristrutturazioni Gorizia | Chiavi in Mano | Renova Solution"
       seoDescription="Ristrutturazioni chiavi in mano a Gorizia, Monfalcone e Grado. Bagni, cucine, facciate, cappotto termico. Bonus 50%, preventivo gratuito. Impresa edile FVG."
       seoKeywords="ristrutturazioni gorizia, ristrutturazione casa gorizia, ristrutturazione bagno gorizia, ristrutturazione appartamento gorizia, bonus ristrutturazione gorizia, impresa ristrutturazioni gorizia"
       introText="La provincia di Gorizia racchiude realtà edilizie molto diverse: il centro storico di Gorizia con i suoi palazzi mitteleuropei, il polo cantieristico di Monfalcone con edilizia residenziale del Novecento, la perla balneare di Grado con le sue case a terrazza esposte alla salsedine adriatica, e i borghi collinari del Collio come Cormons e Gradisca d'Isonzo. Ogni contesto richiede competenze specifiche e attenzione ai materiali.

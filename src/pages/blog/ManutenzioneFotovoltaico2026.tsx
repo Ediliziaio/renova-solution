@@ -8,7 +8,9 @@ import { Calendar, Clock, User, ArrowLeft, Tag, CheckCircle, AlertTriangle, Drop
 export default function ManutenzioneFotovoltaico2026() {
   const articleData = {
     title: 'Manutenzione impianto fotovoltaico 2026: guida pratica completa',
+    metaTitle: 'Manutenzione impianto fotovoltaico 2026',
     excerpt: 'Guida completa alla manutenzione dell\'impianto fotovoltaico nel 2026: pulizia pannelli, controllo inverter, costi degli interventi e frequenza consigliata per massimizzare la produzione.',
+    metaDescription: 'Manutenzione dell\'impianto fotovoltaico nel 2026: pulizia pannelli, controllo inverter, costi degli interventi e frequenza consigliata.',
     date: '12 Febbraio 2026',
     dateISO: '2026-02-12',
     readTime: '7 min',
@@ -59,8 +61,8 @@ export default function ManutenzioneFotovoltaico2026() {
   return (
     <>
       <SEO 
-        title={`${articleData.title} | Renova Solution`}
-        description={articleData.excerpt}
+        title={`${articleData.metaTitle} | Renova Solution`}
+        description={articleData.metaDescription}
         keywords="manutenzione fotovoltaico 2026, pulizia pannelli solari, inverter fotovoltaico, impianto fotovoltaico, manutenzione pannelli, fotovoltaico casa"
         ogType="article"
         canonical={`https://www.renovasolution.it/blog/${articleData.slug}`}

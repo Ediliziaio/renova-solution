@@ -8,7 +8,9 @@ import { Calendar, Clock, User, ArrowLeft, Tag, CheckCircle, Sun, Euro, Zap, Hom
 export default function FotovoltaicoPompaCalore2026() {
   const articleData = {
     title: 'Fotovoltaico con pompa di calore 2026: la combinazione perfetta per azzerare le bollette',
+    metaTitle: 'Fotovoltaico e pompa di calore 2026',
     excerpt: 'Come abbinare impianto fotovoltaico e pompa di calore per eliminare le bollette di gas e luce. Costi, risparmi reali, dimensionamento e incentivi fiscali disponibili nel 2026.',
+    metaDescription: 'Fotovoltaico e pompa di calore insieme: costi, risparmi reali, dimensionamento e incentivi fiscali per azzerare gas e luce nel 2026.',
     date: '14 Aprile 2026',
     dateISO: '2026-04-14',
     readTime: '13 min',
@@ -130,8 +132,8 @@ export default function FotovoltaicoPompaCalore2026() {
   return (
     <>
       <SEO
-        title={`${articleData.title} | Renova Solution`}
-        description={articleData.excerpt}
+        title={`${articleData.metaTitle} | Renova Solution`}
+        description={articleData.metaDescription}
         keywords="fotovoltaico pompa di calore, casa senza bollette, fotovoltaico riscaldamento, autoconsumo fotovoltaico, impianto fotovoltaico 2026, pompa di calore fotovoltaico, bollette zero, risparmio energetico"
         ogType="article"
         canonical={`https://www.renovasolution.it/blog/${articleData.slug}`}

@@ -1,6 +1,7 @@
 import { Facebook, Instagram, Linkedin, MapPin, Phone, Mail, ChevronRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
+import { CONTATTI } from '../data/contatti';
 
 export default function Footer() {
   const serviziLinks = [
@@ -90,11 +91,15 @@ export default function Footer() {
               </div>
               <div className="flex items-center gap-2.5">
                 <Phone className="w-4 h-4 flex-shrink-0 text-[#C8E600]" />
-                <span>+39 393 959 6194</span>
+                <a href={CONTATTI.telefonoLink} className="hover:text-[#C8E600] transition-colors">
+                  {CONTATTI.telefono}
+                </a>
               </div>
               <div className="flex items-center gap-2.5">
                 <Mail className="w-4 h-4 flex-shrink-0 text-[#C8E600]" />
-                <span>info@renovasolution.it</span>
+                <a href={CONTATTI.emailLink} className="hover:text-[#C8E600] transition-colors">
+                  {CONTATTI.email}
+                </a>
               </div>
             </div>
           </div>
@@ -185,7 +190,8 @@ export default function Footer() {
             <div>
               <p className="font-bold text-gray-400 mb-2">Sede Operativa</p>
               <p>Via Friuli, 92 — 33080 Prata di Pordenone (PN)</p>
-              <p>Tel: +39 393 959 6194</p>
+              <p>Tel: <a href={CONTATTI.telefonoLink} className="hover:text-[#C8E600] transition-colors">{CONTATTI.telefono}</a></p>
+              <p>Email: <a href={CONTATTI.emailLink} className="hover:text-[#C8E600] transition-colors">{CONTATTI.email}</a></p>
             </div>
             <div>
               <p className="font-bold text-gray-400 mb-2">Sede Legale</p>

@@ -201,7 +201,7 @@ export default function ChiSiamo() {
   return (
     <>
       <SEO 
-        title="Chi Siamo | Renova Solution - Azienda Fotovoltaico Veneto e Friuli"
+        title="Chi Siamo | Renova Solution, Fotovoltaico in FVG e Veneto"
         description="Renova Solution: 10+ anni di esperienza in fotovoltaico, infissi e ristrutturazioni. 500+ impianti installati in Veneto e Friuli."
         keywords="Renova Solution chi siamo, azienda fotovoltaico Pordenone, riqualificazione energetica"
         schema={organizationSchema}
@@ -910,11 +910,11 @@ export default function ChiSiamo() {
                   <ArrowRight className="w-4 h-4 md:w-5 md:h-5 group-hover:translate-x-1 transition-transform" />
                 </Link>
                 <a 
-                  href="tel:+393939596194"
+                  href="tel:+393761293952"
                   className="group bg-white text-black px-6 md:px-8 py-3 md:py-4 rounded-full font-bold hover:bg-gray-100 transition-all hover:scale-105 flex items-center justify-center gap-2"
                 >
                   <Phone className="w-4 h-4 md:w-5 md:h-5" />
-                  393 959 6194
+                  376 1293952
                 </a>
               </div>
               <p className="text-black/50 text-xs md:text-sm mt-4 md:mt-6">

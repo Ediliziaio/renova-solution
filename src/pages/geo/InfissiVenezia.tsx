@@ -14,7 +14,7 @@ export default function InfissiVenezia() {
       servizio="infissi"
       heroTitle="Infissi a Venezia: comfort termico e risparmio energetico"
       heroSubtitle="Serramenti in PVC, alluminio e legno-alluminio a Venezia e provincia. Misurazione gratuita, posa certificata, detrazione fiscale 50%."
-      seoTitle="Infissi Venezia | Serramenti Venezia Provincia | Renova Solution"
+      seoTitle="Infissi Venezia | Serramenti e Finestre | Renova Solution"
       seoDescription="Infissi e serramenti a Venezia e provincia. Finestre in PVC, alluminio e legno-alluminio con taglio termico. Preventivo gratuito e detrazione 50%. Renova Solution."
       seoKeywords="infissi venezia, serramenti venezia, finestre pvc venezia, finestre alluminio venezia, sostituzione infissi venezia, infissi venezia prezzi"
       introText="La provincia di Venezia presenta condizioni climatiche uniche che rendono la scelta degli infissi una decisione strategica per il comfort abitativo. L'umidità lagunare, la salsedine e i venti marini sottopongono finestre e portefinestre a uno stress costante: scegliere serramenti di qualità significa proteggere la propria casa e ridurre drasticamente i costi di riscaldamento e climatizzazione.

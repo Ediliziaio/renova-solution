@@ -14,7 +14,7 @@ export default function InfissiUdine() {
       servizio="infissi"
       heroTitle="Infissi a Udine: comfort termico e risparmio energetico"
       heroSubtitle="Serramenti in PVC, alluminio e legno-alluminio a Udine e in tutta la provincia. Misurazione gratuita, posa certificata e detrazione fiscale del 50%."
-      seoTitle="Infissi Udine | Serramenti Udine Provincia | Renova Solution"
+      seoTitle="Infissi Udine | Serramenti e Finestre | Renova Solution"
       seoDescription="Infissi e serramenti a Udine e provincia: finestre in PVC, alluminio e legno-alluminio. Isolamento termico per inverni rigidi, detrazione 50%. Preventivo gratuito."
       seoKeywords="infissi udine, serramenti udine, finestre pvc udine, finestre alluminio udine, sostituzione infissi udine, infissi udine prezzi"
       introText="La provincia di Udine è caratterizzata da inverni rigidi con temperature che scendono frequentemente sotto lo zero, soprattutto nelle zone pedemontane e montane come Tolmezzo e Gemona del Friuli. Le forti escursioni termiche tra giorno e notte — tipiche della pianura friulana da Codroipo a Latisana — mettono a dura prova gli infissi vecchi, causando condensa, spifferi e dispersioni di calore che incidono pesantemente sulla bolletta.

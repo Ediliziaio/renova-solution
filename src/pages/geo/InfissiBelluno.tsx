@@ -14,7 +14,7 @@ export default function InfissiBelluno() {
       servizio="infissi"
       heroTitle="Infissi a Belluno: comfort termico e risparmio energetico"
       heroSubtitle="Serramenti in PVC, alluminio e legno-alluminio a Belluno e provincia. Misurazione gratuita, posa certificata, detrazione fiscale 50%."
-      seoTitle="Infissi Belluno | Serramenti Belluno Provincia | Renova Solution"
+      seoTitle="Infissi Belluno | Serramenti e Finestre | Renova Solution"
       seoDescription="Infissi e serramenti a Belluno e provincia. Finestre in PVC, alluminio e legno-alluminio con triplo vetro per il clima montano. Preventivo gratuito, detrazione 50%."
       seoKeywords="infissi belluno, serramenti belluno, finestre pvc belluno, finestre alluminio belluno, sostituzione infissi belluno, infissi belluno prezzi"
       introText="La provincia di Belluno, cuore delle Dolomiti venete, è il territorio con le condizioni climatiche più estreme del Veneto. Il freddo montano intenso, le nevicate abbondanti e le temperature che in inverno scendono regolarmente a -10/-15°C nelle valli dolomitiche rendono la qualità degli infissi un elemento essenziale per la vivibilità e l'efficienza energetica delle abitazioni. Un serramento inadeguato in montagna non è solo scomodo: è un costo energetico insostenibile.

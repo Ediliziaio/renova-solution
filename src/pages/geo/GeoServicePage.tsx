@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 import Navbar from '../../components/Navbar';
 import Footer from '../../components/Footer';
 import SEO from '../../components/SEO';
+import { CONTATTI } from '../../data/contatti';
 import { ArrowRight, CheckCircle, MapPin, Phone, Sun, Home as HomeIcon, Wrench } from 'lucide-react';
 
 interface FAQ {
@@ -98,7 +99,8 @@ export default function GeoServicePage({
     image: `https://www.renovasolution.it${serviceImages[servizio]}`,
     '@id': canonicalUrl,
     url: canonicalUrl,
-    telephone: '+39-393-959-6194',
+    telephone: CONTATTI.telefonoSchema,
+    email: CONTATTI.email,
     priceRange: '€€',
     address: {
       '@type': 'PostalAddress',
@@ -142,11 +144,7 @@ export default function GeoServicePage({
         closes: '12:00',
       },
     ],
-    sameAs: [
-      'https://facebook.com/renovasolution',
-      'https://instagram.com/renovasolution',
-      'https://linkedin.com/company/renovasolution',
-    ],
+    sameAs: [CONTATTI.facebook],
   };
 
   const serviceSchema = {
@@ -158,7 +156,8 @@ export default function GeoServicePage({
     provider: {
       '@type': 'LocalBusiness',
       name: 'Renova Solution',
-      telephone: '+39-393-959-6194',
+      telephone: CONTATTI.telefonoSchema,
+      email: CONTATTI.email,
       address: {
         '@type': 'PostalAddress',
         addressLocality: 'Prata di Pordenone',
@@ -304,11 +303,11 @@ export default function GeoServicePage({
                   <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
                 </Link>
                 <a
-                  href="tel:+393939596194"
+                  href={CONTATTI.telefonoLink}
                   className="text-white font-bold text-base hover:text-[#C8E600] transition-colors flex items-center justify-center gap-2"
                 >
                   <Phone className="w-5 h-5" />
-                  Chiama ora: 393 959 6194
+                  Chiama ora: {CONTATTI.telefonoBreve}
                 </a>
               </motion.div>
             </div>
@@ -507,11 +506,11 @@ export default function GeoServicePage({
                   <ArrowRight className="w-5 h-5" />
                 </Link>
                 <a
-                  href="tel:+393939596194"
+                  href={CONTATTI.telefonoLink}
                   className="bg-white text-black px-8 py-4 rounded-full font-bold text-base hover:bg-gray-100 transition-colors flex items-center justify-center gap-2"
                 >
                   <Phone className="w-5 h-5" />
-                  393 959 6194
+                  {CONTATTI.telefonoBreve}
                 </a>
               </div>
             </motion.div>

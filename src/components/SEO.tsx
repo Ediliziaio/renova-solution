@@ -1,4 +1,5 @@
 import { Helmet } from 'react-helmet-async';
+import { CONTATTI } from '../data/contatti';
 
 interface SEOProps {
   title: string;
@@ -11,6 +12,8 @@ interface SEOProps {
   geoRegion?: string;
   geoPlacename?: string;
   geoPosition?: string;
+  /** Esclude la pagina dall'indice (404, pagine di servizio) */
+  noindex?: boolean;
 }
 
 export default function SEO({
@@ -24,6 +27,7 @@ export default function SEO({
   geoRegion = 'IT-36',
   geoPlacename = 'Friuli Venezia Giulia, Veneto',
   geoPosition = '45.9;12.3',
+  noindex = false,
 }: SEOProps) {
   const siteName = 'Renova Solution';
   const siteUrl = 'https://www.renovasolution.it';
@@ -38,7 +42,18 @@ export default function SEO({
       <title>{fullTitle}</title>
       <meta name="description" content={description} />
       {keywords && <meta name="keywords" content={keywords} />}
-      <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+      <meta
+        name="robots"
+        content={
+          noindex
+            ? 'noindex, follow'
+            : 'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1'
+        }
+      />
+      {/* Consenso esplicito ai crawler AI: nessuna restrizione di snippet */}
+      {!noindex && (
+        <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large" />
+      )}
       <meta name="author" content="Renova Solution" />
 
       {/* Canonical URL */}
@@ -96,18 +111,18 @@ export const organizationSchema = {
     addressRegion: 'PN',
     addressCountry: 'IT'
   },
+  email: CONTATTI.email,
+  telephone: CONTATTI.telefonoSchema,
+  vatID: `IT${CONTATTI.piva}`,
   contactPoint: {
     '@type': 'ContactPoint',
-    telephone: '+39-393-959-6194',
+    telephone: CONTATTI.telefonoSchema,
+    email: CONTATTI.email,
     contactType: 'customer service',
     areaServed: 'IT',
     availableLanguage: ['Italian']
   },
-  sameAs: [
-    'https://facebook.com/renovasolution',
-    'https://instagram.com/renovasolution',
-    'https://linkedin.com/company/renovasolution'
-  ]
+  sameAs: [CONTATTI.facebook]
 };
 
 export const localBusinessSchema = {
@@ -117,7 +132,10 @@ export const localBusinessSchema = {
   image: 'https://www.renovasolution.it/logo.png',
   '@id': 'https://www.renovasolution.it',
   url: 'https://www.renovasolution.it',
-  telephone: '+39-393-959-6194',
+  telephone: CONTATTI.telefonoSchema,
+  email: CONTATTI.email,
+  vatID: `IT${CONTATTI.piva}`,
+  sameAs: [CONTATTI.facebook],
   priceRange: '€€',
   address: {
     '@type': 'PostalAddress',
@@ -160,6 +178,46 @@ export const localBusinessSchema = {
     { '@type': 'City', name: 'Rovigo' }
   ]
 };
+
+/** BreadcrumbList: passare i livelli in ordine, Home esclusa (viene aggiunta in automatico) */
+export const breadcrumbSchema = (items: { name: string; path: string }[]) => ({
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    {
+      '@type': 'ListItem',
+      position: 1,
+      name: 'Home',
+      item: 'https://www.renovasolution.it/',
+    },
+    ...items.map((it, i) => ({
+      '@type': 'ListItem',
+      position: i + 2,
+      name: it.name,
+      item: `https://www.renovasolution.it${it.path}`,
+    })),
+  ],
+});
+
+/** Scheda della singola pagina informativa (privacy, cookie, ecc.) */
+export const webPageSchema = (name: string, description: string, path: string) => ({
+  '@context': 'https://schema.org',
+  '@type': 'WebPage',
+  name,
+  description,
+  url: `https://www.renovasolution.it${path}`,
+  inLanguage: 'it-IT',
+  isPartOf: {
+    '@type': 'WebSite',
+    name: 'Renova Solution',
+    url: 'https://www.renovasolution.it',
+  },
+  publisher: {
+    '@type': 'Organization',
+    name: 'Renova Solution',
+    url: 'https://www.renovasolution.it',
+  },
+});
 
 export const serviceSchema = (name: string, description: string, url: string) => ({
   '@context': 'https://schema.org',

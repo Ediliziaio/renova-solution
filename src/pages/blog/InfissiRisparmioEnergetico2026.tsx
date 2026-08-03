@@ -8,7 +8,9 @@ import { Calendar, Clock, User, ArrowLeft, CheckCircle, AlertCircle } from 'luci
 export default function InfissiRisparmioEnergetico2026() {
   const articleData = {
     title: 'Infissi e risparmio energetico: quanto si risparmia davvero cambiando le finestre nel 2026',
+    metaTitle: 'Infissi e risparmio energetico 2026',
     excerpt: 'Scopri quanto si risparmia in bolletta sostituendo le finestre nel 2026: dati reali, tabelle comparative, valori Uw, materiali a confronto, detrazione 50% e case study da Udine e Padova.',
+    metaDescription: 'Quanto si risparmia sostituendo le finestre nel 2026: dati reali, valori Uw, materiali a confronto, detrazione 50% e case study.',
     date: '8 Aprile 2026',
     dateISO: '2026-04-08',
     readTime: '14 min',
@@ -59,8 +61,8 @@ export default function InfissiRisparmioEnergetico2026() {
   return (
     <>
       <SEO
-        title={`${articleData.title} | Renova Solution`}
-        description={articleData.excerpt}
+        title={`${articleData.metaTitle} | Renova Solution`}
+        description={articleData.metaDescription}
         keywords="risparmio energetico infissi, cambiare finestre risparmio, sostituzione infissi costo, infissi risparmio bolletta, trasmittanza termica infissi, infissi classe energetica, finestre risparmio riscaldamento 2026"
         ogType="article"
         canonical={`https://www.renovasolution.it/blog/${articleData.slug}`}

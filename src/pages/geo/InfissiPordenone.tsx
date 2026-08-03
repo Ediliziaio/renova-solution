@@ -14,8 +14,8 @@ export default function InfissiPordenone() {
       servizio="infissi"
       heroTitle="Infissi a Pordenone: comfort termico e risparmio energetico"
       heroSubtitle="Serramenti in PVC, alluminio e legno-alluminio a Pordenone e provincia. Misurazione gratuita, posa certificata e detrazione fiscale del 50%."
-      seoTitle="Infissi Pordenone | Serramenti Pordenone Provincia | Renova Solution"
-      seoDescription="Infissi e serramenti a Pordenone e provincia: finestre in PVC, alluminio e legno-alluminio. Protezione dall'umidità di pianura, detrazione 50%. Preventivo gratuito."
+      seoTitle="Infissi Pordenone | Serramenti e Finestre | Renova Solution"
+      seoDescription="Infissi e serramenti a Pordenone e provincia: finestre in PVC, alluminio e legno-alluminio. Protezione dall'umidità e detrazione 50%. Preventivo gratuito."
       seoKeywords="infissi pordenone, serramenti pordenone, finestre pvc pordenone, finestre alluminio pordenone, sostituzione infissi pordenone, infissi pordenone prezzi"
       introText="La provincia di Pordenone si estende dalla pianura padana orientale alle prime pendici delle Prealpi Carniche, un territorio dove l'umidità è la sfida principale per il comfort abitativo. Nella bassa pianura — da Azzano Decimo a Fiume Veneto — i tassi di umidità invernali superano spesso l'80%, favorendo la formazione di condensa sulle finestre, la comparsa di muffe e un senso di freddo persistente che nemmeno il riscaldamento riesce a eliminare quando gli infissi sono vecchi.
 

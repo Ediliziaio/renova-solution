@@ -14,7 +14,7 @@ export default function RistrutturazioniRovigo() {
       servizio="ristrutturazioni"
       heroTitle="Ristrutturazioni a Rovigo: chiavi in mano, senza sorprese"
       heroSubtitle="Ristrutturazione completa di case, appartamenti, bagni e facciate a Rovigo e nel Polesine. Cappotto termico, contrasto all'umidità e bonus 50% incluso."
-      seoTitle="Ristrutturazioni Rovigo | Ristrutturazione Casa Rovigo | Renova Solution"
+      seoTitle="Ristrutturazioni Rovigo | Chiavi in Mano | Renova Solution"
       seoDescription="Ristrutturazioni a Rovigo e nel Polesine: case, appartamenti, bagni, cucine, facciate e cappotto termico. Bonus 50% e anti-umidità. Preventivo gratuito Renova."
       seoKeywords="ristrutturazioni rovigo, ristrutturazione casa rovigo, ristrutturazione bagno rovigo, impresa ristrutturazioni rovigo, bonus ristrutturazione rovigo, ristrutturazione appartamento rovigo"
       introText="La provincia di Rovigo — il Polesine — presenta un'edilizia prevalentemente rurale e di pianura, con caratteristiche specifiche legate al territorio: case coloniche in laterizio, villette e palazzine costruite tra gli anni '50 e '80, e un centro storico cittadino con edifici di pregio che necessitano di interventi di recupero. La vicinanza al Delta del Po e la falda acquifera superficiale rendono l'umidità di risalita il problema edilizio più diffuso e sentito in tutta la provincia.

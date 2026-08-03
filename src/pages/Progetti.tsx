@@ -54,7 +54,7 @@ export default function Progetti() {
     <div className="min-h-screen bg-white">
       <SEO
         title="Progetti e Lavori Realizzati | Renova Solution"
-        description="Scopri i progetti e i lavori realizzati da Renova Solution in Friuli Venezia Giulia e Veneto: installazioni fotovoltaiche, sostituzione infissi, ristrutturazioni complete. Foto reali dei nostri interventi."
+        description="I lavori realizzati da Renova Solution in Friuli Venezia Giulia e Veneto: impianti fotovoltaici, infissi e ristrutturazioni. Foto reali dei nostri cantieri."
         keywords="progetti fotovoltaico, lavori infissi, ristrutturazioni friuli, installazioni fotovoltaico veneto, portfolio lavori edili, foto installazioni"
         canonical="https://www.renovasolution.it/progetti"
         ogImage="/images/fotovoltaico-casa.jpg"

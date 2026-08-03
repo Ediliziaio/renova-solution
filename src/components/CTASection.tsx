@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import { Phone } from 'lucide-react';
+import { CONTATTI } from '../data/contatti';
 
 export default function CTASection() {
   return (
@@ -23,11 +24,11 @@ export default function CTASection() {
               Richiedi preventivo
             </Link>
             <a 
-              href="tel:+393939596194"
+              href={CONTATTI.telefonoLink}
               className="inline-flex items-center justify-center gap-2 bg-white/10 text-white px-6 md:px-8 py-3 md:py-4 rounded-full font-bold text-sm md:text-base hover:bg-white/20 transition-colors"
             >
               <Phone size={18} />
-              393 959 6194
+              {CONTATTI.telefonoBreve}
             </a>
           </div>
         </div>

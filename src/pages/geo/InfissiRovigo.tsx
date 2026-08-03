@@ -14,8 +14,8 @@ export default function InfissiRovigo() {
       servizio="infissi"
       heroTitle="Infissi a Rovigo: comfort termico e risparmio energetico"
       heroSubtitle="Serramenti in PVC, alluminio e legno-alluminio a Rovigo e provincia. Misurazione gratuita, posa certificata, detrazione fiscale 50%."
-      seoTitle="Infissi Rovigo | Serramenti Rovigo Provincia | Renova Solution"
-      seoDescription="Infissi e serramenti a Rovigo e provincia. Finestre in PVC, alluminio e legno-alluminio con taglio termico per il clima del Polesine. Preventivo gratuito, detrazione 50%."
+      seoTitle="Infissi Rovigo | Serramenti e Finestre | Renova Solution"
+      seoDescription="Infissi e serramenti a Rovigo e provincia. Finestre in PVC, alluminio e legno con taglio termico. Preventivo gratuito e detrazione 50%."
       seoKeywords="infissi rovigo, serramenti rovigo, finestre pvc rovigo, finestre alluminio rovigo, sostituzione infissi rovigo, infissi rovigo prezzi"
       introText="La provincia di Rovigo, terra del Polesine stretta tra l'Adige e il Po, presenta un clima caratterizzato da umidità persistente, nebbie fitte nei mesi invernali e afa estiva. Queste condizioni climatiche, con tassi di umidità relativa che raggiungono costantemente il 90%, rendono la scelta degli infissi un intervento prioritario per chi vuole vivere in una casa confortevole e salubre, senza dover combattere ogni giorno con condensa, spifferi e muffe.
 

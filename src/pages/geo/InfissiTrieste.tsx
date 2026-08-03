@@ -14,8 +14,8 @@ export default function InfissiTrieste() {
       servizio="infissi"
       heroTitle="Infissi a Trieste: comfort termico e risparmio energetico"
       heroSubtitle="Serramenti in PVC, alluminio e legno-alluminio a Trieste e provincia. Misurazione gratuita, posa certificata e detrazione fiscale del 50%."
-      seoTitle="Infissi Trieste | Serramenti Trieste Provincia | Renova Solution"
-      seoDescription="Infissi e serramenti a Trieste e provincia: finestre in PVC, alluminio e legno-alluminio. Isolamento termico dalla Bora, detrazione 50%. Preventivo gratuito Renova Solution."
+      seoTitle="Infissi Trieste | Serramenti e Finestre | Renova Solution"
+      seoDescription="Infissi e serramenti a Trieste e provincia: finestre in PVC, alluminio e legno-alluminio. Isolamento termico dalla Bora e detrazione 50%. Preventivo gratuito."
       seoKeywords="infissi trieste, serramenti trieste, finestre pvc trieste, finestre alluminio trieste, sostituzione infissi trieste, infissi trieste prezzi"
       introText="A Trieste il clima è dominato dalla Bora, il vento forte e gelido che d'inverno spinge le temperature percepite ben sotto lo zero. L'umidità del Golfo Adriatico peggiora la sensazione di freddo e accelera il degrado degli infissi vecchi. In questo contesto, avere serramenti performanti non è un lusso ma una necessità per il comfort abitativo e per contenere i costi di riscaldamento.
 

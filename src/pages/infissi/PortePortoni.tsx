@@ -66,8 +66,8 @@ export default function PortePortoni() {
   return (
     <div className="min-h-screen bg-white">
       <SEO
-        title="Porte Blindate e Portoni | Sicurezza e Isolamento | Renova Solution"
-        description="Porte blindate, portoni sezionali e porte d'ingresso in Friuli Venezia Giulia e Veneto. Massima sicurezza, isolamento termico e acustico. Installazione professionale e detrazione 50%."
+        title="Porte Blindate e Portoni Sezionali | Renova Solution"
+        description="Porte blindate, portoni sezionali e porte d'ingresso in FVG e Veneto. Sicurezza, isolamento termico e acustico. Installazione con detrazione 50%."
         keywords="porte blindate friuli, portoni sezionali veneto, porte ingresso sicurezza, porte blindate prezzi, portoni garage, porte antieffrazione"
         canonical="https://www.renovasolution.it/infissi/porte-portoni"
         ogImage="/images/confronto-finestre.jpg"

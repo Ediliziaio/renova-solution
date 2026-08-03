@@ -14,8 +14,8 @@ export default function InfissiGorizia() {
       servizio="infissi"
       heroTitle="Infissi a Gorizia: comfort termico e risparmio energetico"
       heroSubtitle="Serramenti in PVC, alluminio e legno-alluminio a Gorizia e provincia. Misurazione gratuita, posa certificata e detrazione fiscale del 50%."
-      seoTitle="Infissi Gorizia | Serramenti Gorizia Provincia | Renova Solution"
-      seoDescription="Infissi e serramenti a Gorizia e provincia: finestre in PVC, alluminio e legno-alluminio. Protezione dal vento e isolamento termico, detrazione 50%. Preventivo gratuito."
+      seoTitle="Infissi Gorizia | Serramenti e Finestre | Renova Solution"
+      seoDescription="Infissi e serramenti a Gorizia e provincia: finestre in PVC, alluminio e legno-alluminio. Isolamento termico e detrazione 50%. Preventivo gratuito."
       seoKeywords="infissi gorizia, serramenti gorizia, finestre pvc gorizia, finestre alluminio gorizia, sostituzione infissi gorizia, infissi gorizia prezzi"
       introText="La provincia di Gorizia occupa una posizione di confine tra l'altopiano carsico e la pianura isontina, esposta ai venti freddi che scendono dall'entroterra sloveno e alla brezza salmastra dell'Adriatico nella zona costiera di Grado e Monfalcone. Questo microclima particolare — ventoso, con inverni freddi e umidi — rende gli infissi un elemento cruciale per il benessere abitativo e l'efficienza energetica delle case goriziane.
 

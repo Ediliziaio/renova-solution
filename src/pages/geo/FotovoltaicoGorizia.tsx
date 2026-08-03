@@ -14,7 +14,7 @@ export default function FotovoltaicoGorizia() {
       servizio="fotovoltaico"
       heroTitle="Fotovoltaico a Gorizia: risparmia fino al 70% in bolletta"
       heroSubtitle="Impianti fotovoltaici con accumulo a Gorizia e provincia. Sopralluogo gratuito, detrazioni fiscali gestite e installazione professionale."
-      seoTitle="Fotovoltaico Gorizia | Impianti Fotovoltaici Gorizia | Renova Solution"
+      seoTitle="Fotovoltaico Gorizia | Impianti Solari | Renova Solution"
       seoDescription="Impianti fotovoltaici a Gorizia e provincia: Monfalcone, Grado, Cormons, Gradisca. Pannelli solari con accumulo e detrazione 50%. Sopralluogo gratuito."
       seoKeywords="fotovoltaico gorizia, pannelli solari gorizia, impianto fotovoltaico gorizia, fotovoltaico monfalcone, energia solare gorizia, fotovoltaico grado, installazione fotovoltaico gorizia provincia, fotovoltaico cormons"
       introText="La provincia di Gorizia, al confine sloveno e affacciata sull'alto Adriatico, gode di un microclima particolarmente favorevole alla produzione di energia solare. La posizione strategica tra il Carso e la pianura isontina garantisce un'irradiazione solare superiore alla media regionale, rendendo il fotovoltaico una scelta particolarmente vantaggiosa per famiglie e imprese del territorio.

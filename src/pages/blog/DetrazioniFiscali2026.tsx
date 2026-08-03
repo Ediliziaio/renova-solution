@@ -8,7 +8,9 @@ import { Calendar, Clock, User, ArrowLeft, Tag, CheckCircle, AlertCircle, Euro, 
 export default function DetrazioniFiscali2026() {
   const articleData = {
     title: 'Detrazioni fiscali 2026: guida completa a Ecobonus e detrazioni ristrutturazioni',
+    metaTitle: 'Detrazioni fiscali 2026: guida completa',
     excerpt: 'Guida completa alle detrazioni fiscali per il 2026: scopri come usufruire del 50% per ristrutturazioni e efficientamento energetico. Tutte le novità e i requisiti aggiornati.',
+    metaDescription: 'Detrazioni fiscali 2026: come usare il 50% per ristrutturazioni ed efficientamento energetico. Novità, requisiti e documenti aggiornati.',
     date: '15 Marzo 2026',
     dateISO: '2026-03-15',
     readTime: '8 min',
@@ -59,8 +61,8 @@ export default function DetrazioniFiscali2026() {
   return (
     <>
       <SEO 
-        title={`${articleData.title} | Renova Solution`}
-        description={articleData.excerpt}
+        title={`${articleData.metaTitle} | Renova Solution`}
+        description={articleData.metaDescription}
         keywords="detrazioni fiscali 2026, Ecobonus 2026, detrazione 50% ristrutturazioni, detrazione 50% fotovoltaico, agevolazioni fiscali casa, bonus edilizia"
         ogType="article"
         canonical={`https://www.renovasolution.it/blog/${articleData.slug}`}

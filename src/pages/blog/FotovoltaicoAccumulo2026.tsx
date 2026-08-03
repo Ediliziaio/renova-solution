@@ -8,7 +8,9 @@ import { Calendar, Clock, User, ArrowLeft, Tag, CheckCircle, XCircle, Battery, Z
 export default function FotovoltaicoAccumulo2026() {
   const articleData = {
     title: 'Fotovoltaico con accumulo 2026: conviene davvero? Analisi costi-benefici aggiornata',
+    metaTitle: 'Fotovoltaico con accumulo 2026: conviene?',
     excerpt: 'Analisi approfondita delle batterie di accumulo per impianti fotovoltaici nel 2026. Quanto si risparmia, tempi di ripiego dell\'investimento, migliori batterie sul mercato e consigli pratici.',
+    metaDescription: 'Batterie di accumulo per il fotovoltaico nel 2026: quanto si risparmia, tempi di rientro dell\'investimento e migliori modelli sul mercato.',
     date: '10 Marzo 2026',
     dateISO: '2026-03-10',
     readTime: '10 min',
@@ -59,8 +61,8 @@ export default function FotovoltaicoAccumulo2026() {
   return (
     <>
       <SEO 
-        title={`${articleData.title} | Renova Solution`}
-        description={articleData.excerpt}
+        title={`${articleData.metaTitle} | Renova Solution`}
+        description={articleData.metaDescription}
         keywords="fotovoltaico accumulo 2026, batterie fotovoltaico, accumulo energia, costi batterie fotovoltaico, risparmio energetico, fotovoltaico casa"
         ogType="article"
         canonical={`https://www.renovasolution.it/blog/${articleData.slug}`}

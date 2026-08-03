@@ -105,7 +105,7 @@ export default function Infissi() {
   return (
     <>
       <SEO 
-        title="Infissi e Serramenti | Finestre PVC, Alluminio, Legno in Veneto e Friuli"
+        title="Infissi e Serramenti | Finestre PVC e Alluminio | Renova Solution"
         description="Finestre in PVC, alluminio e legno-alluminio con doppio o triplo vetro. Risparmia fino al 40% in bolletta. Detrazione 50%, installazione rapida."
         keywords="infissi PVC, finestre alluminio, serramenti legno, infissi Treviso, finestre Udine, doppio vetro, detrazione infissi"
         schema={[schema, faqStructuredData]}
@@ -145,7 +145,7 @@ export default function Infissi() {
                 Preventivo gratuito
               </Link>
               <a 
-                href="tel:+393939596194"
+                href="tel:+393761293952"
                 className="bg-white/10 backdrop-blur-sm text-white px-6 md:px-8 py-3 md:py-4 rounded-full font-bold text-sm md:text-base hover:bg-white/20 transition-colors text-center"
               >
                 Chiama ora

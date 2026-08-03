@@ -65,8 +65,8 @@ export default function FinestreAlluminio() {
   return (
     <div className="min-h-screen bg-white">
       <SEO
-        title="Finestre in Alluminio | Infissi Alluminio a Taglio Termico | Renova Solution"
-        description="Finestre e infissi in alluminio a taglio termico in Friuli Venezia Giulia e Veneto. Design moderno, resistenza e durabilità. Detrazione fiscale 50%. Misurazione gratuita."
+        title="Finestre in Alluminio a Taglio Termico | Renova Solution"
+        description="Finestre e infissi in alluminio a taglio termico in FVG e Veneto. Design moderno, resistenza e durata. Detrazione 50% e misurazione gratuita."
         keywords="finestre alluminio, infissi alluminio, finestre alluminio taglio termico, serramenti alluminio, infissi alluminio friuli, finestre alluminio veneto"
         canonical="https://www.renovasolution.it/infissi/finestre-alluminio"
         ogImage="/images/confronto-finestre.jpg"

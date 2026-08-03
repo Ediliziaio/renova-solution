@@ -14,7 +14,7 @@ export default function RistrutturazioniPordenone() {
       servizio="ristrutturazioni"
       heroTitle="Ristrutturazioni a Pordenone: chiavi in mano, senza sorprese"
       heroSubtitle="Ristrutturazioni di appartamenti, villette e facciate a Pordenone e provincia. Un solo interlocutore, bonus 50% incluso, tempi e costi certi."
-      seoTitle="Ristrutturazioni Pordenone | Ristrutturazione Casa Pordenone | Renova Solution"
+      seoTitle="Ristrutturazioni Pordenone | Chiavi in Mano | Renova Solution"
       seoDescription="Ristrutturazioni chiavi in mano a Pordenone e provincia. Bagni, cucine, facciate, cappotto termico. Bonus 50%, preventivo gratuito. Renova Solution FVG."
       seoKeywords="ristrutturazioni pordenone, ristrutturazione casa pordenone, ristrutturazione bagno pordenone, ristrutturazione appartamento pordenone, bonus ristrutturazione pordenone, impresa ristrutturazioni pordenone"
       introText="La provincia di Pordenone si distingue per un tessuto residenziale fatto prevalentemente di villette mono e bifamiliari, case a schiera e piccoli condomini edificati tra gli anni '60 e '90. Molti di questi immobili presentano oggi impianti datati, bagni da rinnovare, cucine non più funzionali e un isolamento termico insufficiente che si traduce in bollette del gas particolarmente elevate durante i rigidi inverni pordenonesi.

@@ -14,7 +14,7 @@ export default function FotovoltaicoTreviso() {
       servizio="fotovoltaico"
       heroTitle="Fotovoltaico a Treviso: risparmia fino al 70% in bolletta"
       heroSubtitle="Impianti fotovoltaici con accumulo a Treviso e provincia. Sopralluogo gratuito, preventivo chiaro, detrazioni fiscali incluse."
-      seoTitle="Fotovoltaico Treviso | Impianti Fotovoltaici Treviso | Renova Solution"
+      seoTitle="Fotovoltaico Treviso | Impianti Solari | Renova Solution"
       seoDescription="Installazione impianti fotovoltaici a Treviso e provincia. Pannelli solari con accumulo, detrazione 50%, sopralluogo gratuito. Renova Solution Veneto."
       seoKeywords="fotovoltaico treviso, pannelli solari treviso, impianto fotovoltaico treviso, fotovoltaico con accumulo treviso, energia solare treviso provincia, installazione fotovoltaico conegliano, fotovoltaico castelfranco veneto"
       introText="La provincia di Treviso, dalle colline del Prosecco patrimonio UNESCO alla pianura trevigiana, offre condizioni ideali per la produzione di energia solare. Le dolci colline tra Conegliano e Valdobbiadene, famose per il Prosecco Superiore DOCG, godono di un'esposizione solare eccellente. Un impianto fotovoltaico ben progettato copre fino al 70-80% del fabbisogno energetico domestico, con un ritorno dell'investimento in 5-6 anni grazie alle detrazioni fiscali del 50%.

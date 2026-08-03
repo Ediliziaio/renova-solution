@@ -1,6 +1,6 @@
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
-import SEO from '../components/SEO';
+import SEO, { webPageSchema, breadcrumbSchema } from '../components/SEO';
 
 export default function Privacy() {
   return (
@@ -10,6 +10,14 @@ export default function Privacy() {
         description="Informativa sulla privacy di Renova Solution. Come trattiamo i tuoi dati personali in conformità con il GDPR."
         keywords="privacy policy, GDPR, protezione dati personali, Renova Solution"
         canonical="https://www.renovasolution.it/privacy"
+        schema={[
+          webPageSchema(
+            'Privacy Policy',
+            'Informativa sul trattamento dei dati personali di Renova Solution ai sensi del GDPR.',
+            '/privacy'
+          ),
+          breadcrumbSchema([{ name: 'Privacy Policy', path: '/privacy' }]),
+        ]}
       />
       
       <div className="min-h-screen bg-white">
@@ -36,8 +44,8 @@ export default function Privacy() {
                 </p>
                 <p className="mt-2">
                   <strong>Contatti:</strong><br />
-                  Email: info@renovasolution.it<br />
-                  Telefono: +39 393 959 6194<br />
+                  Email: commerciale@renovasolution.it<br />
+                  Telefono: +39 376 1293952<br />
                   PEC: renovasolution@pec.it
                 </p>
               </section>
@@ -112,7 +120,7 @@ export default function Privacy() {
                   <li><strong>Opposizione:</strong> opporsi al trattamento per finalità di marketing</li>
                 </ul>
                 <p className="mt-2">
-                  Per esercitare i tuoi diritti, contattaci all'indirizzo email: <strong>info@renovasolution.it</strong>
+                  Per esercitare i tuoi diritti, contattaci all'indirizzo email: <strong>commerciale@renovasolution.it</strong>
                 </p>
               </section>
 
@@ -158,8 +166,8 @@ export default function Privacy() {
                 <p className="mt-2">
                   <strong>Renova Solution S.r.l.</strong><br />
                   Via Revedole 78/B, 33170 Pordenone (PN)<br />
-                  Email: info@renovasolution.it<br />
-                  Tel: +39 393 959 6194
+                  Email: commerciale@renovasolution.it<br />
+                  Tel: +39 376 1293952
                 </p>
               </section>
             </div>

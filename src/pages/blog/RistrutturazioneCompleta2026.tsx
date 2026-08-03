@@ -8,7 +8,9 @@ import { Calendar, Clock, User, ArrowLeft, CheckCircle, AlertCircle } from 'luci
 export default function RistrutturazioneCompleta2026() {
   const articleData = {
     title: 'Ristrutturazione completa della casa nel 2026: costi, tempi, bonus fiscali e consigli pratici',
+    metaTitle: 'Ristrutturazione casa 2026: costi e tempi',
     excerpt: 'Guida completa alla ristrutturazione integrale della casa nel 2026: quanto costa al metro quadro, quanto tempo richiede, quali pratiche edilizie servono e come sfruttare il bonus 50% per risparmiare fino a metà spesa.',
+    metaDescription: 'Ristrutturazione completa della casa nel 2026: costi al metro quadro, tempi, pratiche edilizie necessarie e come sfruttare il bonus 50%.',
     date: '25 Marzo 2026',
     dateISO: '2026-03-25',
     readTime: '15 min',
@@ -59,8 +61,8 @@ export default function RistrutturazioneCompleta2026() {
   return (
     <>
       <SEO
-        title={`${articleData.title} | Renova Solution`}
-        description={articleData.excerpt}
+        title={`${articleData.metaTitle} | Renova Solution`}
+        description={articleData.metaDescription}
         keywords="ristrutturazione completa casa 2026, costo ristrutturazione al mq, ristrutturazione appartamento costi, tempi ristrutturazione casa, bonus ristrutturazione 2026, ristrutturare casa guida, permessi ristrutturazione"
         ogType="article"
         canonical={`https://www.renovasolution.it/blog/${articleData.slug}`}

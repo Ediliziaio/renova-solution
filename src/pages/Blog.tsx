@@ -300,8 +300,8 @@ export default function Blog() {
   return (
     <>
       <SEO 
-        title="Blog 2026 | Guide e Consigli su Fotovoltaico, Infissi e Ristrutturazioni | Renova Solution"
-        description="Scopri le ultime novità 2026 su fotovoltaico, infissi, ristrutturazioni e agevolazioni fiscali in Friuli Venezia Giulia e Veneto. Guide pratiche, consigli degli esperti e aggiornamenti."
+        title="Blog | Guide su Fotovoltaico, Infissi e Casa | Renova Solution"
+        description="Guide e novità 2026 su fotovoltaico, infissi, ristrutturazioni e detrazioni fiscali in Friuli Venezia Giulia e Veneto. Consigli pratici dai nostri tecnici."
         keywords="blog fotovoltaico 2026, guide ristrutturazioni, consigli infissi, detrazioni fiscali 2026, agevolazioni casa, Ecobonus, Superbonus, risparmio energetico, fotovoltaico Friuli, ristrutturazione Veneto"
         ogType="website"
         canonical="https://www.renovasolution.it/blog"

@@ -14,7 +14,7 @@ export default function InfissiVerona() {
       servizio="infissi"
       heroTitle="Infissi a Verona: comfort termico e risparmio energetico"
       heroSubtitle="Serramenti in PVC, alluminio e legno-alluminio a Verona e provincia. Misurazione gratuita, posa certificata, detrazione fiscale 50%."
-      seoTitle="Infissi Verona | Serramenti Verona Provincia | Renova Solution"
+      seoTitle="Infissi Verona | Serramenti e Finestre | Renova Solution"
       seoDescription="Infissi e serramenti a Verona e provincia. Finestre in PVC, alluminio e legno-alluminio con taglio termico. Preventivo gratuito e detrazione 50%. Renova Solution."
       seoKeywords="infissi verona, serramenti verona, finestre pvc verona, finestre alluminio verona, sostituzione infissi verona, infissi verona prezzi"
       introText="La provincia di Verona si estende dal Lago di Garda alla bassa pianura veronese, attraversando contesti climatici molto diversi tra loro. Le forti escursioni termiche tra estate e inverno, con punte estive oltre i 35°C e temperature invernali che scendono sotto lo zero nella Valpolicella e nella Lessinia, rendono fondamentale la scelta di infissi con elevate prestazioni di isolamento termico.

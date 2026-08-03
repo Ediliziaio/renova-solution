@@ -14,7 +14,7 @@ export default function FotovoltaicoBelluno() {
       servizio="fotovoltaico"
       heroTitle="Fotovoltaico a Belluno: risparmia fino al 70% in bolletta"
       heroSubtitle="Impianti fotovoltaici con accumulo a Belluno e provincia. Sopralluogo gratuito, preventivo chiaro, detrazioni fiscali incluse."
-      seoTitle="Fotovoltaico Belluno | Impianti Fotovoltaici Belluno | Renova Solution"
+      seoTitle="Fotovoltaico Belluno | Impianti Solari | Renova Solution"
       seoDescription="Installazione impianti fotovoltaici a Belluno e nelle Dolomiti. Pannelli solari con accumulo, detrazione 50%, sopralluogo gratuito. Renova Solution Veneto."
       seoKeywords="fotovoltaico belluno, pannelli solari belluno, impianto fotovoltaico dolomiti, fotovoltaico con accumulo belluno, energia solare belluno provincia, installazione fotovoltaico feltre, fotovoltaico cortina d'ampezzo"
       introText="La provincia di Belluno, cuore delle Dolomiti patrimonio UNESCO, offre un potenziale fotovoltaico spesso sottovalutato. L'altitudine e l'aria tersa delle valli dolomitiche garantiscono un'irradiazione solare diretta molto intensa, soprattutto nei mesi estivi. Le basse temperature invernali, inoltre, aumentano l'efficienza dei pannelli solari rispetto alla pianura. Un impianto ben dimensionato copre fino al 60-75% del fabbisogno energetico domestico, con un ritorno dell'investimento in 6-7 anni grazie alle detrazioni fiscali del 50%.

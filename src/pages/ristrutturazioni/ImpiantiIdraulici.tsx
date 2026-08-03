@@ -61,8 +61,8 @@ export default function ImpiantiIdraulici() {
   return (
     <div className="min-h-screen bg-white">
       <SEO
-        title="Impianti Idraulici | Rifacimento Impianto Idrico e Sanitario | Renova Solution"
-        description="Rifacimento impianti idraulici e sanitari in Friuli Venezia Giulia e Veneto. Sostituzione tubazioni, impianti bagno e cucina, riscaldamento a pavimento. Preventivo gratuito."
+        title="Impianti Idraulici e Sanitari | Renova Solution"
+        description="Rifacimento impianti idraulici e sanitari in FVG e Veneto: sostituzione tubazioni, bagno e cucina, riscaldamento a pavimento. Preventivo gratuito."
         keywords="impianti idraulici friuli, rifacimento impianto idraulico, idraulico veneto, impianto bagno, impianto cucina, riscaldamento a pavimento, tubazioni"
         canonical="https://www.renovasolution.it/ristrutturazioni/impianti-idraulici"
         ogImage="/images/ristrutturazione.jpg"

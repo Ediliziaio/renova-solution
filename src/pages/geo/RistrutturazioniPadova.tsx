@@ -14,7 +14,7 @@ export default function RistrutturazioniPadova() {
       servizio="ristrutturazioni"
       heroTitle="Ristrutturazioni a Padova: chiavi in mano, senza sorprese"
       heroSubtitle="Ristrutturazione completa di appartamenti, bagni, cucine e facciate a Padova e provincia. Cappotto termico, bonus 50% e gestione completa delle pratiche."
-      seoTitle="Ristrutturazioni Padova | Ristrutturazione Casa Padova | Renova Solution"
+      seoTitle="Ristrutturazioni Padova | Chiavi in Mano | Renova Solution"
       seoDescription="Ristrutturazioni a Padova e provincia: appartamento, bagno, cucina, facciate e cappotto termico. Bonus ristrutturazione 50%. Preventivo gratuito Renova Solution."
       seoKeywords="ristrutturazioni padova, ristrutturazione casa padova, ristrutturazione bagno padova, impresa ristrutturazioni padova, bonus ristrutturazione padova, ristrutturazione appartamento padova"
       introText="La provincia di Padova presenta un tessuto edilizio variegato: il centro storico con edifici di pregio vincolati dalla Soprintendenza, le periferie e i comuni della prima cintura — Albignasego, Selvazzano, Rubano, Vigonza — caratterizzati da condomini e villette degli anni '60 e '70 con scarso isolamento termico, e i centri minori come Cittadella, Este e Monselice dove convivono edilizia storica e residenziale più recente. Ogni contesto richiede un approccio diverso alla ristrutturazione.

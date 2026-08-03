@@ -14,7 +14,7 @@ export default function InfissiPadova() {
       servizio="infissi"
       heroTitle="Infissi a Padova: comfort termico e risparmio energetico"
       heroSubtitle="Serramenti in PVC, alluminio e legno-alluminio a Padova e provincia. Misurazione gratuita, posa certificata, detrazione fiscale 50%."
-      seoTitle="Infissi Padova | Serramenti Padova Provincia | Renova Solution"
+      seoTitle="Infissi Padova | Serramenti e Finestre | Renova Solution"
       seoDescription="Infissi e serramenti a Padova e provincia. Finestre in PVC, alluminio e legno-alluminio con taglio termico. Preventivo gratuito e detrazione 50%. Renova Solution."
       seoKeywords="infissi padova, serramenti padova, finestre pvc padova, finestre alluminio padova, sostituzione infissi padova, infissi padova prezzi"
       introText="La provincia di Padova, caratterizzata da inverni freddi con nebbia persistente e umidità elevata, richiede infissi ad alte prestazioni termiche per garantire comfort abitativo e contenimento dei costi energetici. Le condizioni climatiche della pianura padovana, con escursioni termiche significative tra estate e inverno, mettono a dura prova i serramenti di vecchia generazione.

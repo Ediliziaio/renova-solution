@@ -14,7 +14,7 @@ export default function FotovoltaicoPordenone() {
       servizio="fotovoltaico"
       heroTitle="Fotovoltaico a Pordenone: risparmia fino al 70% in bolletta"
       heroSubtitle="Impianti fotovoltaici per abitazioni e aziende a Pordenone e provincia. Sopralluogo gratuito, preventivo trasparente e gestione completa delle detrazioni."
-      seoTitle="Fotovoltaico Pordenone | Impianti Fotovoltaici Pordenone | Renova Solution"
+      seoTitle="Fotovoltaico Pordenone | Impianti Solari | Renova Solution"
       seoDescription="Impianti fotovoltaici a Pordenone e provincia: Sacile, Cordenons, Azzano Decimo, Maniago. Pannelli solari, accumulo, detrazione 50%. Preventivo gratis."
       seoKeywords="fotovoltaico pordenone, pannelli solari pordenone, impianto fotovoltaico pordenone, fotovoltaico con accumulo pordenone, energia solare pordenone, installazione fotovoltaico sacile, fotovoltaico cordenons, fotovoltaico azzano decimo"
       introText="Pordenone e la sua provincia rappresentano un territorio a forte vocazione industriale e produttiva, dove l'energia solare puo fare la differenza sui costi operativi di aziende e famiglie. La zona industriale di Pordenone, una delle piu attive del Nord-Est, ospita capannoni e stabilimenti con ampie coperture perfette per impianti fotovoltaici di media e grande taglia.

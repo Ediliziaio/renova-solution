@@ -1,6 +1,7 @@
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import SEO, { localBusinessSchema } from '../components/SEO';
+import LeadForm from '../components/LeadForm';
 import { motion } from 'framer-motion';
 import {
   MapPin,
@@ -19,16 +20,16 @@ export default function Contatti() {
     {
       icon: Phone,
       title: 'Telefono',
-      lines: ['393 959 6194'],
-      action: 'tel:+393939596194',
+      lines: ['376 1293952'],
+      action: 'tel:+393761293952',
       actionText: 'Chiama ora',
       highlight: true
     },
     {
       icon: Mail,
       title: 'Email',
-      lines: ['info@renovasolution.it', 'preventivi@renovasolution.it'],
-      action: 'mailto:info@renovasolution.it',
+      lines: ['commerciale@renovasolution.it'],
+      action: 'mailto:commerciale@renovasolution.it',
       actionText: 'Scrivici'
     },
     {
@@ -84,7 +85,7 @@ export default function Contatti() {
     <>
       <SEO 
         title="Contatti Renova Solution | Preventivi Gratuiti in Veneto e Friuli"
-        description="Contatta Renova Solution per preventivi gratuiti su fotovoltaico, infissi e ristrutturazioni. Ufficio a Prata di Pordenone (PN). Operiamo in tutto il Veneto e Friuli Venezia Giulia. Tel: 393 959 6194"
+        description="Contatta Renova Solution per un preventivo gratuito su fotovoltaico, infissi e ristrutturazioni in Veneto e Friuli. Tel 376 1293952, risposta in 2 ore."
         keywords="contatti Renova Solution, preventivo fotovoltaico, preventivo infissi, sopralluogo gratuito, Prata di Pordenone, Pordenone, Veneto, Friuli"
         schema={localBusinessSchema}
         canonical="https://www.renovasolution.it/contatti"
@@ -140,14 +141,14 @@ export default function Contatti() {
                 className="flex flex-col sm:flex-row gap-3"
               >
                 <a 
-                  href="tel:+393939596194"
+                  href="tel:+393761293952"
                   className="bg-[#C8E600] text-black px-6 py-3 rounded-full font-bold text-sm hover:bg-[#b3cc00] transition-colors flex items-center justify-center gap-2"
                 >
                   <Phone className="w-4 h-4" />
-                  Chiama 393 959 6194
+                  Chiama 376 1293952
                 </a>
                 <a 
-                  href="mailto:info@renovasolution.it"
+                  href="mailto:commerciale@renovasolution.it"
                   className="bg-white/10 backdrop-blur-sm text-white px-6 py-3 rounded-full font-bold text-sm hover:bg-white/20 transition-colors flex items-center justify-center gap-2"
                 >
                   <Mail className="w-4 h-4" />
@@ -210,26 +211,7 @@ export default function Contatti() {
                   Nessun impegno, solo informazioni utili.
                 </p>
 
-                <div style={{minHeight:'650px'}}>
-                  <iframe
-                    src="https://api.leadconnectorhq.com/widget/form/g2H271QFeRb5FT73aUyz"
-                    style={{width:'100%',height:'100%',border:'none',borderRadius:'3px'}}
-                    id="inline-g2H271QFeRb5FT73aUyz"
-                    data-layout="{'id':'INLINE'}"
-                    data-trigger-type="alwaysShow"
-                    data-trigger-value=""
-                    data-activation-type="alwaysActivated"
-                    data-activation-value=""
-                    data-deactivation-type="neverDeactivate"
-                    data-deactivation-value=""
-                    data-form-name="Invio Richiesta"
-                    data-height="623"
-                    data-layout-iframe-id="inline-g2H271QFeRb5FT73aUyz"
-                    data-form-id="g2H271QFeRb5FT73aUyz"
-                    title="Invio Richiesta"
-                  >
-                  </iframe>
-                </div>
+                <LeadForm title="Scrivici per un preventivo gratuito" />
               </div>
 
               {/* Sidebar - Perché sceglierci */}
@@ -255,11 +237,11 @@ export default function Contatti() {
                       Preferisci parlare direttamente?
                     </p>
                     <a 
-                      href="tel:+393939596194"
+                      href="tel:+393761293952"
                       className="flex items-center gap-3 bg-black text-white px-5 py-3 rounded-full font-bold text-sm hover:bg-gray-800 transition-colors"
                     >
                       <Phone className="w-5 h-5" />
-                      393 959 6194
+                      376 1293952
                     </a>
                   </div>
                 </div>
@@ -316,14 +298,14 @@ export default function Contatti() {
             </p>
             <div className="flex flex-col sm:flex-row gap-3 justify-center">
               <a 
-                href="tel:+393939596194"
+                href="tel:+393761293952"
                 className="bg-black text-white px-8 py-3 rounded-full font-bold text-sm hover:bg-gray-800 transition-colors flex items-center justify-center gap-2"
               >
                 <Phone className="w-4 h-4" />
-                Chiama 393 959 6194
+                Chiama 376 1293952
               </a>
               <a 
-                href="mailto:info@renovasolution.it"
+                href="mailto:commerciale@renovasolution.it"
                 className="bg-white text-black px-8 py-3 rounded-full font-bold text-sm hover:bg-gray-100 transition-colors flex items-center justify-center gap-2"
               >
                 <Mail className="w-4 h-4" />

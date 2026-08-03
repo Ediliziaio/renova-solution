@@ -1,7 +1,6 @@
 {
-  "rewrites": [
-    { "source": "/(.*)", "destination": "/index.html" }
-  ],
+  "cleanUrls": true,
+  "trailingSlash": false,
   "headers": [
     {
       "source": "/(.*)",
@@ -25,10 +24,15 @@
     }
   ],
   "redirects": [
-    {
-      "source": "/index.html",
-      "destination": "/",
-      "permanent": true
-    }
+    { "source": "/index.html", "destination": "/", "permanent": true },
+
+    { "source": "/assistenza-garanzia", "destination": "/assistenza", "permanent": true },
+    { "source": "/batteria-per-accumulo", "destination": "/fotovoltaico-privati", "permanent": true },
+    { "source": "/grazie", "destination": "/contatti", "permanent": true },
+    { "source": "/author/:slug*", "destination": "/chi-siamo", "permanent": true },
+    { "source": "/category/:slug*", "destination": "/blog", "permanent": true },
+    { "source": "/tag/:slug*", "destination": "/blog", "permanent": true },
+    { "source": "/wp-content/:path*", "destination": "/", "permanent": true },
+    { "source": "/feed", "destination": "/blog", "permanent": true }
   ]
 }

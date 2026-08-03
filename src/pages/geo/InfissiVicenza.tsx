@@ -14,7 +14,7 @@ export default function InfissiVicenza() {
       servizio="infissi"
       heroTitle="Infissi a Vicenza: comfort termico e risparmio energetico"
       heroSubtitle="Serramenti in PVC, alluminio e legno-alluminio a Vicenza e provincia. Misurazione gratuita, posa certificata, detrazione fiscale 50%."
-      seoTitle="Infissi Vicenza | Serramenti Vicenza Provincia | Renova Solution"
+      seoTitle="Infissi Vicenza | Serramenti e Finestre | Renova Solution"
       seoDescription="Infissi e serramenti a Vicenza e provincia. Finestre in PVC, alluminio e legno-alluminio con taglio termico. Preventivo gratuito e detrazione 50%. Renova Solution."
       seoKeywords="infissi vicenza, serramenti vicenza, finestre pvc vicenza, finestre alluminio vicenza, sostituzione infissi vicenza, infissi vicenza prezzi"
       introText="La provincia di Vicenza, con i suoi inverni rigidi nella fascia pedemontana e l'umidità della pianura, richiede infissi capaci di garantire isolamento termico eccellente in ogni stagione. Dalle colline di Bassano del Grappa ai fondovalle di Schio e Valdagno, le temperature invernali scendono frequentemente sotto lo zero, rendendo la qualità dei serramenti un fattore determinante per il comfort e il risparmio energetico.

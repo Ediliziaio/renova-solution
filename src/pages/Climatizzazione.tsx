@@ -53,8 +53,8 @@ export default function Climatizzazione() {
   return (
     <div className="min-h-screen bg-white">
       <SEO
-        title="Climatizzazione | Impianti di Condizionamento e Riscaldamento | Renova Solution"
-        description="Impianti di climatizzazione, condizionamento e riscaldamento a pompa di calore in Friuli Venezia Giulia e Veneto. Installazione, manutenzione e assistenza. Preventivo gratuito."
+        title="Climatizzazione e Condizionamento | Renova Solution"
+        description="Impianti di climatizzazione e condizionamento a pompa di calore in Friuli Venezia Giulia e Veneto. Installazione, manutenzione e assistenza. Preventivo gratuito."
         keywords="climatizzazione friuli, condizionamento veneto, impianto climatizzazione, pompa di calore, aria condizionata, riscaldamento efficiente"
         canonical="https://www.renovasolution.it/climatizzazione"
         ogImage="/images/climatizzazione.jpg"

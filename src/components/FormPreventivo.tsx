@@ -1,4 +1,6 @@
 import { MapPin, Phone, Mail, Clock } from 'lucide-react';
+import { CONTATTI } from '../data/contatti';
+import LeadForm from './LeadForm';
 
 
 export default function FormPreventivo() {
@@ -25,11 +27,15 @@ export default function FormPreventivo() {
               </div>
               <div className="flex items-center gap-3 text-black">
                 <Phone className="w-5 h-5 flex-shrink-0" />
-                <span className="text-sm md:text-base">+39 393 959 6194</span>
+                <a href={CONTATTI.telefonoLink} className="text-sm md:text-base hover:underline">
+                  {CONTATTI.telefono}
+                </a>
               </div>
               <div className="flex items-center gap-3 text-black">
                 <Mail className="w-5 h-5 flex-shrink-0" />
-                <span className="text-sm md:text-base">info@renovasolution.it</span>
+                <a href={CONTATTI.emailLink} className="text-sm md:text-base hover:underline">
+                  {CONTATTI.email}
+                </a>
               </div>
               <div className="flex items-center gap-3 text-black">
                 <Clock className="w-5 h-5 flex-shrink-0" />
@@ -39,25 +45,8 @@ export default function FormPreventivo() {
           </div>
           
           {/* Form side */}
-          <div className="bg-white rounded-xl md:rounded-2xl p-5 md:p-8 shadow-xl" style={{minHeight:'650px'}}>
-            <iframe
-              src="https://api.leadconnectorhq.com/widget/form/g2H271QFeRb5FT73aUyz"
-              style={{width:'100%',height:'100%',border:'none',borderRadius:'3px'}}
-              id="inline-g2H271QFeRb5FT73aUyz"
-              data-layout="{'id':'INLINE'}"
-              data-trigger-type="alwaysShow"
-              data-trigger-value=""
-              data-activation-type="alwaysActivated"
-              data-activation-value=""
-              data-deactivation-type="neverDeactivate"
-              data-deactivation-value=""
-              data-form-name="Invio Richiesta"
-              data-height="623"
-              data-layout-iframe-id="inline-g2H271QFeRb5FT73aUyz"
-              data-form-id="g2H271QFeRb5FT73aUyz"
-              title="Invio Richiesta"
-            >
-            </iframe>
+          <div className="bg-white rounded-xl md:rounded-2xl p-5 md:p-8 shadow-xl">
+            <LeadForm title="Richiedi un preventivo gratuito" />
           </div>
         </div>
       </div>

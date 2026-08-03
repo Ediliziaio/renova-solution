@@ -55,7 +55,7 @@ export default function FotovoltaicoPrivati() {
   return (
     <>
       <SEO 
-        title="Fotovoltaico per Privati | Impianti Solari con Accumulo in Veneto e Friuli"
+        title="Fotovoltaico Privati | Impianti con Accumulo | Renova Solution"
         description="Impianti fotovoltaici con batterie di accumulo per casa. Risparmia fino al 70% in bolletta. Sopralluogo gratuito, installazione in 2-3 giorni. Detrazione 50%."
         keywords="fotovoltaico casa, impianto solare privati, pannelli fotovoltaici, batterie accumulo, fotovoltaico Treviso, fotovoltaico Udine"
         schema={[schema, faqStructuredData]}
@@ -95,10 +95,10 @@ export default function FotovoltaicoPrivati() {
                 Preventivo gratuito
               </Link>
               <a 
-                href="tel:+393939596194"
+                href="tel:+393761293952"
                 className="bg-white/10 backdrop-blur-sm text-white px-6 md:px-8 py-3 md:py-4 rounded-full font-bold text-sm md:text-base hover:bg-white/20 transition-colors text-center"
               >
-                Chiama 393 959 6194
+                Chiama 376 1293952
               </a>
             </div>
           </div>

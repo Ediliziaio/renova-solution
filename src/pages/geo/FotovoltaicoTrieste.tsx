@@ -14,7 +14,7 @@ export default function FotovoltaicoTrieste() {
       servizio="fotovoltaico"
       heroTitle="Fotovoltaico a Trieste: risparmia fino al 70% in bolletta"
       heroSubtitle="Impianti fotovoltaici con accumulo a Trieste e provincia. Sopralluogo gratuito, preventivo chiaro, detrazioni fiscali incluse."
-      seoTitle="Fotovoltaico Trieste | Impianti Fotovoltaici Trieste | Renova Solution"
+      seoTitle="Fotovoltaico Trieste | Impianti Solari | Renova Solution"
       seoDescription="Installazione impianti fotovoltaici a Trieste e provincia. Pannelli solari con accumulo, detrazione 50%, sopralluogo gratuito. Renova Solution FVG."
       seoKeywords="fotovoltaico trieste, pannelli solari trieste, impianto fotovoltaico trieste, fotovoltaico con accumulo trieste, energia solare trieste, installazione fotovoltaico trieste provincia"
       introText="Trieste gode di un'ottima esposizione solare grazie alla sua posizione privilegiata sul Golfo Adriatico. La brezza marina e le ore di sole garantiscono una producibilita tra le migliori del Nord-Est Italia. Un impianto fotovoltaico ben dimensionato copre fino al 70-80% del fabbisogno energetico domestico, con un ritorno dell'investimento in 5-6 anni grazie alle detrazioni fiscali del 50%.

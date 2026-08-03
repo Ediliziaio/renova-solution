@@ -8,7 +8,9 @@ import { Calendar, Clock, User, ArrowLeft, CheckCircle, AlertCircle } from 'luci
 export default function RistrutturazioneBagno2026() {
   const articleData = {
     title: 'Ristrutturazione bagno 2026: costi al mq, tempi, idee e bonus fiscali',
+    metaTitle: 'Ristrutturazione bagno 2026: costi e idee',
     excerpt: 'Guida completa alla ristrutturazione del bagno nel 2026: costi reali al metro quadro, tempi di lavoro, tendenze di design, materiali migliori e come sfruttare la detrazione fiscale del 50%.',
+    metaDescription: 'Ristrutturare il bagno nel 2026: costi reali al metro quadro, tempi, tendenze di design, materiali e detrazione fiscale del 50%.',
     date: '16 Aprile 2026',
     dateISO: '2026-04-16',
     readTime: '14 min',
@@ -130,8 +132,8 @@ export default function RistrutturazioneBagno2026() {
   return (
     <>
       <SEO
-        title={`${articleData.title} | Renova Solution`}
-        description={articleData.excerpt}
+        title={`${articleData.metaTitle} | Renova Solution`}
+        description={articleData.metaDescription}
         keywords="ristrutturazione bagno costi, rifacimento bagno 2026, bonus ristrutturazione bagno, costo bagno al mq, ristrutturazione bagno completa, bagno moderno 2026, impianto idraulico bagno"
         ogType="article"
         canonical={`https://www.renovasolution.it/blog/${articleData.slug}`}
