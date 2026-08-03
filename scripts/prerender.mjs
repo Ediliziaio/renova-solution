@@ -29,11 +29,21 @@ if (!fs.existsSync(ssrEntry)) {
 const template = fs.readFileSync(path.join(distDir, 'index.html'), 'utf8');
 const { render } = await import(pathToFileURL(ssrEntry).href);
 
+/**
+ * Route da prerenderizzare ma volutamente ASSENTI dalla sitemap: pagine `noindex`
+ * che devono comunque esistere come file statico (altrimenti risponderebbero 404,
+ * dato che non c'è più il rewrite SPA catch-all).
+ */
+const ROUTE_FUORI_SITEMAP = [
+  '/grazie', // thank you page post-invio form
+];
+
 // --- Elenco route: unica fonte di verità = sitemap.xml (già allineata alle Route) ---
 const sitemap = fs.readFileSync(path.join(root, 'public/sitemap.xml'), 'utf8');
-const routes = [...sitemap.matchAll(/<loc>https:\/\/www\.renovasolution\.it([^<]*)<\/loc>/g)].map(
+const urlSitemap = [...sitemap.matchAll(/<loc>https:\/\/www\.renovasolution\.it([^<]*)<\/loc>/g)].map(
   (m) => m[1] || '/'
 );
+const routes = [...urlSitemap, ...ROUTE_FUORI_SITEMAP];
 
 if (routes.length === 0) {
   console.error('[prerender] nessuna route trovata nella sitemap');
@@ -48,15 +58,22 @@ const appRoutes = [...app.matchAll(/<Route path="([^"]*)"/g)]
   .map((m) => m[1])
   .filter((p) => p !== '*');
 
-const mancantiInSitemap = appRoutes.filter((r) => !routes.includes(r));
-const mancantiInApp = routes.filter((r) => !appRoutes.includes(r));
+const nonPrerenderizzate = appRoutes.filter((r) => !routes.includes(r));
+const senzaRoute = routes.filter((r) => !appRoutes.includes(r));
 
-if (mancantiInSitemap.length || mancantiInApp.length) {
-  console.error('[prerender] sitemap.xml e App.tsx non coincidono:');
-  if (mancantiInSitemap.length)
-    console.error('  route in App.tsx ma NON in sitemap.xml:\n' + mancantiInSitemap.map((r) => '    ' + r).join('\n'));
-  if (mancantiInApp.length)
-    console.error('  URL in sitemap.xml ma NON in App.tsx:\n' + mancantiInApp.map((r) => '    ' + r).join('\n'));
+if (nonPrerenderizzate.length || senzaRoute.length) {
+  console.error('[prerender] route e sitemap non coincidono:');
+  if (nonPrerenderizzate.length)
+    console.error(
+      '  in App.tsx ma non prerenderizzate — aggiungerle a sitemap.xml, oppure a\n' +
+        '  ROUTE_FUORI_SITEMAP se sono noindex:\n' +
+        nonPrerenderizzate.map((r) => '    ' + r).join('\n')
+    );
+  if (senzaRoute.length)
+    console.error(
+      '  da prerenderizzare ma senza <Route> in App.tsx:\n' +
+        senzaRoute.map((r) => '    ' + r).join('\n')
+    );
   process.exit(1);
 }
 

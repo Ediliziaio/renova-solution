@@ -25,6 +25,7 @@ import Progetti from './pages/Progetti';
 import Preventivo from './pages/Preventivo';
 import Privacy from './pages/Privacy';
 import CookiePolicy from './pages/CookiePolicy';
+import Grazie from './pages/Grazie';
 import NotFound from './pages/NotFound';
 import DetrazioniFiscali2026 from './pages/blog/DetrazioniFiscali2026';
 import FotovoltaicoAccumulo2026 from './pages/blog/FotovoltaicoAccumulo2026';
@@ -113,6 +114,9 @@ export function AppShell() {
           <Route path="/progetti" element={<Progetti />} />
           <Route path="/privacy" element={<Privacy />} />
           <Route path="/cookie-policy" element={<CookiePolicy />} />
+
+          {/* Thank you page: destinazione dopo l'invio del form. noindex, fuori sitemap. */}
+          <Route path="/grazie" element={<Grazie />} />
 
           {/* Blog Articles */}
           <Route path="/blog/detrazioni-fiscali-2026" element={<DetrazioniFiscali2026 />} />

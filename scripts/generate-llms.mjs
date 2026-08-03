@@ -22,9 +22,12 @@ const importMap = Object.fromEntries(
   ])
 );
 
+// Pagine noindex: fuori da llms.txt come sono fuori dalla sitemap
+const ESCLUSE = ['*', '/grazie'];
+
 const routes = [...app.matchAll(/<Route path="([^"]*)" element=\{<([A-Za-z0-9_]+)\s*\/>/g)]
   .map((m) => ({ path: m[1], comp: m[2] }))
-  .filter((r) => r.path !== '*');
+  .filter((r) => !ESCLUSE.includes(r.path));
 
 /** Isola il blocco <SEO ... /> (o le props passate a GeoServicePage) per non pescare
  *  attributi `title=` appartenenti ad altri elementi della pagina. */
