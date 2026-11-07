@@ -20,7 +20,7 @@ export default function SEO({
   title,
   description,
   keywords,
-  ogImage = 'https://www.renovasolution.it/logo.png',
+  ogImage = 'https://www.renovasolution.it/og/renova-solution.png',
   ogType = 'website',
   canonical,
   schema,
@@ -64,6 +64,9 @@ export default function SEO({
       <meta property="og:description" content={description} />
       <meta property="og:type" content={ogType} />
       <meta property="og:image" content={fullOgImage} />
+      <meta property="og:image:alt" content={fullTitle} />
+      {fullOgImage.endsWith('/og/renova-solution.png') && <meta property="og:image:width" content="1200" />}
+      {fullOgImage.endsWith('/og/renova-solution.png') && <meta property="og:image:height" content="630" />}
       <meta property="og:url" content={pageUrl} />
       <meta property="og:site_name" content={siteName} />
       <meta property="og:locale" content="it_IT" />
