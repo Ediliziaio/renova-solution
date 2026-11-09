@@ -1186,24 +1186,24 @@ export default function FotovoltaicoPompaCalore2026() {
                   </h5>
                   <p className="text-sm text-gray-600 mt-2">Confronto dettagliato tra pompe di calore e caldaie a gas: costi, consumi e risparmio.</p>
                 </Link>
-                <Link to="/blog/detrazioni-fiscali-infissi-2026" className="group block bg-gray-50 rounded-xl p-5 hover:bg-gray-100 transition-colors">
+                <Link to="/blog/bonus-infissi-2026" className="group block bg-gray-50 rounded-xl p-5 hover:bg-gray-100 transition-colors">
                   <span className="text-xs font-bold text-[#C8E600] uppercase">Detrazioni</span>
                   <h5 className="font-bold text-gray-900 mt-1 group-hover:text-[#C8E600] transition-colors">
                     Detrazioni fiscali infissi 2026: guida completa
                   </h5>
                   <p className="text-sm text-gray-600 mt-2">Tutte le detrazioni disponibili per la sostituzione degli infissi nel 2026.</p>
                 </Link>
-                <Link to="/blog/cappotto-termico-2026" className="group block bg-gray-50 rounded-xl p-5 hover:bg-gray-100 transition-colors">
+                <Link to="/blog/cappotto-termico-risparmio-2026" className="group block bg-gray-50 rounded-xl p-5 hover:bg-gray-100 transition-colors">
                   <span className="text-xs font-bold text-[#C8E600] uppercase">Isolamento</span>
                   <h5 className="font-bold text-gray-900 mt-1 group-hover:text-[#C8E600] transition-colors">
                     Cappotto termico 2026: costi, materiali e vantaggi
                   </h5>
                   <p className="text-sm text-gray-600 mt-2">Guida completa all'isolamento termico a cappotto: quanto costa e quanto fa risparmiare.</p>
                 </Link>
-                <Link to="/blog/risparmio-energetico-casa-2026" className="group block bg-gray-50 rounded-xl p-5 hover:bg-gray-100 transition-colors">
+                <Link to="/blog/classe-energetica-casa-2026" className="group block bg-gray-50 rounded-xl p-5 hover:bg-gray-100 transition-colors">
                   <span className="text-xs font-bold text-[#C8E600] uppercase">Risparmio</span>
                   <h5 className="font-bold text-gray-900 mt-1 group-hover:text-[#C8E600] transition-colors">
-                    Risparmio energetico casa 2026: 10 interventi efficaci
+                    Classe energetica casa 2026: come migliorarla
                   </h5>
                   <p className="text-sm text-gray-600 mt-2">I migliori interventi per ridurre i consumi energetici della tua abitazione.</p>
                 </Link>

@@ -7,33 +7,104 @@
     {
       "source": "/(.*)",
       "headers": [
-        { "key": "X-Content-Type-Options", "value": "nosniff" },
-        { "key": "X-Frame-Options", "value": "SAMEORIGIN" },
-        { "key": "Referrer-Policy", "value": "strict-origin-when-cross-origin" }
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "X-Frame-Options",
+          "value": "SAMEORIGIN"
+        },
+        {
+          "key": "Referrer-Policy",
+          "value": "strict-origin-when-cross-origin"
+        }
       ]
     },
     {
       "source": "/images/(.*)",
       "headers": [
-        { "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
       ]
     },
     {
       "source": "/assets/(.*)",
       "headers": [
-        { "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
       ]
     }
   ],
   "redirects": [
-    { "source": "/index.html", "destination": "/", "permanent": true },
-
-    { "source": "/assistenza-garanzia", "destination": "/assistenza", "permanent": true },
-    { "source": "/batteria-per-accumulo", "destination": "/fotovoltaico-privati", "permanent": true },
-    { "source": "/author/:slug*", "destination": "/chi-siamo", "permanent": true },
-    { "source": "/category/:slug*", "destination": "/blog", "permanent": true },
-    { "source": "/tag/:slug*", "destination": "/blog", "permanent": true },
-    { "source": "/wp-content/:path*", "destination": "/", "permanent": true },
-    { "source": "/feed", "destination": "/blog", "permanent": true }
+    {
+      "source": "/index.html",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/finestre-materiali-confronto-2026",
+      "destination": "/blog/finestre-pvc-alluminio-legno-2026",
+      "permanent": true
+    },
+    {
+      "source": "/blog/infissi-risparmio-energetico",
+      "destination": "/blog/infissi-risparmio-energetico-2026",
+      "permanent": true
+    },
+    {
+      "source": "/blog/detrazioni-fiscali-infissi-2026",
+      "destination": "/blog/bonus-infissi-2026",
+      "permanent": true
+    },
+    {
+      "source": "/blog/cappotto-termico-2026",
+      "destination": "/blog/cappotto-termico-risparmio-2026",
+      "permanent": true
+    },
+    {
+      "source": "/blog/risparmio-energetico-casa-2026",
+      "destination": "/blog/classe-energetica-casa-2026",
+      "permanent": true
+    },
+    {
+      "source": "/assistenza-garanzia",
+      "destination": "/assistenza",
+      "permanent": true
+    },
+    {
+      "source": "/batteria-per-accumulo",
+      "destination": "/fotovoltaico-privati",
+      "permanent": true
+    },
+    {
+      "source": "/author/:slug*",
+      "destination": "/chi-siamo",
+      "permanent": true
+    },
+    {
+      "source": "/category/:slug*",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/tag/:slug*",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/wp-content/:path*",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/feed",
+      "destination": "/blog",
+      "permanent": true
+    }
   ]
 }

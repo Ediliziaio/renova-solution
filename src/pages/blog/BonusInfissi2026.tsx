@@ -1145,14 +1145,14 @@ export default function BonusInfissi2026() {
                   </h4>
                   <p className="text-sm text-gray-500 mt-2">Tutte le agevolazioni fiscali disponibili per ristrutturare casa nel 2026.</p>
                 </Link>
-                <Link to="/blog/finestre-materiali-confronto-2026" className="group block bg-gray-50 rounded-xl p-5 hover:bg-gray-100 transition-colors">
+                <Link to="/blog/finestre-pvc-alluminio-legno-2026" className="group block bg-gray-50 rounded-xl p-5 hover:bg-gray-100 transition-colors">
                   <span className="text-xs font-bold text-[#C8E600] uppercase">Infissi</span>
                   <h4 className="font-bold text-gray-900 mt-2 group-hover:text-[#C8E600] transition-colors">
                     Finestre: confronto tra PVC, alluminio e legno nel 2026
                   </h4>
                   <p className="text-sm text-gray-500 mt-2">Quale materiale scegliere per i tuoi nuovi infissi? Guida completa al confronto.</p>
                 </Link>
-                <Link to="/blog/infissi-risparmio-energetico" className="group block bg-gray-50 rounded-xl p-5 hover:bg-gray-100 transition-colors">
+                <Link to="/blog/infissi-risparmio-energetico-2026" className="group block bg-gray-50 rounded-xl p-5 hover:bg-gray-100 transition-colors">
                   <span className="text-xs font-bold text-[#C8E600] uppercase">Energia</span>
                   <h4 className="font-bold text-gray-900 mt-2 group-hover:text-[#C8E600] transition-colors">
                     Infissi e risparmio energetico: quanto si risparmia davvero
