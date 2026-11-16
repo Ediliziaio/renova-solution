@@ -1,3 +1,4 @@
+import { PriorityPaths } from "@/components/PriorityPaths";
 import { useEffect, useRef, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { motion, useInView } from 'framer-motion';
@@ -596,6 +597,7 @@ Bagni, cucine, rifacimenti facciate, adeguamenti energetici.`}
         </div>
       </section>
 
+      <PriorityPaths />
       <Footer />
     </div>
     </>

@@ -1,0 +1,21 @@
+{
+  "title": "Il tuo intervento: servizio, configurazione e sopralluogo",
+  "intro": "Prima di una proposta, raccogli zona, caratteristiche dell’immobile e priorità dell’intervento. Le pagine dei servizi aiutano a distinguere le attività da approfondire nel sopralluogo e le informazioni ancora mancanti.",
+  "links": [
+    {
+      "href": "/infissi",
+      "title": "Approfondisci gli infissi",
+      "description": "Esamina famiglie di prodotto e aspetti da chiarire per la configurazione."
+    },
+    {
+      "href": "/ristrutturazioni",
+      "title": "Inquadra i lavori di ristrutturazione",
+      "description": "Definisci il perimetro dell’intervento prima di confrontare soluzioni e preventivi."
+    },
+    {
+      "href": "/contatti",
+      "title": "Prepara la richiesta di sopralluogo",
+      "description": "Indica luogo, necessità e riferimenti utili per il primo confronto."
+    }
+  ]
+}
