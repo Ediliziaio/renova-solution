@@ -8,6 +8,7 @@ export default function Footer() {
     { 
       category: 'Fotovoltaico',
       items: [
+        { name: 'Tutti i servizi fotovoltaico', path: '/fotovoltaico' },
         { name: 'Per privati', path: '/fotovoltaico-privati' },
         { name: 'Per aziende', path: '/fotovoltaico-aziende' },
         { name: 'Manutenzione', path: '/manutenzione' },

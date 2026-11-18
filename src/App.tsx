@@ -4,6 +4,7 @@ import ScrollToTop from './components/ScrollToTop';
 import { CONTATTI } from './data/contatti';
 import Home from './pages/Home';
 import FotovoltaicoPrivati from './pages/FotovoltaicoPrivati';
+import Fotovoltaico from './pages/Fotovoltaico';
 import FotovoltaicoAziende from './pages/FotovoltaicoAziende';
 import Manutenzione from './pages/Manutenzione';
 import Climatizzazione from './pages/Climatizzazione';
@@ -92,6 +93,7 @@ export function AppShell() {
         <ScrollToTop />
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/fotovoltaico" element={<Fotovoltaico />} />
           <Route path="/fotovoltaico-privati" element={<FotovoltaicoPrivati />} />
           <Route path="/fotovoltaico-aziende" element={<FotovoltaicoAziende />} />
           <Route path="/manutenzione" element={<Manutenzione />} />

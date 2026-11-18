@@ -77,7 +77,7 @@ const group = (pred) => pages.filter((p) => pred(p.path));
 
 const servizi = group(
   (p) =>
-    /^\/(fotovoltaico-privati|fotovoltaico-aziende|manutenzione|climatizzazione|pompe-di-calore|infissi|ristrutturazioni|assistenza)$/.test(
+    /^\/(fotovoltaico|fotovoltaico-privati|fotovoltaico-aziende|manutenzione|climatizzazione|pompe-di-calore|infissi|ristrutturazioni|assistenza)$/.test(
       p
     ) || /^\/(infissi|ristrutturazioni)\//.test(p)
 );

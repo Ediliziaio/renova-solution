@@ -16,7 +16,7 @@ export default function Navbar() {
   const serviziDropdown = [
     {
       category: 'Fotovoltaico',
-      path: '/fotovoltaico-privati',
+      path: '/fotovoltaico',
       items: [
         { name: 'Per privati', path: '/fotovoltaico-privati' },
         { name: 'Per aziende', path: '/fotovoltaico-aziende' },
@@ -275,9 +275,9 @@ export default function Navbar() {
               {/* Fotovoltaico */}
               <div className="mb-2">
                 <Link 
-                  to="/fotovoltaico-privati"
+                  to="/fotovoltaico"
                   className={`block py-2 px-2 text-sm font-medium rounded-lg transition-colors ${
-                    isActive('/fotovoltaico-privati') ? 'text-[#C8E600] bg-[#C8E600]/10' : 'text-gray-700 hover:bg-gray-50'
+                    isActive('/fotovoltaico') ? 'text-[#C8E600] bg-[#C8E600]/10' : 'text-gray-700 hover:bg-gray-50'
                   }`}
                   onClick={() => setMobileMenuOpen(false)}
                 >

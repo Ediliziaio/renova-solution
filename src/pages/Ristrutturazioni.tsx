@@ -5,6 +5,7 @@ import Recensioni from '../components/Recensioni';
 import FormPreventivo from '../components/FormPreventivo';
 import FAQ from '../components/FAQ';
 import BlogSection from '../components/BlogSection';
+import ServiceGuides from '../components/ServiceGuides';
 import SEO, { serviceSchema, faqSchema } from '../components/SEO';
 import { Home, Paintbrush, Zap, Droplets, CheckCircle, TrendingDown, Thermometer, ArrowRight } from 'lucide-react';
 
@@ -261,6 +262,7 @@ export default function Ristrutturazioni() {
       <Recensioni />
       <FormPreventivo />
       <FAQ title="FAQ Ristrutturazioni" items={faqItems} />
+      <ServiceGuides topic="ristrutturazioni" />
       <BlogSection />
       <Footer />
     </div>

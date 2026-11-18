@@ -6,6 +6,7 @@ import Recensioni from '../components/Recensioni';
 import FormPreventivo from '../components/FormPreventivo';
 import FAQ from '../components/FAQ';
 import BlogSection from '../components/BlogSection';
+import ServiceGuides from '../components/ServiceGuides';
 import { Zap, Snowflake, Leaf, Thermometer } from 'lucide-react';
 
 export default function PompeDiCalore() {
@@ -183,6 +184,7 @@ export default function PompeDiCalore() {
       <Recensioni />
       <FormPreventivo />
       <FAQ title="FAQ sulle pompe di calore" items={faqItems} />
+      <ServiceGuides topic="riscaldamento" />
       <BlogSection />
       <Footer />
     </div>
